@@ -1,0 +1,1776 @@
+LOVE SEX Value: 6.77
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+TIGER CAT Value: 7.35
+	WuPalmer: 0.9629629629629629
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+TIGER TIGER Value: 10.0
+	WuPalmer: 1.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+BOOK PAPER Value: 7.46
+	WuPalmer: 0.8571428571428571
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+COMPUTER KEYBOARD Value: 7.62
+	WuPalmer: 0.8
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+COMPUTER INTERNET Value: 7.58
+	WuPalmer: 0.5882352941176471
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+PLANE CAR Value: 5.77
+	WuPalmer: 0.631578947368421
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+TRAIN CAR Value: 6.31
+	WuPalmer: 0.625
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+TELEPHONE COMMUNICATION Value: 7.5
+	WuPalmer: 0.0
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+TELEVISION RADIO Value: 6.77
+	WuPalmer: 0.9
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+MEDIA RADIO Value: 7.42
+	WuPalmer: 0.8
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+DRUG ABUSE Value: 6.85
+	WuPalmer: 0.0
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+BREAD BUTTER Value: 6.19
+	WuPalmer: 0.6666666666666666
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+CUCUMBER POTATO Value: 5.92
+	WuPalmer: 0.8
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+DOCTOR NURSE Value: 7.0
+	WuPalmer: 0.8
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+PROFESSOR DOCTOR Value: 6.62
+	WuPalmer: 0.625
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+STUDENT PROFESSOR Value: 6.81
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+SMART STUDENT Value: 4.62
+	WuPalmer: 0.0
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+SMART STUPID Value: 5.81
+	WuPalmer: 0.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+COMPANY STOCK Value: 7.08
+	WuPalmer: 0.5454545454545454
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+STOCK MARKET Value: 8.08
+	WuPalmer: 0.5
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+STOCK PHONE Value: 1.62
+	WuPalmer: 0.5333333333333333
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+STOCK CD Value: 1.31
+	WuPalmer: 0.5333333333333333
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+STOCK JAGUAR Value: 0.92
+	WuPalmer: 0.8
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+STOCK EGG Value: 1.81
+	WuPalmer: 0.5714285714285714
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+FERTILITY EGG Value: 6.69
+	WuPalmer: 0.0
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+STOCK LIVE Value: 3.73
+	WuPalmer: 0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+STOCK LIFE Value: 0.92
+	WuPalmer: 0.5454545454545454
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+BOOK LIBRARY Value: 7.46
+	WuPalmer: 0.75
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+BANK MONEY Value: 8.12
+	WuPalmer: 0.5
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+WOOD FOREST Value: 7.73
+	WuPalmer: 1.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+MONEY CASH Value: 9.15
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+PROFESSOR CUCUMBER Value: 0.31
+	WuPalmer: 0.21052631578947367
+	shortestPath: 27
+	LeacockChodorow: 1.074514737089049
+
+KING CABBAGE Value: 0.23
+	WuPalmer: 0.35294117647058826
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+KING QUEEN Value: 8.58
+	WuPalmer: 1.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+KING ROOK Value: 5.92
+	WuPalmer: 0.9
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+BISHOP RABBI Value: 6.69
+	WuPalmer: 0.7142857142857143
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+JERUSALEM ISRAEL Value: 8.46
+	WuPalmer: 0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+JERUSALEM PALESTINIAN Value: 7.65
+	WuPalmer: 0.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+HOLY SEX Value: 1.62
+	WuPalmer: 0.18181818181818182
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+FUCK SEX Value: 9.44
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+MARADONA FOOTBALL one of the words or both are not present in WordNet
+
+FOOTBALL SOCCER Value: 9.03
+	WuPalmer: 0.9473684210526315
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+FOOTBALL BASKETBALL Value: 6.81
+	WuPalmer: 0.8888888888888888
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+FOOTBALL TENNIS Value: 6.63
+	WuPalmer: 0.6666666666666666
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+TENNIS RACKET Value: 7.56
+	WuPalmer: 0.5555555555555556
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+ARAFAT PEACE Value: 6.73
+	WuPalmer: 0.0
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+ARAFAT TERROR Value: 7.65
+	WuPalmer: 0.0
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+ARAFAT JACKSON Value: 2.5
+	WuPalmer: 0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+LAW LAWYER Value: 8.38
+	WuPalmer: 0.0
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+MOVIE STAR Value: 7.38
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+MOVIE POPCORN Value: 6.19
+	WuPalmer: 0.3
+	shortestPath: 27
+	LeacockChodorow: 1.074514737089049
+
+MOVIE CRITIC Value: 6.73
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+MOVIE THEATER Value: 7.92
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+PHYSICS PROTON Value: 8.12
+	WuPalmer: 0.125
+	shortestPath: 26
+	LeacockChodorow: 1.0055218656020977
+
+PHYSICS CHEMISTRY Value: 7.35
+	WuPalmer: 0.8888888888888888
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+SPACE CHEMISTRY Value: 4.88
+	WuPalmer: 0.2857142857142857
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+ALCOHOL CHEMISTRY Value: 5.54
+	WuPalmer: 0.6
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+VODKA GIN Value: 8.46
+	WuPalmer: 0.875
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+VODKA BRANDY Value: 8.13
+	WuPalmer: 0.875
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+DRINK CAR Value: 3.04
+	WuPalmer: 0.16666666666666666
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+DRINK EAR Value: 1.31
+	WuPalmer: 0.36363636363636365
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+DRINK MOUTH Value: 5.96
+	WuPalmer: 0.4444444444444444
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+DRINK EAT Value: 6.87
+	WuPalmer: 0
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+BABY MOTHER Value: 7.85
+	WuPalmer: 0.7142857142857143
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+DRINK MOTHER Value: 2.65
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+CAR AUTOMOBILE Value: 8.94
+	WuPalmer: 1.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+GEM JEWEL Value: 8.96
+	WuPalmer: 1.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+JOURNEY VOYAGE Value: 9.29
+	WuPalmer: 0.9473684210526315
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+BOY LAD Value: 8.83
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+COAST SHORE Value: 9.1
+	WuPalmer: 0.8888888888888888
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+ASYLUM MADHOUSE Value: 8.87
+	WuPalmer: 0.9473684210526315
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+MAGICIAN WIZARD Value: 9.02
+	WuPalmer: 1.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+MIDDAY NOON Value: 9.29
+	WuPalmer: 1.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+FURNACE STOVE Value: 8.79
+	WuPalmer: 0.47058823529411764
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+FOOD FRUIT Value: 7.52
+	WuPalmer: 0.3076923076923077
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+BIRD COCK Value: 7.1
+	WuPalmer: 0.9473684210526315
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+BIRD CRANE Value: 7.38
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+TOOL IMPLEMENT Value: 6.46
+	WuPalmer: 0.9230769230769231
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+BROTHER MONK Value: 6.27
+	WuPalmer: 0.9230769230769231
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+CRANE IMPLEMENT Value: 2.69
+	WuPalmer: 0.7142857142857143
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+LAD BROTHER Value: 4.46
+	WuPalmer: 0.6
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+JOURNEY CAR Value: 5.85
+	WuPalmer: 0.0
+	shortestPath: 23
+	LeacockChodorow: 0.8232003088081431
+
+MONK ORACLE Value: 5.0
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+CEMETERY WOODLAND Value: 2.08
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+FOOD ROOSTER Value: 4.42
+	WuPalmer: 0.11764705882352941
+	shortestPath: 25
+	LeacockChodorow: 0.9409833444645266
+
+COAST HILL Value: 4.38
+	WuPalmer: 0.6
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+FOREST GRAVEYARD Value: 1.85
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+SHORE WOODLAND Value: 3.08
+	WuPalmer: 0.4444444444444444
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+MONK SLAVE Value: 0.92
+	WuPalmer: 0.6
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+COAST FOREST Value: 3.15
+	WuPalmer: 0.4
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+LAD WIZARD Value: 0.92
+	WuPalmer: 0.6
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+CHORD SMILE Value: 0.54
+	WuPalmer: 0.2857142857142857
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+GLASS MAGICIAN Value: 2.08
+	WuPalmer: 0.3333333333333333
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+NOON STRING Value: 0.54
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+ROOSTER VOYAGE Value: 0.62
+	WuPalmer: 0.0
+	shortestPath: 17
+	LeacockChodorow: 0.5355182363563622
+
+MONEY DOLLAR Value: 8.42
+	WuPalmer: 0.75
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+MONEY CASH Value: 9.08
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+MONEY CURRENCY Value: 9.04
+	WuPalmer: 0.9230769230769231
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+MONEY WEALTH Value: 8.27
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+MONEY PROPERTY Value: 7.57
+	WuPalmer: 0.8
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+MONEY POSSESSION Value: 7.29
+	WuPalmer: 0.6666666666666666
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+MONEY BANK Value: 8.5
+	WuPalmer: 0.5
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+MONEY DEPOSIT Value: 7.73
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+MONEY WITHDRAWAL Value: 6.88
+	WuPalmer: 0.16666666666666666
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+MONEY LAUNDERING Value: 5.65
+	WuPalmer: 0.14285714285714285
+	shortestPath: 28
+	LeacockChodorow: 1.148622709242771
+
+MONEY OPERATION Value: 3.31
+	WuPalmer: 0.2
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+TIGER JAGUAR Value: 8.0
+	WuPalmer: 0.9285714285714286
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+TIGER FELINE Value: 8.0
+	WuPalmer: 0.9230769230769231
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+TIGER CARNIVORE Value: 7.08
+	WuPalmer: 0.88
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+TIGER MAMMAL Value: 6.85
+	WuPalmer: 0.782608695652174
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+TIGER ANIMAL Value: 7.0
+	WuPalmer: 0.6
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+TIGER ORGANISM Value: 4.77
+	WuPalmer: 0.5263157894736842
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+TIGER FAUNA Value: 5.62
+	WuPalmer: 0.6
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+TIGER ZOO Value: 5.87
+	WuPalmer: 0.3
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+PSYCHOLOGY PSYCHIATRY Value: 8.08
+	WuPalmer: 0.7
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+PSYCHOLOGY ANXIETY Value: 7.0
+	WuPalmer: 0.14285714285714285
+	shortestPath: 28
+	LeacockChodorow: 1.148622709242771
+
+PSYCHOLOGY FEAR Value: 6.85
+	WuPalmer: 0.14285714285714285
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+PSYCHOLOGY DEPRESSION Value: 7.42
+	WuPalmer: 0.26666666666666666
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+PSYCHOLOGY CLINIC Value: 6.58
+	WuPalmer: 0.13333333333333333
+	shortestPath: 27
+	LeacockChodorow: 1.074514737089049
+
+PSYCHOLOGY DOCTOR Value: 6.42
+	WuPalmer: 0.25
+	shortestPath: 28
+	LeacockChodorow: 1.148622709242771
+
+PSYCHOLOGY FREUD Value: 8.21
+	WuPalmer: 0.0
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+PSYCHOLOGY MIND Value: 7.69
+	WuPalmer: 0.5333333333333333
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+PSYCHOLOGY HEALTH Value: 7.23
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+PSYCHOLOGY SCIENCE Value: 6.71
+	WuPalmer: 0.9333333333333333
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+PSYCHOLOGY DISCIPLINE Value: 5.58
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+PSYCHOLOGY COGNITION Value: 7.48
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+PLANET STAR Value: 8.45
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+PLANET CONSTELLATION Value: 8.06
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+PLANET MOON Value: 8.08
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+PLANET SUN Value: 8.02
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+PLANET GALAXY Value: 8.11
+	WuPalmer: 0.4
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+PLANET SPACE Value: 7.92
+	WuPalmer: 0.46153846153846156
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+PLANET ASTRONOMER Value: 7.94
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+PRECEDENT EXAMPLE Value: 5.85
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+PRECEDENT INFORMATION Value: 3.85
+	WuPalmer: 0.8
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+PRECEDENT COGNITION Value: 2.81
+	WuPalmer: 0.6666666666666666
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+PRECEDENT LAW Value: 6.65
+	WuPalmer: 0.8888888888888888
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+PRECEDENT COLLECTION Value: 2.5
+	WuPalmer: 0.75
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+PRECEDENT GROUP Value: 1.77
+	WuPalmer: 0.5714285714285714
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+PRECEDENT ANTECEDENT Value: 6.04
+	WuPalmer: 0.5454545454545454
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+CUP COFFEE Value: 6.58
+	WuPalmer: 0.7058823529411765
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+CUP TABLEWARE Value: 6.85
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+CUP ARTICLE Value: 2.4
+	WuPalmer: 0.6666666666666666
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+CUP ARTIFACT Value: 2.92
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+CUP OBJECT Value: 3.69
+	WuPalmer: 0.4444444444444444
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+CUP ENTITY Value: 2.15
+	WuPalmer: 0.0
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+CUP DRINK Value: 7.25
+	WuPalmer: 0.7142857142857143
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+CUP FOOD Value: 5.0
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+CUP SUBSTANCE Value: 1.92
+	WuPalmer: 0.5
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+CUP LIQUID Value: 5.9
+	WuPalmer: 0.42857142857142855
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+JAGUAR CAT Value: 7.42
+	WuPalmer: 0.9629629629629629
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+JAGUAR CAR Value: 7.27
+	WuPalmer: 0.2727272727272727
+	shortestPath: 24
+	LeacockChodorow: 0.8803587226480918
+
+ENERGY SECRETARY Value: 1.81
+	WuPalmer: 0.16666666666666666
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+SECRETARY SENATE Value: 5.06
+	WuPalmer: 0.0
+	shortestPath: 27
+	LeacockChodorow: 1.074514737089049
+
+ENERGY LABORATORY Value: 5.09
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+COMPUTER LABORATORY Value: 6.78
+	WuPalmer: 0.3076923076923077
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+WEAPON SECRET Value: 6.06
+	WuPalmer: 0.16666666666666666
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+FBI FINGERPRINT Value: 6.94
+	WuPalmer: 0.13333333333333333
+	shortestPath: 27
+	LeacockChodorow: 1.074514737089049
+
+FBI INVESTIGATION Value: 8.31
+	WuPalmer: 0.125
+	shortestPath: 26
+	LeacockChodorow: 1.0055218656020977
+
+INVESTIGATION EFFORT Value: 4.59
+	WuPalmer: 0.8
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+MARS WATER Value: 2.94
+	WuPalmer: 0.0
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+MARS SCIENTIST Value: 5.63
+	WuPalmer: 0.0
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+NEWS REPORT Value: 8.16
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+CANYON LANDSCAPE Value: 7.53
+	WuPalmer: 0.26666666666666666
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+IMAGE SURFACE Value: 4.56
+	WuPalmer: 0.6666666666666666
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+DISCOVERY SPACE Value: 6.34
+	WuPalmer: 0.25
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+WATER SEEPAGE Value: 6.56
+	WuPalmer: 0.0
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+SIGN RECESS Value: 2.38
+	WuPalmer: 0.7142857142857143
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+WEDNESDAY NEWS Value: 2.22
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+MILE KILOMETER Value: 8.66
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+COMPUTER NEWS Value: 4.47
+	WuPalmer: 0.0
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+TERRITORY SURFACE Value: 5.34
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+ATMOSPHERE LANDSCAPE Value: 3.69
+	WuPalmer: 0.42857142857142855
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+PRESIDENT MEDAL Value: 3.0
+	WuPalmer: 0.13333333333333333
+	shortestPath: 28
+	LeacockChodorow: 1.148622709242771
+
+WAR TROOPS Value: 8.13
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+RECORD NUMBER Value: 6.31
+	WuPalmer: 0.8888888888888888
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+SKIN EYE Value: 6.22
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+JAPANESE AMERICAN Value: 6.5
+	WuPalmer: 0.7272727272727273
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+THEATER HISTORY Value: 3.91
+	WuPalmer: 0.4
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+VOLUNTEER MOTTO Value: 2.56
+	WuPalmer: 0.0
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+PREJUDICE RECOGNITION Value: 3.0
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+DECORATION VALOR Value: 5.63
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+CENTURY YEAR Value: 7.59
+	WuPalmer: 0.8
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+CENTURY NATION Value: 3.16
+	WuPalmer: 0.2222222222222222
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+DELAY RACISM Value: 1.19
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+DELAY NEWS Value: 3.31
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+MINISTER PARTY Value: 6.63
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+PEACE PLAN Value: 4.75
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+MINORITY PEACE Value: 3.69
+	WuPalmer: 0.5
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+ATTEMPT PEACE Value: 4.25
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+GOVERNMENT CRISIS Value: 6.56
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+DEPLOYMENT DEPARTURE Value: 4.25
+	WuPalmer: 0.6666666666666666
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+DEPLOYMENT WITHDRAWAL Value: 5.88
+	WuPalmer: 0.75
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+ENERGY CRISIS Value: 5.94
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+ANNOUNCEMENT NEWS Value: 7.56
+	WuPalmer: 0.6
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+ANNOUNCEMENT EFFORT Value: 2.75
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+STROKE HOSPITAL Value: 7.03
+	WuPalmer: 0.16666666666666666
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+DISABILITY DEATH Value: 5.47
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+VICTIM EMERGENCY Value: 6.47
+	WuPalmer: 0.15384615384615385
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+TREATMENT RECOVERY Value: 7.91
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+JOURNAL ASSOCIATION Value: 4.97
+	WuPalmer: 0.25
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+DOCTOR PERSONNEL Value: 5.0
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+DOCTOR LIABILITY Value: 5.19
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+LIABILITY INSURANCE Value: 7.03
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+SCHOOL CENTER Value: 3.44
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+REASON HYPERTENSION Value: 2.31
+	WuPalmer: 0.5
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+REASON CRITERION Value: 5.91
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+HUNDRED PERCENT Value: 7.38
+	WuPalmer: 0.14285714285714285
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+HARVARD YALE Value: 8.13
+	WuPalmer: 0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+HOSPITAL INFRASTRUCTURE Value: 4.63
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+DEATH ROW Value: 5.25
+	WuPalmer: 0.4444444444444444
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+DEATH INMATE Value: 5.03
+	WuPalmer: 0.16666666666666666
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+LAWYER EVIDENCE Value: 6.69
+	WuPalmer: 0.0
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+LIFE DEATH Value: 7.88
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+LIFE TERM Value: 4.5
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+WORD SIMILARITY Value: 4.75
+	WuPalmer: 0.2222222222222222
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+BOARD RECOMMENDATION Value: 4.47
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+GOVERNOR INTERVIEW Value: 3.25
+	WuPalmer: 0.0
+	shortestPath: 27
+	LeacockChodorow: 1.074514737089049
+
+OPEC COUNTRY Value: 5.63
+	WuPalmer: 0.5333333333333333
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+PEACE ATMOSPHERE Value: 3.69
+	WuPalmer: 0.6666666666666666
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+PEACE INSURANCE Value: 2.94
+	WuPalmer: 0.8
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+TERRITORY KILOMETER Value: 5.28
+	WuPalmer: 0.14285714285714285
+	shortestPath: 28
+	LeacockChodorow: 1.148622709242771
+
+TRAVEL ACTIVITY Value: 5.0
+	WuPalmer: 0.6153846153846154
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+COMPETITION PRICE Value: 6.44
+	WuPalmer: 0.36363636363636365
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+CONSUMER CONFIDENCE Value: 4.13
+	WuPalmer: 0.0
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+CONSUMER ENERGY Value: 4.75
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+PROBLEM AIRPORT Value: 2.38
+	WuPalmer: 0.0
+	shortestPath: 27
+	LeacockChodorow: 1.074514737089049
+
+CAR FLIGHT Value: 4.94
+	WuPalmer: 0.5333333333333333
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+CREDIT CARD Value: 8.06
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+CREDIT INFORMATION Value: 5.31
+	WuPalmer: 0.6666666666666666
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+HOTEL RESERVATION Value: 8.03
+	WuPalmer: 0.2857142857142857
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+GROCERY MONEY Value: 5.94
+	WuPalmer: 0.0
+	shortestPath: 27
+	LeacockChodorow: 1.074514737089049
+
+REGISTRATION ARRANGEMENT Value: 6.0
+	WuPalmer: 0.625
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+ARRANGEMENT ACCOMMODATION Value: 5.41
+	WuPalmer: 0.625
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+MONTH HOTEL Value: 1.81
+	WuPalmer: 0.0
+	shortestPath: 29
+	LeacockChodorow: 1.2286654169163076
+
+TYPE KIND Value: 8.97
+	WuPalmer: 0.9411764705882353
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+ARRIVAL HOTEL Value: 6.0
+	WuPalmer: 0.16666666666666666
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+BED CLOSET Value: 6.72
+	WuPalmer: 0.8235294117647058
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+CLOSET CLOTHES Value: 8.0
+	WuPalmer: 0.5
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+SITUATION CONCLUSION Value: 4.81
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+SITUATION ISOLATION Value: 3.88
+	WuPalmer: 0.6666666666666666
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+IMPARTIALITY INTEREST Value: 5.16
+	WuPalmer: 0.3076923076923077
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+DIRECTION COMBINATION Value: 2.25
+	WuPalmer: 0.625
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+STREET PLACE Value: 6.44
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+STREET AVENUE Value: 8.88
+	WuPalmer: 0.9411764705882353
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+STREET BLOCK Value: 6.88
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+STREET CHILDREN Value: 4.94
+	WuPalmer: 0.16666666666666666
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+LISTING PROXIMITY Value: 2.56
+	WuPalmer: 0.23529411764705882
+	shortestPath: 28
+	LeacockChodorow: 1.148622709242771
+
+LISTING CATEGORY Value: 6.38
+	WuPalmer: 0.2857142857142857
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+CELL PHONE Value: 7.81
+	WuPalmer: 0.8888888888888888
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+PRODUCTION HIKE Value: 1.75
+	WuPalmer: 0.5333333333333333
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+BENCHMARK INDEX Value: 4.25
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+MEDIA TRADING Value: 3.88
+	WuPalmer: 0.5714285714285714
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+MEDIA GAIN Value: 2.88
+	WuPalmer: 0.4
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+DIVIDEND PAYMENT Value: 7.63
+	WuPalmer: 0.875
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+DIVIDEND CALCULATION Value: 6.48
+	WuPalmer: 0.16666666666666666
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+CALCULATION COMPUTATION Value: 8.44
+	WuPalmer: 1.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+CURRENCY MARKET Value: 7.5
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+OPEC OIL Value: 8.59
+	WuPalmer: 0.11764705882352941
+	shortestPath: 26
+	LeacockChodorow: 1.0055218656020977
+
+OIL STOCK Value: 6.34
+	WuPalmer: 0.5
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+ANNOUNCEMENT PRODUCTION Value: 3.38
+	WuPalmer: 0.4
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+ANNOUNCEMENT WARNING Value: 6.0
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+PROFIT WARNING Value: 3.88
+	WuPalmer: 0.16666666666666666
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+PROFIT LOSS Value: 7.63
+	WuPalmer: 0.6666666666666666
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+DOLLAR YEN Value: 7.78
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+DOLLAR BUCK Value: 9.22
+	WuPalmer: 1.0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+DOLLAR PROFIT Value: 7.38
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+DOLLAR LOSS Value: 6.09
+	WuPalmer: 0.2
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+COMPUTER SOFTWARE Value: 8.5
+	WuPalmer: 0.0
+	shortestPath: 28
+	LeacockChodorow: 1.148622709242771
+
+NETWORK HARDWARE Value: 8.31
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+PHONE EQUIPMENT Value: 7.13
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+EQUIPMENT MAKER Value: 5.91
+	WuPalmer: 0.18181818181818182
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+LUXURY CAR Value: 6.47
+	WuPalmer: 0.0
+	shortestPath: 26
+	LeacockChodorow: 1.0055218656020977
+
+FIVE MONTH Value: 3.38
+	WuPalmer: 0.36363636363636365
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+REPORT GAIN Value: 3.63
+	WuPalmer: 0.2222222222222222
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+INVESTOR EARNING Value: 7.13
+	WuPalmer: 0
+	shortestPath: 0
+	LeacockChodorow: 0
+
+LIQUID WATER Value: 7.89
+	WuPalmer: 0.8
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+BASEBALL SEASON Value: 5.97
+	WuPalmer: 0.125
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+GAME VICTORY Value: 7.03
+	WuPalmer: 0.5
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+GAME TEAM Value: 7.69
+	WuPalmer: 0.18181818181818182
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+MARATHON SPRINT Value: 7.47
+	WuPalmer: 0.4444444444444444
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+GAME SERIES Value: 6.19
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+GAME DEFEAT Value: 6.97
+	WuPalmer: 0.5
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+SEVEN SERIES Value: 3.56
+	WuPalmer: 0.2
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+SEAFOOD SEA Value: 7.47
+	WuPalmer: 0.2222222222222222
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+SEAFOOD FOOD Value: 8.34
+	WuPalmer: 0.8888888888888888
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+SEAFOOD LOBSTER Value: 8.7
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+LOBSTER FOOD Value: 7.81
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+LOBSTER WINE Value: 5.7
+	WuPalmer: 0.2857142857142857
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+FOOD PREPARATION Value: 6.22
+	WuPalmer: 0.5
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+VIDEO ARCHIVE Value: 6.34
+	WuPalmer: 0.5
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+START YEAR Value: 4.06
+	WuPalmer: 0.4444444444444444
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+START MATCH Value: 4.47
+	WuPalmer: 0.5
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+GAME ROUND Value: 5.97
+	WuPalmer: 0.875
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+BOXING ROUND Value: 7.61
+	WuPalmer: 0.631578947368421
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+CHAMPIONSHIP TOURNAMENT Value: 8.36
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+FIGHTING DEFEATING Value: 7.41
+	WuPalmer: 0.16666666666666666
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+LINE INSURANCE Value: 2.69
+	WuPalmer: 0.6666666666666666
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+DAY SUMMER Value: 3.94
+	WuPalmer: 0.7272727272727273
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+SUMMER DROUGHT Value: 7.16
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+SUMMER NATURE Value: 5.63
+	WuPalmer: 0.2
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+DAY DAWN Value: 7.53
+	WuPalmer: 0.8
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+NATURE ENVIRONMENT Value: 8.31
+	WuPalmer: 0.4444444444444444
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+ENVIRONMENT ECOLOGY Value: 8.81
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+NATURE MAN Value: 6.25
+	WuPalmer: 0.5714285714285714
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+MAN WOMAN Value: 8.3
+	WuPalmer: 0.8
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+MAN GOVERNOR Value: 5.25
+	WuPalmer: 0.6
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+MURDER MANSLAUGHTER Value: 8.53
+	WuPalmer: 0.9090909090909091
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+SOAP OPERA Value: 7.94
+	WuPalmer: 0.13333333333333333
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+OPERA PERFORMANCE Value: 6.88
+	WuPalmer: 0.18181818181818182
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+LIFE LESSON Value: 5.94
+	WuPalmer: 0.3333333333333333
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+FOCUS LIFE Value: 4.06
+	WuPalmer: 0.46153846153846156
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+PRODUCTION CREW Value: 6.25
+	WuPalmer: 0.2222222222222222
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+TELEVISION FILM Value: 7.72
+	WuPalmer: 0.75
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+LOVER QUARREL Value: 6.19
+	WuPalmer: 0.13333333333333333
+	shortestPath: 28
+	LeacockChodorow: 1.148622709242771
+
+VIEWER SERIAL Value: 2.97
+	WuPalmer: 0.4444444444444444
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+POSSIBILITY GIRL Value: 1.94
+	WuPalmer: 0.0
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+POPULATION DEVELOPMENT Value: 3.75
+	WuPalmer: 0.7
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+MORALITY IMPORTANCE Value: 3.31
+	WuPalmer: 0.6
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+MORALITY MARRIAGE Value: 3.69
+	WuPalmer: 0.4444444444444444
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+MEXICO BRAZIL Value: 7.44
+	WuPalmer: 0
+	shortestPath: 40
+	LeacockChodorow: 3.713572066704308
+
+GENDER EQUALITY Value: 6.41
+	WuPalmer: 0.36363636363636365
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+CHANGE ATTITUDE Value: 5.44
+	WuPalmer: 0.47058823529411764
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+FAMILY PLANNING Value: 6.25
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+OPERA INDUSTRY Value: 2.63
+	WuPalmer: 0.16666666666666666
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+SUGAR APPROACH Value: 0.88
+	WuPalmer: 0.16666666666666666
+	shortestPath: 30
+	LeacockChodorow: 1.3156767939059373
+
+PRACTICE INSTITUTION Value: 3.19
+	WuPalmer: 0.8
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+MINISTRY CULTURE Value: 4.69
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33
+	LeacockChodorow: 1.6341305250244718
+
+PROBLEM CHALLENGE Value: 6.75
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+SIZE PROMINENCE Value: 5.31
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+COUNTRY CITIZEN Value: 7.31
+	WuPalmer: 0.2
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+PLANET PEOPLE Value: 5.75
+	WuPalmer: 0.0
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+DEVELOPMENT ISSUE Value: 3.97
+	WuPalmer: 0.7142857142857143
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+EXPERIENCE MUSIC Value: 3.47
+	WuPalmer: 0.5454545454545454
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+MUSIC PROJECT Value: 3.63
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+GLASS METAL Value: 5.56
+	WuPalmer: 0.4444444444444444
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+ALUMINUM METAL Value: 7.83
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39
+	LeacockChodorow: 3.0204248861443626
+
+CHANCE CREDIBILITY Value: 3.88
+	WuPalmer: 0.4
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+EXHIBIT MEMORABILIA Value: 5.31
+	WuPalmer: 0.3333333333333333
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+CONCERT VIRTUOSO Value: 6.81
+	WuPalmer: 0.0
+	shortestPath: 37
+	LeacockChodorow: 2.327277705584417
+
+ROCK JAZZ Value: 7.59
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+MUSEUM THEATER Value: 7.19
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+OBSERVATION ARCHITECTURE Value: 4.38
+	WuPalmer: 0.6666666666666666
+	shortestPath: 35
+	LeacockChodorow: 1.9218125974762528
+
+SPACE WORLD Value: 6.53
+	WuPalmer: 0.5
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+PRESERVATION WORLD Value: 6.19
+	WuPalmer: 0.5333333333333333
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+ADMISSION TICKET Value: 7.69
+	WuPalmer: 0.5
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+SHOWER THUNDERSTORM Value: 6.31
+	WuPalmer: 0.6666666666666666
+	shortestPath: 34
+	LeacockChodorow: 1.7676619176489945
+
+SHOWER FLOOD Value: 6.03
+	WuPalmer: 0.5333333333333333
+	shortestPath: 36
+	LeacockChodorow: 2.1041341542702074
+
+WEATHER FORECAST Value: 8.34
+	WuPalmer: 0.0
+	shortestPath: 38
+	LeacockChodorow: 2.6149597780361984
+
+DISASTER AREA Value: 6.25
+	WuPalmer: 0.42857142857142855
+	shortestPath: 32
+	LeacockChodorow: 1.5163474893680884
+
+GOVERNOR OFFICE Value: 6.34
+	WuPalmer: 0.47058823529411764
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+ARCHITECTURE CENTURY Value: 3.78
+	WuPalmer: 0.18181818181818182
+	shortestPath: 31
+	LeacockChodorow: 1.410986973710262
+
+CORRELATIONS:
+	Pearson: 
+          real        WP        SP        LC
+real  1.000000  0.298070  0.187463  0.249726
+WP    0.298070  1.000000  0.636132  0.596035
+SP    0.187463  0.636132  1.000000  0.892212
+LC    0.249726  0.596035  0.892212  1.000000
+	Spearman: 
+          real        WP        SP        LC
+real  1.000000  0.328312  0.265359  0.265359
+WP    0.328312  1.000000  0.673487  0.673487
+SP    0.265359  0.673487  1.000000  1.000000
+LC    0.265359  0.673487  1.000000  1.000000
+

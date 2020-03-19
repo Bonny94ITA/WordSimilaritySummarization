@@ -1,0 +1,20 @@
+Per i coefficienti di correlazione utilizzare una qualche libreria non implementare.
+
+togliere le congiunzioni articoli ecc. in word sense disambiguation
+
+lemmatizzazione riduzione dei termini alla forma flessa (normale)
+chiamare libreria
+
+
+calcolo signature contesto frase
+
+interrogo word net con termine da disambiguare
+
+per ogni senso c'è un esempio di gloss filtro parole inutili e calcolo signature
+
+calcolo overlap signature (cioè numero di elementi comuni)
+
+restituisco il senso che ha l'overlap massimo
+
+Note consegna
+Non mandare librerie
