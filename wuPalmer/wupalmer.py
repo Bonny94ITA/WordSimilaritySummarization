@@ -6,7 +6,6 @@ class WuPalmer:
 
     def __init__(self):
         list = self.read_file()
-
         for item in list:
             x, y = self.get_synsets(item)
             max_similarity = 0.0
@@ -31,10 +30,10 @@ class WuPalmer:
     @staticmethod
     def read_file():
         list = []
-        with open("./asset/100_pairs.txt") as tsv:
-            for line in csv.reader(tsv, dialect="excel-tab"):
+        with open("./asset/WordSim353.csv") as tsv:
+            for line in csv.reader(tsv, delimiter=','):
                 list.append(line)
-
+        list.pop(0)
         return list
 
     @staticmethod
