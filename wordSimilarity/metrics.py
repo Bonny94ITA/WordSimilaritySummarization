@@ -1,7 +1,7 @@
 from nltk.corpus import wordnet as wn
 import math
 
-# Calcola la profondità massima di WordNet
+# Calcola la profondità massima di WordNet: 20
 MAX_DEPTH = max(max(len(hyp_path) for hyp_path in ss.hypernym_paths()) for ss in wn.all_synsets())
 
 
@@ -43,19 +43,21 @@ def wup_similarity(synset_x, synset_y):
         return None
 
 
-def shortestPath(sense1, sense2):
+def shortest_path(sense1, sense2):
     minP = sense1.shortest_path_distance(sense2)
 
-    if (minP is None):
+    # Formula di Shortest Path
+    if minP is None:
         return 0
     else:
         return 2 * MAX_DEPTH - minP
 
 
-def LeacockChodorow(sense1, sense2):
+def Leacock_Chodorow(sense1, sense2):
     minP = sense1.shortest_path_distance(sense2)
 
-    if (minP is None):
+    # Formula di Leacock & Chodorow
+    if minP is None:
         return 0
     else:
         return -math.log((minP + 1) / (2 * MAX_DEPTH + 1))
