@@ -1,0 +1,2134 @@
+LOVE SEX:
+	Means: 6.77
+	WuPalmer: 0.9230769230769231
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+TIGER CAT:
+	Means: 7.35
+	WuPalmer: 0.9655172413793104
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+TIGER TIGER:
+	Means: 10.0
+	WuPalmer: 1.0
+	shortestPath: 40.0
+	LeacockChodorow: 3.713572066704308
+
+BOOK PAPER:
+	Means: 7.46
+	WuPalmer: 0.875
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+COMPUTER KEYBOARD:
+	Means: 7.62
+	WuPalmer: 0.8235294117647058
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+COMPUTER INTERNET:
+	Means: 7.58
+	WuPalmer: 0.631578947368421
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+PLANE CAR:
+	Means: 5.77
+	WuPalmer: 0.7272727272727273
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+TRAIN CAR:
+	Means: 6.31
+	WuPalmer: 0.7368421052631579
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+TELEPHONE COMMUNICATION:
+	Means: 7.5
+	WuPalmer: 0.16666666666666666
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+TELEVISION RADIO:
+	Means: 6.77
+	WuPalmer: 0.9090909090909091
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+MEDIA RADIO:
+	Means: 7.42
+	WuPalmer: 0.8235294117647058
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+DRUG ABUSE:
+	Means: 6.85
+	WuPalmer: 0.16666666666666666
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+BREAD BUTTER:
+	Means: 6.19
+	WuPalmer: 0.75
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+CUCUMBER POTATO:
+	Means: 5.92
+	WuPalmer: 0.8235294117647058
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+DOCTOR NURSE:
+	Means: 7.0
+	WuPalmer: 0.8695652173913043
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+PROFESSOR DOCTOR:
+	Means: 6.62
+	WuPalmer: 0.75
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+STUDENT PROFESSOR:
+	Means: 6.81
+	WuPalmer: 0.6666666666666666
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+SMART STUDENT:
+	Means: 4.62
+	WuPalmer: 0.1111111111111111
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+SMART STUPID:
+	Means: 5.81
+	WuPalmer: 0.1111111111111111
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+COMPANY STOCK:
+	Means: 7.08
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+STOCK MARKET:
+	Means: 8.08
+	WuPalmer: 0.5555555555555556
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+STOCK PHONE:
+	Means: 1.62
+	WuPalmer: 0.7
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+STOCK CD:
+	Means: 1.31
+	WuPalmer: 0.7368421052631579
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+STOCK JAGUAR:
+	Means: 0.92
+	WuPalmer: 0.8148148148148148
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+STOCK EGG:
+	Means: 1.81
+	WuPalmer: 0.625
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+FERTILITY EGG:
+	Means: 6.69
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+STOCK LIVE:
+	Means: 3.73
+	WuPalmer: 0.2857142857142857
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+STOCK LIFE:
+	Means: 0.92
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+BOOK LIBRARY:
+	Means: 7.46
+	WuPalmer: 0.8
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+BANK MONEY:
+	Means: 8.12
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+WOOD FOREST:
+	Means: 7.73
+	WuPalmer: 1.0
+	shortestPath: 40.0
+	LeacockChodorow: 3.713572066704308
+
+MONEY CASH:
+	Means: 9.15
+	WuPalmer: 0.875
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+PROFESSOR CUCUMBER:
+	Means: 0.31
+	WuPalmer: 0.5
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+KING CABBAGE:
+	Means: 0.23
+	WuPalmer: 0.5714285714285714
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+KING QUEEN:
+	Means: 8.58
+	WuPalmer: 1.0
+	shortestPath: 40.0
+	LeacockChodorow: 3.713572066704308
+
+KING ROOK:
+	Means: 5.92
+	WuPalmer: 0.9090909090909091
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+BISHOP RABBI:
+	Means: 6.69
+	WuPalmer: 0.8181818181818182
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+JERUSALEM ISRAEL:
+	Means: 8.46
+	WuPalmer: 0.5
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+JERUSALEM PALESTINIAN:
+	Means: 7.65
+	WuPalmer: 0.2727272727272727
+	shortestPath: 25.0
+	LeacockChodorow: 0.9409833444645266
+
+HOLY SEX:
+	Means: 1.62
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+FUCK SEX:
+	Means: 9.44
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+MARADONA FOOTBALL:
+	Means: 8.62
+	WuPalmer: 0.0
+	shortestPath: 0.0
+	LeacockChodorow: 0.0
+
+FOOTBALL SOCCER:
+	Means: 9.03
+	WuPalmer: 0.96
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+FOOTBALL BASKETBALL:
+	Means: 6.81
+	WuPalmer: 0.782608695652174
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+FOOTBALL TENNIS:
+	Means: 6.63
+	WuPalmer: 0.782608695652174
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+TENNIS RACKET:
+	Means: 7.56
+	WuPalmer: 0.5714285714285714
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+ARAFAT PEACE:
+	Means: 6.73
+	WuPalmer: 0.11764705882352941
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+ARAFAT TERROR:
+	Means: 7.65
+	WuPalmer: 0.7368421052631579
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+ARAFAT JACKSON:
+	Means: 2.5
+	WuPalmer: 0.6666666666666666
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+LAW LAWYER:
+	Means: 8.38
+	WuPalmer: 0.13333333333333333
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+MOVIE STAR:
+	Means: 7.38
+	WuPalmer: 0.5333333333333333
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+MOVIE POPCORN:
+	Means: 6.19
+	WuPalmer: 0.36363636363636365
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+MOVIE CRITIC:
+	Means: 6.73
+	WuPalmer: 0.4444444444444444
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+MOVIE THEATER:
+	Means: 7.92
+	WuPalmer: 0.625
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+PHYSICS PROTON:
+	Means: 8.12
+	WuPalmer: 0.2
+	shortestPath: 26.0
+	LeacockChodorow: 1.0055218656020977
+
+PHYSICS CHEMISTRY:
+	Means: 7.35
+	WuPalmer: 0.9
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+SPACE CHEMISTRY:
+	Means: 4.88
+	WuPalmer: 0.4444444444444444
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+ALCOHOL CHEMISTRY:
+	Means: 5.54
+	WuPalmer: 0.7142857142857143
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+VODKA GIN:
+	Means: 8.46
+	WuPalmer: 0.9090909090909091
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+VODKA BRANDY:
+	Means: 8.13
+	WuPalmer: 0.9090909090909091
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+DRINK CAR:
+	Means: 3.04
+	WuPalmer: 0.26666666666666666
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+DRINK EAR:
+	Means: 1.31
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+DRINK MOUTH:
+	Means: 5.96
+	WuPalmer: 0.5
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+DRINK EAT:
+	Means: 6.87
+	WuPalmer: 0.5
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+BABY MOTHER:
+	Means: 7.85
+	WuPalmer: 0.8181818181818182
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+DRINK MOTHER:
+	Means: 2.65
+	WuPalmer: 0.3333333333333333
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+CAR AUTOMOBILE:
+	Means: 8.94
+	WuPalmer: 1.0
+	shortestPath: 40.0
+	LeacockChodorow: 3.713572066704308
+
+GEM JEWEL:
+	Means: 8.96
+	WuPalmer: 1.0
+	shortestPath: 40.0
+	LeacockChodorow: 3.713572066704308
+
+JOURNEY VOYAGE:
+	Means: 9.29
+	WuPalmer: 0.9523809523809523
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+BOY LAD:
+	Means: 8.83
+	WuPalmer: 0.9473684210526315
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+COAST SHORE:
+	Means: 9.1
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+ASYLUM MADHOUSE:
+	Means: 8.87
+	WuPalmer: 0.9523809523809523
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+MAGICIAN WIZARD:
+	Means: 9.02
+	WuPalmer: 1.0
+	shortestPath: 40.0
+	LeacockChodorow: 3.713572066704308
+
+MIDDAY NOON:
+	Means: 9.29
+	WuPalmer: 1.0
+	shortestPath: 40.0
+	LeacockChodorow: 3.713572066704308
+
+FURNACE STOVE:
+	Means: 8.79
+	WuPalmer: 0.5263157894736842
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+FOOD FRUIT:
+	Means: 7.52
+	WuPalmer: 0.4
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+BIRD COCK:
+	Means: 7.1
+	WuPalmer: 0.9523809523809523
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+BIRD CRANE:
+	Means: 7.38
+	WuPalmer: 0.8695652173913043
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+TOOL IMPLEMENT:
+	Means: 6.46
+	WuPalmer: 0.9333333333333333
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+BROTHER MONK:
+	Means: 6.27
+	WuPalmer: 0.9523809523809523
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+CRANE IMPLEMENT:
+	Means: 2.69
+	WuPalmer: 0.75
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+LAD BROTHER:
+	Means: 4.46
+	WuPalmer: 0.7777777777777778
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+JOURNEY CAR:
+	Means: 5.85
+	WuPalmer: 0.1
+	shortestPath: 23.0
+	LeacockChodorow: 0.8232003088081431
+
+MONK ORACLE:
+	Means: 5.0
+	WuPalmer: 0.6666666666666666
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+CEMETERY WOODLAND:
+	Means: 2.08
+	WuPalmer: 0.13333333333333333
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+FOOD ROOSTER:
+	Means: 4.42
+	WuPalmer: 0.21052631578947367
+	shortestPath: 25.0
+	LeacockChodorow: 0.9409833444645266
+
+COAST HILL:
+	Means: 4.38
+	WuPalmer: 0.6666666666666666
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+FOREST GRAVEYARD:
+	Means: 1.85
+	WuPalmer: 0.13333333333333333
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+SHORE WOODLAND:
+	Means: 3.08
+	WuPalmer: 0.18181818181818182
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+MONK SLAVE:
+	Means: 0.92
+	WuPalmer: 0.7777777777777778
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+COAST FOREST:
+	Means: 3.15
+	WuPalmer: 0.26666666666666666
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+LAD WIZARD:
+	Means: 0.92
+	WuPalmer: 0.7777777777777778
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+CHORD SMILE:
+	Means: 0.54
+	WuPalmer: 0.375
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+GLASS MAGICIAN:
+	Means: 2.08
+	WuPalmer: 0.47058823529411764
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+NOON STRING:
+	Means: 0.54
+	WuPalmer: 0.26666666666666666
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+ROOSTER VOYAGE:
+	Means: 0.62
+	WuPalmer: 0.08
+	shortestPath: 17.0
+	LeacockChodorow: 0.5355182363563622
+
+MONEY DOLLAR:
+	Means: 8.42
+	WuPalmer: 0.7777777777777778
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+MONEY CASH:
+	Means: 9.08
+	WuPalmer: 0.875
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+MONEY CURRENCY:
+	Means: 9.04
+	WuPalmer: 0.9333333333333333
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+MONEY WEALTH:
+	Means: 8.27
+	WuPalmer: 0.9230769230769231
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+MONEY PROPERTY:
+	Means: 7.57
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+MONEY POSSESSION:
+	Means: 7.29
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+MONEY BANK:
+	Means: 8.5
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+MONEY DEPOSIT:
+	Means: 7.73
+	WuPalmer: 0.875
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+MONEY WITHDRAWAL:
+	Means: 6.88
+	WuPalmer: 0.2857142857142857
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+MONEY LAUNDERING:
+	Means: 5.65
+	WuPalmer: 0.25
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+MONEY OPERATION:
+	Means: 3.31
+	WuPalmer: 0.3333333333333333
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+TIGER JAGUAR:
+	Means: 8.0
+	WuPalmer: 0.9333333333333333
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+TIGER FELINE:
+	Means: 8.0
+	WuPalmer: 0.9285714285714286
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+TIGER CARNIVORE:
+	Means: 7.08
+	WuPalmer: 0.8888888888888888
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+TIGER MAMMAL:
+	Means: 6.85
+	WuPalmer: 0.8
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+TIGER ANIMAL:
+	Means: 7.0
+	WuPalmer: 0.8
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+TIGER ORGANISM:
+	Means: 4.77
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+TIGER FAUNA:
+	Means: 5.62
+	WuPalmer: 0.8
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+TIGER ZOO:
+	Means: 5.87
+	WuPalmer: 0.5333333333333333
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+PSYCHOLOGY PSYCHIATRY:
+	Means: 8.08
+	WuPalmer: 0.7272727272727273
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+PSYCHOLOGY ANXIETY:
+	Means: 7.0
+	WuPalmer: 0.25
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+PSYCHOLOGY FEAR:
+	Means: 6.85
+	WuPalmer: 0.25
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+PSYCHOLOGY DEPRESSION:
+	Means: 7.42
+	WuPalmer: 0.35294117647058826
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+PSYCHOLOGY CLINIC:
+	Means: 6.58
+	WuPalmer: 0.23529411764705882
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+PSYCHOLOGY DOCTOR:
+	Means: 6.42
+	WuPalmer: 0.3333333333333333
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+PSYCHOLOGY FREUD:
+	Means: 8.21
+	WuPalmer: 0.08
+	shortestPath: 21.0
+	LeacockChodorow: 0.7178397931503169
+
+PSYCHOLOGY MIND:
+	Means: 7.69
+	WuPalmer: 0.5882352941176471
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+PSYCHOLOGY HEALTH:
+	Means: 7.23
+	WuPalmer: 0.26666666666666666
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+PSYCHOLOGY SCIENCE:
+	Means: 6.71
+	WuPalmer: 0.9411764705882353
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+PSYCHOLOGY DISCIPLINE:
+	Means: 5.58
+	WuPalmer: 0.875
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+PSYCHOLOGY COGNITION:
+	Means: 7.48
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+PLANET STAR:
+	Means: 8.45
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+PLANET CONSTELLATION:
+	Means: 8.06
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+PLANET MOON:
+	Means: 8.08
+	WuPalmer: 0.8
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+PLANET SUN:
+	Means: 8.02
+	WuPalmer: 0.8
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+PLANET GALAXY:
+	Means: 8.11
+	WuPalmer: 0.631578947368421
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+PLANET SPACE:
+	Means: 7.92
+	WuPalmer: 0.5333333333333333
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+PLANET ASTRONOMER:
+	Means: 7.94
+	WuPalmer: 0.7368421052631579
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+PRECEDENT EXAMPLE:
+	Means: 5.85
+	WuPalmer: 0.9230769230769231
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+PRECEDENT INFORMATION:
+	Means: 3.85
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+PRECEDENT COGNITION:
+	Means: 2.81
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+PRECEDENT LAW:
+	Means: 6.65
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+PRECEDENT COLLECTION:
+	Means: 2.5
+	WuPalmer: 0.8
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+PRECEDENT GROUP:
+	Means: 1.77
+	WuPalmer: 0.6666666666666666
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+PRECEDENT ANTECEDENT:
+	Means: 6.04
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+CUP COFFEE:
+	Means: 6.58
+	WuPalmer: 0.7619047619047619
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+CUP TABLEWARE:
+	Means: 6.85
+	WuPalmer: 0.8888888888888888
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+CUP ARTICLE:
+	Means: 2.4
+	WuPalmer: 0.75
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+CUP ARTIFACT:
+	Means: 2.92
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+CUP OBJECT:
+	Means: 3.69
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+CUP ENTITY:
+	Means: 2.15
+	WuPalmer: 0.2857142857142857
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+CUP DRINK:
+	Means: 7.25
+	WuPalmer: 0.8
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+CUP FOOD:
+	Means: 5.0
+	WuPalmer: 0.3333333333333333
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+CUP SUBSTANCE:
+	Means: 1.92
+	WuPalmer: 0.5882352941176471
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+CUP LIQUID:
+	Means: 5.9
+	WuPalmer: 0.7368421052631579
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+JAGUAR CAT:
+	Means: 7.42
+	WuPalmer: 0.9655172413793104
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+JAGUAR CAR:
+	Means: 7.27
+	WuPalmer: 0.32
+	shortestPath: 24.0
+	LeacockChodorow: 0.8803587226480918
+
+ENERGY SECRETARY:
+	Means: 1.81
+	WuPalmer: 0.23529411764705882
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+SECRETARY SENATE:
+	Means: 5.06
+	WuPalmer: 0.1111111111111111
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+ENERGY LABORATORY:
+	Means: 5.09
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+COMPUTER LABORATORY:
+	Means: 6.78
+	WuPalmer: 0.4
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+WEAPON SECRET:
+	Means: 6.06
+	WuPalmer: 0.2857142857142857
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+FBI FINGERPRINT:
+	Means: 6.94
+	WuPalmer: 0.23529411764705882
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+FBI INVESTIGATION:
+	Means: 8.31
+	WuPalmer: 0.2222222222222222
+	shortestPath: 26.0
+	LeacockChodorow: 1.0055218656020977
+
+INVESTIGATION EFFORT:
+	Means: 4.59
+	WuPalmer: 0.8235294117647058
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+MARS WATER:
+	Means: 2.94
+	WuPalmer: 0.5
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+MARS SCIENTIST:
+	Means: 5.63
+	WuPalmer: 0.47058823529411764
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+NEWS REPORT:
+	Means: 8.16
+	WuPalmer: 0.9230769230769231
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+CANYON LANDSCAPE:
+	Means: 7.53
+	WuPalmer: 0.35294117647058826
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+IMAGE SURFACE:
+	Means: 4.56
+	WuPalmer: 0.7142857142857143
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+DISCOVERY SPACE:
+	Means: 6.34
+	WuPalmer: 0.4
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+WATER SEEPAGE:
+	Means: 6.56
+	WuPalmer: 0.25
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+SIGN RECESS:
+	Means: 2.38
+	WuPalmer: 0.75
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+WEDNESDAY NEWS:
+	Means: 2.22
+	WuPalmer: 0.26666666666666666
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+MILE KILOMETER:
+	Means: 8.66
+	WuPalmer: 0.6666666666666666
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+COMPUTER NEWS:
+	Means: 4.47
+	WuPalmer: 0.13333333333333333
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+TERRITORY SURFACE:
+	Means: 5.34
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+ATMOSPHERE LANDSCAPE:
+	Means: 3.69
+	WuPalmer: 0.5
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+PRESIDENT MEDAL:
+	Means: 3.0
+	WuPalmer: 0.23529411764705882
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+WAR TROOPS:
+	Means: 8.13
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+RECORD NUMBER:
+	Means: 6.31
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+SKIN EYE:
+	Means: 6.22
+	WuPalmer: 0.6666666666666666
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+JAPANESE AMERICAN:
+	Means: 6.5
+	WuPalmer: 0.7368421052631579
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+THEATER HISTORY:
+	Means: 3.91
+	WuPalmer: 0.5
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+VOLUNTEER MOTTO:
+	Means: 2.56
+	WuPalmer: 0.125
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+PREJUDICE RECOGNITION:
+	Means: 3.0
+	WuPalmer: 0.6666666666666666
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+DECORATION VALOR:
+	Means: 5.63
+	WuPalmer: 0.26666666666666666
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+CENTURY YEAR:
+	Means: 7.59
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+CENTURY NATION:
+	Means: 3.16
+	WuPalmer: 0.36363636363636365
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+DELAY RACISM:
+	Means: 1.19
+	WuPalmer: 0.625
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+DELAY NEWS:
+	Means: 3.31
+	WuPalmer: 0.5333333333333333
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+MINISTER PARTY:
+	Means: 6.63
+	WuPalmer: 0.7368421052631579
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+PEACE PLAN:
+	Means: 4.75
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+MINORITY PEACE:
+	Means: 3.69
+	WuPalmer: 0.42857142857142855
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+ATTEMPT PEACE:
+	Means: 4.25
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+GOVERNMENT CRISIS:
+	Means: 6.56
+	WuPalmer: 0.5333333333333333
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+DEPLOYMENT DEPARTURE:
+	Means: 4.25
+	WuPalmer: 0.7142857142857143
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+DEPLOYMENT WITHDRAWAL:
+	Means: 5.88
+	WuPalmer: 0.7777777777777778
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+ENERGY CRISIS:
+	Means: 5.94
+	WuPalmer: 0.625
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+ANNOUNCEMENT NEWS:
+	Means: 7.56
+	WuPalmer: 0.6666666666666666
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+ANNOUNCEMENT EFFORT:
+	Means: 2.75
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+STROKE HOSPITAL:
+	Means: 7.03
+	WuPalmer: 0.4
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+DISABILITY DEATH:
+	Means: 5.47
+	WuPalmer: 0.5333333333333333
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+VICTIM EMERGENCY:
+	Means: 6.47
+	WuPalmer: 0.4444444444444444
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+TREATMENT RECOVERY:
+	Means: 7.91
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+JOURNAL ASSOCIATION:
+	Means: 4.97
+	WuPalmer: 0.4
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+DOCTOR PERSONNEL:
+	Means: 5.0
+	WuPalmer: 0.26666666666666666
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+DOCTOR LIABILITY:
+	Means: 5.19
+	WuPalmer: 0.26666666666666666
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+LIABILITY INSURANCE:
+	Means: 7.03
+	WuPalmer: 0.625
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+SCHOOL CENTER:
+	Means: 3.44
+	WuPalmer: 0.875
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+REASON HYPERTENSION:
+	Means: 2.31
+	WuPalmer: 0.5555555555555556
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+REASON CRITERION:
+	Means: 5.91
+	WuPalmer: 0.5333333333333333
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+HUNDRED PERCENT:
+	Means: 7.38
+	WuPalmer: 0.25
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+HARVARD YALE:
+	Means: 8.13
+	WuPalmer: 0.9166666666666666
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+HOSPITAL INFRASTRUCTURE:
+	Means: 4.63
+	WuPalmer: 0.26666666666666666
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+DEATH ROW:
+	Means: 5.25
+	WuPalmer: 0.5
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+DEATH INMATE:
+	Means: 5.03
+	WuPalmer: 0.23529411764705882
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+LAWYER EVIDENCE:
+	Means: 6.69
+	WuPalmer: 0.13333333333333333
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+LIFE DEATH:
+	Means: 7.88
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+LIFE TERM:
+	Means: 4.5
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+WORD SIMILARITY:
+	Means: 4.75
+	WuPalmer: 0.45454545454545453
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+BOARD RECOMMENDATION:
+	Means: 4.47
+	WuPalmer: 0.26666666666666666
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+GOVERNOR INTERVIEW:
+	Means: 3.25
+	WuPalmer: 0.1111111111111111
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+OPEC COUNTRY:
+	Means: 5.63
+	WuPalmer: 0.5555555555555556
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+PEACE ATMOSPHERE:
+	Means: 3.69
+	WuPalmer: 0.7142857142857143
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+PEACE INSURANCE:
+	Means: 2.94
+	WuPalmer: 0.8235294117647058
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+TERRITORY KILOMETER:
+	Means: 5.28
+	WuPalmer: 0.25
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+TRAVEL ACTIVITY:
+	Means: 5.0
+	WuPalmer: 0.6666666666666666
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+COMPETITION PRICE:
+	Means: 6.44
+	WuPalmer: 0.6363636363636364
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+CONSUMER CONFIDENCE:
+	Means: 4.13
+	WuPalmer: 0.125
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+CONSUMER ENERGY:
+	Means: 4.75
+	WuPalmer: 0.25
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+PROBLEM AIRPORT:
+	Means: 2.38
+	WuPalmer: 0.13333333333333333
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+CAR FLIGHT:
+	Means: 4.94
+	WuPalmer: 0.5555555555555556
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+CREDIT CARD:
+	Means: 8.06
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+CREDIT INFORMATION:
+	Means: 5.31
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+HOTEL RESERVATION:
+	Means: 8.03
+	WuPalmer: 0.375
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+GROCERY MONEY:
+	Means: 5.94
+	WuPalmer: 0.13333333333333333
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+REGISTRATION ARRANGEMENT:
+	Means: 6.0
+	WuPalmer: 0.6666666666666666
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+ARRANGEMENT ACCOMMODATION:
+	Means: 5.41
+	WuPalmer: 0.6666666666666666
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+MONTH HOTEL:
+	Means: 1.81
+	WuPalmer: 0.15384615384615385
+	shortestPath: 29.0
+	LeacockChodorow: 1.2286654169163076
+
+TYPE KIND:
+	Means: 8.97
+	WuPalmer: 0.9473684210526315
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+ARRIVAL HOTEL:
+	Means: 6.0
+	WuPalmer: 0.47058823529411764
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+BED CLOSET:
+	Means: 6.72
+	WuPalmer: 0.8421052631578947
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+CLOSET CLOTHES:
+	Means: 8.0
+	WuPalmer: 0.5555555555555556
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+SITUATION CONCLUSION:
+	Means: 4.81
+	WuPalmer: 0.625
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+SITUATION ISOLATION:
+	Means: 3.88
+	WuPalmer: 0.7272727272727273
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+IMPARTIALITY INTEREST:
+	Means: 5.16
+	WuPalmer: 0.4
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+DIRECTION COMBINATION:
+	Means: 2.25
+	WuPalmer: 0.6666666666666666
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+STREET PLACE:
+	Means: 6.44
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+STREET AVENUE:
+	Means: 8.88
+	WuPalmer: 0.9473684210526315
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+STREET BLOCK:
+	Means: 6.88
+	WuPalmer: 0.6666666666666666
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+STREET CHILDREN:
+	Means: 4.94
+	WuPalmer: 0.47058823529411764
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+LISTING PROXIMITY:
+	Means: 2.56
+	WuPalmer: 0.3157894736842105
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+LISTING CATEGORY:
+	Means: 6.38
+	WuPalmer: 0.375
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+CELL PHONE:
+	Means: 7.81
+	WuPalmer: 0.9
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+PRODUCTION HIKE:
+	Means: 1.75
+	WuPalmer: 0.5882352941176471
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+BENCHMARK INDEX:
+	Means: 4.25
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+MEDIA TRADING:
+	Means: 3.88
+	WuPalmer: 0.625
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+MEDIA GAIN:
+	Means: 2.88
+	WuPalmer: 0.5
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+DIVIDEND PAYMENT:
+	Means: 7.63
+	WuPalmer: 0.8888888888888888
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+DIVIDEND CALCULATION:
+	Means: 6.48
+	WuPalmer: 0.2857142857142857
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+CALCULATION COMPUTATION:
+	Means: 8.44
+	WuPalmer: 1.0
+	shortestPath: 40.0
+	LeacockChodorow: 3.713572066704308
+
+CURRENCY MARKET:
+	Means: 7.5
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+OPEC OIL:
+	Means: 8.59
+	WuPalmer: 0.2
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+OIL STOCK:
+	Means: 6.34
+	WuPalmer: 0.35294117647058826
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+ANNOUNCEMENT PRODUCTION:
+	Means: 3.38
+	WuPalmer: 0.5
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+ANNOUNCEMENT WARNING:
+	Means: 6.0
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+PROFIT WARNING:
+	Means: 3.88
+	WuPalmer: 0.2857142857142857
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+PROFIT LOSS:
+	Means: 7.63
+	WuPalmer: 0.7058823529411765
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+DOLLAR YEN:
+	Means: 7.78
+	WuPalmer: 0.8
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+DOLLAR BUCK:
+	Means: 9.22
+	WuPalmer: 1.0
+	shortestPath: 40.0
+	LeacockChodorow: 3.713572066704308
+
+DOLLAR PROFIT:
+	Means: 7.38
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+DOLLAR LOSS:
+	Means: 6.09
+	WuPalmer: 0.3333333333333333
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+COMPUTER SOFTWARE:
+	Means: 8.5
+	WuPalmer: 0.11764705882352941
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+NETWORK HARDWARE:
+	Means: 8.31
+	WuPalmer: 0.8
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+PHONE EQUIPMENT:
+	Means: 7.13
+	WuPalmer: 0.875
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+EQUIPMENT MAKER:
+	Means: 5.91
+	WuPalmer: 0.5
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+LUXURY CAR:
+	Means: 6.47
+	WuPalmer: 0.11764705882352941
+	shortestPath: 26.0
+	LeacockChodorow: 1.0055218656020977
+
+FIVE MONTH:
+	Means: 3.38
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+REPORT GAIN:
+	Means: 3.63
+	WuPalmer: 0.36363636363636365
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+INVESTOR EARNING:
+	Means: 7.13
+	WuPalmer: 0.0
+	shortestPath: 0.0
+	LeacockChodorow: 0.0
+
+LIQUID WATER:
+	Means: 7.89
+	WuPalmer: 0.9333333333333333
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+BASEBALL SEASON:
+	Means: 5.97
+	WuPalmer: 0.21052631578947367
+	shortestPath: 26.0
+	LeacockChodorow: 1.0055218656020977
+
+GAME VICTORY:
+	Means: 7.03
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+GAME TEAM:
+	Means: 7.69
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+MARATHON SPRINT:
+	Means: 7.47
+	WuPalmer: 0.5
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+GAME SERIES:
+	Means: 6.19
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+GAME DEFEAT:
+	Means: 6.97
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+SEVEN SERIES:
+	Means: 3.56
+	WuPalmer: 0.375
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+SEAFOOD SEA:
+	Means: 7.47
+	WuPalmer: 0.36363636363636365
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+SEAFOOD FOOD:
+	Means: 8.34
+	WuPalmer: 0.9090909090909091
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+SEAFOOD LOBSTER:
+	Means: 8.7
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+LOBSTER FOOD:
+	Means: 7.81
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+LOBSTER WINE:
+	Means: 5.7
+	WuPalmer: 0.1111111111111111
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+FOOD PREPARATION:
+	Means: 6.22
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+VIDEO ARCHIVE:
+	Means: 6.34
+	WuPalmer: 0.5555555555555556
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+START YEAR:
+	Means: 4.06
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+START MATCH:
+	Means: 4.47
+	WuPalmer: 0.5714285714285714
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+GAME ROUND:
+	Means: 5.97
+	WuPalmer: 0.8888888888888888
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+BOXING ROUND:
+	Means: 7.61
+	WuPalmer: 0.7272727272727273
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+CHAMPIONSHIP TOURNAMENT:
+	Means: 8.36
+	WuPalmer: 0.8571428571428571
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+FIGHTING DEFEATING:
+	Means: 7.41
+	WuPalmer: 0.2857142857142857
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+LINE INSURANCE:
+	Means: 2.69
+	WuPalmer: 0.7142857142857143
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+DAY SUMMER:
+	Means: 3.94
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+SUMMER DROUGHT:
+	Means: 7.16
+	WuPalmer: 0.7692307692307693
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+SUMMER NATURE:
+	Means: 5.63
+	WuPalmer: 0.3333333333333333
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+DAY DAWN:
+	Means: 7.53
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+NATURE ENVIRONMENT:
+	Means: 8.31
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+ENVIRONMENT ECOLOGY:
+	Means: 8.81
+	WuPalmer: 0.9230769230769231
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+NATURE MAN:
+	Means: 6.25
+	WuPalmer: 0.5333333333333333
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+MAN WOMAN:
+	Means: 8.3
+	WuPalmer: 0.8235294117647058
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+MAN GOVERNOR:
+	Means: 5.25
+	WuPalmer: 0.7777777777777778
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+MURDER MANSLAUGHTER:
+	Means: 8.53
+	WuPalmer: 0.9166666666666666
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+SOAP OPERA:
+	Means: 7.94
+	WuPalmer: 0.2222222222222222
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+OPERA PERFORMANCE:
+	Means: 6.88
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+LIFE LESSON:
+	Means: 5.94
+	WuPalmer: 0.42857142857142855
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+FOCUS LIFE:
+	Means: 4.06
+	WuPalmer: 0.5333333333333333
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+PRODUCTION CREW:
+	Means: 6.25
+	WuPalmer: 0.36363636363636365
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+TELEVISION FILM:
+	Means: 7.72
+	WuPalmer: 0.7777777777777778
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+LOVER QUARREL:
+	Means: 6.19
+	WuPalmer: 0.4
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+VIEWER SERIAL:
+	Means: 2.97
+	WuPalmer: 0.5
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+POSSIBILITY GIRL:
+	Means: 1.94
+	WuPalmer: 0.13333333333333333
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+POPULATION DEVELOPMENT:
+	Means: 3.75
+	WuPalmer: 0.7272727272727273
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+MORALITY IMPORTANCE:
+	Means: 3.31
+	WuPalmer: 0.6666666666666666
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+MORALITY MARRIAGE:
+	Means: 3.69
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+MEXICO BRAZIL:
+	Means: 7.44
+	WuPalmer: 0.8
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+GENDER EQUALITY:
+	Means: 6.41
+	WuPalmer: 0.46153846153846156
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+CHANGE ATTITUDE:
+	Means: 5.44
+	WuPalmer: 0.5454545454545454
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+FAMILY PLANNING:
+	Means: 6.25
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+OPERA INDUSTRY:
+	Means: 2.63
+	WuPalmer: 0.26666666666666666
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+SUGAR APPROACH:
+	Means: 0.88
+	WuPalmer: 0.26666666666666666
+	shortestPath: 30.0
+	LeacockChodorow: 1.3156767939059373
+
+PRACTICE INSTITUTION:
+	Means: 3.19
+	WuPalmer: 0.8333333333333334
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+MINISTRY CULTURE:
+	Means: 4.69
+	WuPalmer: 0.5333333333333333
+	shortestPath: 33.0
+	LeacockChodorow: 1.6341305250244718
+
+PROBLEM CHALLENGE:
+	Means: 6.75
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+SIZE PROMINENCE:
+	Means: 5.31
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+COUNTRY CITIZEN:
+	Means: 7.31
+	WuPalmer: 0.4
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+PLANET PEOPLE:
+	Means: 5.75
+	WuPalmer: 0.18181818181818182
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+DEVELOPMENT ISSUE:
+	Means: 3.97
+	WuPalmer: 0.75
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+EXPERIENCE MUSIC:
+	Means: 3.47
+	WuPalmer: 0.6153846153846154
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+MUSIC PROJECT:
+	Means: 3.63
+	WuPalmer: 0.8
+	shortestPath: 37.0
+	LeacockChodorow: 2.327277705584417
+
+GLASS METAL:
+	Means: 5.56
+	WuPalmer: 0.3076923076923077
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+ALUMINUM METAL:
+	Means: 7.83
+	WuPalmer: 0.9333333333333333
+	shortestPath: 39.0
+	LeacockChodorow: 3.0204248861443626
+
+CHANCE CREDIBILITY:
+	Means: 3.88
+	WuPalmer: 0.5
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+EXHIBIT MEMORABILIA:
+	Means: 5.31
+	WuPalmer: 0.42857142857142855
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+CONCERT VIRTUOSO:
+	Means: 6.81
+	WuPalmer: 0.11764705882352941
+	shortestPath: 28.0
+	LeacockChodorow: 1.148622709242771
+
+ROCK JAZZ:
+	Means: 7.59
+	WuPalmer: 0.875
+	shortestPath: 38.0
+	LeacockChodorow: 2.6149597780361984
+
+MUSEUM THEATER:
+	Means: 7.19
+	WuPalmer: 0.625
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+OBSERVATION ARCHITECTURE:
+	Means: 4.38
+	WuPalmer: 0.7058823529411765
+	shortestPath: 35.0
+	LeacockChodorow: 1.9218125974762528
+
+SPACE WORLD:
+	Means: 6.53
+	WuPalmer: 0.5714285714285714
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+PRESERVATION WORLD:
+	Means: 6.19
+	WuPalmer: 0.5882352941176471
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+ADMISSION TICKET:
+	Means: 7.69
+	WuPalmer: 0.5714285714285714
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+SHOWER THUNDERSTORM:
+	Means: 6.31
+	WuPalmer: 0.7
+	shortestPath: 34.0
+	LeacockChodorow: 1.7676619176489945
+
+SHOWER FLOOD:
+	Means: 6.03
+	WuPalmer: 0.6363636363636364
+	shortestPath: 36.0
+	LeacockChodorow: 2.1041341542702074
+
+WEATHER FORECAST:
+	Means: 8.34
+	WuPalmer: 0.13333333333333333
+	shortestPath: 27.0
+	LeacockChodorow: 1.074514737089049
+
+DISASTER AREA:
+	Means: 6.25
+	WuPalmer: 0.5
+	shortestPath: 32.0
+	LeacockChodorow: 1.5163474893680884
+
+GOVERNOR OFFICE:
+	Means: 6.34
+	WuPalmer: 0.5263157894736842
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+ARCHITECTURE CENTURY:
+	Means: 3.78
+	WuPalmer: 0.3076923076923077
+	shortestPath: 31.0
+	LeacockChodorow: 1.410986973710262
+
+
+
+CORRELATIONS:
+Pearson: 
+          Means        WP        SP        LC
+Means  1.000000  0.303534  0.166532  0.314360
+WP     0.303534  1.000000  0.830627  0.894379
+SP     0.166532  0.830627  1.000000  0.884976
+LC     0.314360  0.894379  0.884976  1.000000
+Spearman: 
+          Means        WP        SP        LC
+Means  1.000000  0.354127  0.289525  0.289525
+WP     0.354127  1.000000  0.925464  0.925464
+SP     0.289525  0.925464  1.000000  1.000000
+LC     0.289525  0.925464  1.000000  1.000000
+
