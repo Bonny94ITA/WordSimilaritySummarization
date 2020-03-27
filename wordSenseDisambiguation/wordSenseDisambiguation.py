@@ -13,6 +13,8 @@ stop_words.add('.')
 stop_words.add(';')
 stop_words.add(':')
 stop_words.add('etc')
+stop_words.add("'s")
+stop_words.add("Lt.")
 #stop_words.add('\'\'')
 
 
@@ -94,9 +96,9 @@ def max_overlap(context1, context2):
     len2 = len(context2)
     olp = 0
     if len1 <= len2:
-        olp = overlap(context1, context2, len1)
+        olp = overlap_intersection(context1, context2, len1)
     else:
-        olp = overlap(context1, context2, len2)
+        olp = overlap_intersection(context1, context2, len2)
     return olp
 
 
@@ -132,6 +134,21 @@ def rebuild_sentence(sense, sentence_tokens, index):
             sentence += synonym + " " + token + " "
     return sentence
 
+def compute_accuracy():
+    semcor_sentences, semcor_lemmas = metrics.semcor_extraction(100)
+
+    corrects = 0 
+    
+    for sentence, word in zip(semcor_sentences, semcor_lemmas):
+        
+        best_sense = Lesk_algorithm(word.name(), sentence)
+
+        if(best_sense == word.synset()):
+            corrects+=1            
+        print("Sentence: {}\n best_sense: {} real_sense: {}\n\n".format(sentence, best_sense, word.synset()))
+    
+    print("Accuracy: ", corrects/len(semcor_lemmas))
+
 
 def main():
 
@@ -143,21 +160,8 @@ def main():
         sent = rebuild_sentence(best_sense, word_sent[2], word_sent[1])
         print("Sentence: {}\n sense: {} definition: {}\n\n".format(sent, best_sense, best_sense.definition()))
     """
-
-    semcor_sentences, semcor_extracted = metrics.semcor_extraction()
-    tmp = []
-
-    sentence = ""
-    for elem in enumerate(semcor_sentences):
-
-      print(delete_stop_words(list(elem)))
-    #print(sentence)
-
-
-
-    for i, x in zip(semcor_sentences, semcor_extracted):
-        print(i)
-        print(x)
+    compute_accuracy()
+    
 
 
 
