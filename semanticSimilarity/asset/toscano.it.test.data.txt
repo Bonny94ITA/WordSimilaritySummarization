@@ -198,206 +198,206 @@ diplomazia	negoziato
 gravità	meteora
 QI	Mensa
 Union Jack	bandiera
-terremoto	scossa
-patrimonio	azione
-ebreo	Gerusalemme
-nuvolosità	previsione
-dizionario	enciclopedia
-zecca	museo
-sedia	sgabello
-spagnolo	umidità
-lattina	bottiglia
-mosca	formica
-mito	satira
-centro della città	autobus
-coda	Boeing 747-200
-opera d'arte	artista
-NATO	alleanza
-re	sovrano
-ritmo	cadenza
-Alexander Fleming	penicillina
-flauto	musica
-airone cenerino	lago
-viscosità	spruzzo
-hardware	case
-anello	fidanzamento
-latino	tedesco
-classe operaia	fabbrica
-Shakespeare	Dickens
-banconota	prete
-strumento	lavoro
-cinghiale nano	suidi
-suffragio	uscita
-stella	luminosità
-trota	chitarra
-dollaro	milionario
-cifra	numero
-burrasca	coperta
-Obama	Clinton
-personaggio secondario	film
-Juventus	Bayern Monaco
-cambiamento climatico	precipitazione
-IA	batteria
-capolavoro	Gioconda
-crimine	aggressione
-incoronazione	acqua
-vocalista	pentagramma
-spareggio	pallacanestro
-forze armate	difesa
-lago	nuvola
-monastero	doccia
-lingua madre	lingua
-porto	incarto
-demonio	angelo
-crittogramma	simbolo
-campus	università
-libertà	libertà
-tifone	ciclone
-manuale	guida turistica
-Ebola	virus Ebola
-principessa	biscotto
-treno	tram
-ecosistema	economia
-regina regnante	regina degli scacchi
-oro	zinco
-cursore	patatine fritte
-Rio delle Amazzoni	foresta
-tennis	statistica
-Bolzano	teorema
-altitudine	conversione
-barca	albero
-trono	spada
-cotone	maglione
-ciliegia	fragola
-Islam	Corano
-Neanderthal	sport
-nepotismo	re
-personaggio	persona
-cisterna	vagone
-Mercurio	Giove
-bronchite	acetaminofene
-sangue	corpo
-islamofobia	ISIS
-uncinetto	uniforme
-Hadoop	touchscreen
-combustibile fossile	fossile
-mutante	sociobiologia
-sorella	fratello
-matita	storia
-eczema	dermatite
-imperatore	governatore
-corona	chiave
-algebra	operazione
-pistone	motore
-borsa di studio	retta
-libro	manoscritto
-lantana	bocca di leone
-buco nero	vuoto
-Impero Persiano	Ciro
-editoriale	notizia
-decorazione	busta
-squalo balena	aragosta
-mais	granturco
-disturbo bipolare	problema
-acido	base
-zero assoluto	vapore
-rivoluzione verde	vernice
-sistema operativo	deep learning
-olimpiadi internazionali di matematica	teoria
-El Niño	equatore
-distintivo	vetro
-dimora	scultore
-atmosfera	ozono
-scudo	brocchiero
-moneta	pagamento
-avena	campo
-monaco	croce
-cannoniera	costa
-roccia	miniera
-leggenda	morale
-campione	vincitore
-dado	cubo
-topologia	struttura
-cappella	cavo
-flusso di cassa	fiume
-serial killer	assassino
-matrice	molecola
-moda	stile
-vessillologia	bandiera
-trattato di Maastricht	Europa
-geyser	sorgente
-saccarosio	carboidrato
-spiaggia	costa
-mercato azionario	borsa
-tradizione	artigianato
-romanzo	scrittore
-panino	Subway
-acustica	suono
-scherma	ginnastica
-scrittore	regalo
-bosco	Tiger Woods
-nuvola	finestra
-JPEG	PDF
-regista	capo
-tassa	Brexit
-impollinazione	stame
-videogioco	gioco per PC
-cura	operazione chirurgica
-risaia	patata
-appunti	compito
-volpe	cellula del sangue
-cloruro di sodio	sale
-reddito	qualità della vita
-volontà	intenzione
-bussola	elefante
-seguito	macchina fotografica
-film	pellicola
-sergente	pistola
-mulino	seme
-gelato	colazione
-chiave	serratura
-cellulare	telefono
-scuola materna	asilo
-mondo occidentale	Western Union
-piantina	foglia
-pioggia	grandine
-felicità	tristezza
-baco da seta	bruco
-surf	sport acquatico
-macchina	camion
-cibo	programma
-romanzo a fumetti	fumetto
-serpente	lucertola
-ananas	smartphone
-sfondo del desktop	sfondo
-Celsius	Microsoft
-mietitrebbia	canna da zucchero
-jeans	donna
-matrice	vettore
-anidride carbonica	CO2
-allenatore	giocatore
-sasso	legno
-caricabatteria	disco
-manoscritto	articolo
-Gmail	Yahoo
-condensatore	diodo
-corruzione	frode
-Coca Cola	coca
-Platone	Aristotele
-guerra fredda	Unione Sovietica
-ugello	fluido
-fonologia	schermo
-Zara	leggings
-gioco del calcio	calcio
-germe	agente patogeno
-repubblica	duca
-palla	sfera
-Mozart	Guerre stellari
-maschera	festa
-Grand Theft Auto	GTA
-autostrada	strada
-reazione a catena	termodinamica
-illustrazione	vescica
+terremoto	scossa	3
+patrimonio	azione	2
+ebreo	Gerusalemme	2
+nuvolosità	previsione	2
+dizionario	enciclopedia	2
+zecca	museo	0
+sedia	sgabello	3
+spagnolo	umidità	0
+lattina	bottiglia	2
+mosca	formica	1
+mito	satira	0
+centro della città	autobus	1
+coda	Boeing 747-200	0
+opera d'arte	artista	1
+NATO	alleanza	2
+re	sovrano	4
+ritmo	cadenza	4
+Alexander Fleming	penicillina	1
+flauto	musica	1
+airone cenerino	lago	1
+viscosità	spruzzo	0
+hardware	case	2
+anello	fidanzamento	2
+latino	tedesco	2
+classe operaia	fabbrica	2
+Shakespeare	Dickens	2
+banconota	prete	0
+strumento	lavoro	1
+cinghiale nano	suidi	4
+suffragio	uscita	0
+stella	luminosità	3
+trota	chitarra	0
+dollaro	milionario	3
+cifra	numero	4
+burrasca	coperta	1
+Obama	Clinton	1
+personaggio secondario	film	2
+Juventus	Bayern Monaco	2
+cambiamento climatico	precipitazione	2
+IA	batteria	0
+capolavoro	Gioconda	2
+crimine	aggressione	2
+incoronazione	acqua	0
+vocalista	pentagramma	1
+spareggio	pallacanestro	1
+forze armate	difesa	2
+lago	nuvola	0
+monastero	doccia	0
+lingua madre	lingua	3
+porto	incarto	0
+demonio	angelo	2
+crittogramma	simbolo	2
+campus	università	3
+libertà	libertà	4
+tifone	ciclone	3
+manuale	guida turistica	3
+Ebola	virus Ebola	4
+principessa	biscotto	0
+treno	tram	3
+ecosistema	economia	1
+regina regnante	regina degli scacchi	2
+oro	zinco	2
+cursore	patatine fritte	0
+Rio delle Amazzoni	foresta	2
+tennis	statistica	0
+Bolzano	teorema	0
+altitudine	conversione	0
+barca	albero	2
+trono	spada	1
+cotone	maglione	2
+ciliegia	fragola	3
+Islam	Corano	2
+Neanderthal	sport	0
+nepotismo	re	0
+personaggio	persona	2
+cisterna	vagone	1
+Mercurio	Giove	3
+bronchite	acetaminofene	2
+sangue	corpo	2
+islamofobia	ISIS	1
+uncinetto	uniforme	0
+Hadoop	touchscreen	1
+combustibile fossile	fossile	1
+mutante	sociobiologia	0
+sorella	fratello	3
+matita	storia	2
+eczema	dermatite	3
+imperatore	governatore	3
+corona	chiave	1
+algebra	operazione	2
+pistone	motore	2
+borsa di studio	retta	2
+libro	manoscritto	4
+lantana	bocca di leone	3
+buco nero	vuoto	3
+Impero Persiano	Ciro	3
+editoriale	notizia	3
+decorazione	busta	1
+squalo balena	aragosta	2
+mais	granturco	4
+disturbo bipolare	problema	2
+acido	base	2
+zero assoluto	vapore	1
+rivoluzione verde	vernice	0
+sistema operativo	deep learning	1
+olimpiadi internazionali di matematica	teoria	1
+El Niño	equatore	1
+distintivo	vetro	0
+dimora	scultore	1
+atmosfera	ozono	2
+scudo	brocchiero	4
+moneta	pagamento	3
+avena	campo	2
+monaco	croce	2
+cannoniera	costa	1
+roccia	miniera	2
+leggenda	morale	2
+campione	vincitore	2
+dado	cubo	2
+topologia	struttura	4
+cappella	cavo	0
+flusso di cassa	fiume	1
+serial killer	assassino	3
+matrice	molecola	1
+moda	stile	2
+vessillologia	bandiera	2
+trattato di Maastricht	Europa	1
+geyser	sorgente	2
+saccarosio	carboidrato	3
+spiaggia	costa	3
+mercato azionario	borsa	4
+tradizione	artigianato	2
+romanzo	scrittore	2
+panino	Subway	2
+acustica	suono	3
+scherma	ginnastica	2
+scrittore	regalo	0
+bosco	Tiger Woods	0
+nuvola	finestra	0
+JPEG	PDF	3
+regista	capo	2
+tassa	Brexit	0
+impollinazione	stame	2
+videogioco	gioco per PC	4
+cura	operazione chirurgica	2
+risaia	patata	1
+appunti	compito	2
+volpe	cellula del sangue	0
+cloruro di sodio	sale	4
+reddito	qualità della vita	2
+volontà	intenzione	4
+bussola	elefante	0
+seguito	macchina fotografica	0
+film	pellicola	4
+sergente	pistola	1
+mulino	seme	2
+gelato	colazione	1
+chiave	serratura	2
+cellulare	telefono	4
+scuola materna	asilo	4
+mondo occidentale	Western Union	1
+piantina	foglia	2
+pioggia	grandine	3
+felicità	tristezza	2
+baco da seta	bruco	2
+surf	sport acquatico	3
+macchina	camion	3
+cibo	programma	0
+romanzo a fumetti	fumetto	4
+serpente	lucertola	2
+ananas	smartphone	0
+sfondo del desktop	sfondo	4
+Celsius	Microsoft	0
+mietitrebbia	canna da zucchero	1
+jeans	donna	1
+matrice	vettore	3
+anidride carbonica	CO2	4
+allenatore	giocatore	2
+sasso	legno	1
+caricabatteria	disco	1
+manoscritto	articolo	2
+Gmail	Yahoo	3
+condensatore	diodo	2
+corruzione	frode	1
+Coca Cola	coca	4
+Platone	Aristotele	2
+guerra fredda	Unione Sovietica	2
+ugello	fluido	1
+fonologia	schermo	0
+Zara	leggings	1
+gioco del calcio	calcio	4
+germe	agente patogeno	2
+repubblica	duca	0
+palla	sfera	2
+Mozart	Guerre stellari	0
+maschera	festa	2
+Grand Theft Auto	GTA	4
+autostrada	strada	3
+reazione a catena	termodinamica	2
+illustrazione	vescica	0
 antropologia	archeologia
 Dell	Dingle
 succo	cucchiaio
