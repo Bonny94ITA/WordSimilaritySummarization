@@ -1,5 +1,4 @@
 import utils
-# import sem_eval_mapper
 from nltk import word_tokenize
 from nltk.corpus import wordnet as wn
 

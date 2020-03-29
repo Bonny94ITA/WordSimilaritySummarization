@@ -8,7 +8,7 @@ from nltk import word_tokenize
 # Lettura file
 def read_file():
     array = []
-    with open("./asset/it.test.data.txt", "r") as tsv:
+    with open("./asset/bonazzi.it.test.data.txt", "r") as tsv:
         for line in tsv:
             array.append(line)
     return array
