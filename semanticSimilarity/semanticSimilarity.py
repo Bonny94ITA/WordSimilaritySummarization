@@ -28,7 +28,7 @@ def write_output(eval_uno, eval_due, correlation):
     with open("./asset/output.txt", "w") as tsv:
         for uno, due in zip(eval_uno, eval_due):
             tsv.write(uno[0] + " " + uno[1] + " " + uno[2] + " " + due[2] + " " + str(means(int(uno[2]), int(due[2]))) + "\n")
-        tsv.write(correlation[0][1][5])
+        tsv.write("Correlation Pearson: "+str(correlation[0][1].iat[0,1]))
 
 
 def main():
