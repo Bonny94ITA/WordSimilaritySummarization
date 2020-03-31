@@ -28,7 +28,7 @@ if len(sys.argv) < 2:
 elif len(sys.argv) == 2:
     input_name = sys.argv[1]
 else:
-    print('\n\n\nUSAGE to run the program\n', \
+    print('\n\n\nUSAGE to run the program\n',
           '\npython script_name your_surname\npython script_name\n\n')
     sys.exit(1)
 

@@ -46,8 +46,7 @@ def compute_similarity(item, metric):
 def print_similarity(correlations, words):
     text = ""
     valuesList = list(correlations.values())
-    matrix = np.array(valuesList)
-    matrix = matrix.transpose()
+    matrix = np.array(valuesList).transpose()
 
     for r, row in enumerate(matrix):
         text += words[r][0].upper() + " " + words[r][1].upper() + ":\n"

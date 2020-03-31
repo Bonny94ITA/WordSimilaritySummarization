@@ -5,14 +5,7 @@ from nltk import word_tokenize
 from nltk.corpus import wordnet as wn
 
 
-# Calcolo delle correlazioni con Pearson e Spearman
-def compute_correlations(correlations):
-    df = pd.DataFrame(correlations)
-    corrs = [["Pearson", df.corr()]]
-    return corrs
-
-
-# Inizializzazione dizionario (WP = Wu_Palmer, SP = Shortest_Path, LC = Leacock_Chodorow)
+# Inizializzazione dizionario per il calcolo della correlazione
 def init_annotation(eval_uno, eval_due):
     matrix_uno = np.array(eval_uno).transpose()
     matrix_due = np.array(eval_due).transpose()
@@ -20,15 +13,11 @@ def init_annotation(eval_uno, eval_due):
     return annotation
 
 
-def means(eval_uno, eval_due):
-    return (eval_uno + eval_due) / 2
-
-
-def write_output(eval_uno, eval_due, correlation):
-    with open("./asset/output.txt", "w") as tsv:
-        for uno, due in zip(eval_uno, eval_due):
-            tsv.write(uno[0] + " " + uno[1] + " " + uno[2] + " " + due[2] + " " + str(means(int(uno[2]), int(due[2]))) + "\n")
-        tsv.write("Correlation Pearson: "+str(correlation[0][1].iat[0,1]))
+# Calcolo delle correlazioni con Pearson e Spearman
+def compute_correlations(correlations):
+    df = pd.DataFrame(correlations)
+    corrs = [["Pearson", df.corr()]]
+    return corrs
 
 
 def main():
@@ -38,12 +27,9 @@ def main():
     reading_due = utils.read_file(path_due)
     eval_uno = utils.extract_word(reading_uno)
     eval_due = utils.extract_word(reading_due)
-    annotation = init_annotation(eval_uno, eval_due)
-    correlation = compute_correlations(annotation)
+    correlation = compute_correlations(init_annotation(eval_uno, eval_due))
+    utils.write_output(eval_uno, eval_due, correlation)
     print(correlation)
-    write_output(eval_uno, eval_due, correlation)
-
-    # print(means(eval_uno, eval_due))
 
 
 if __name__ == '__main__':

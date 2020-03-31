@@ -105,7 +105,7 @@ def select_lemma(lemmas):
 
 
 # Rimuove la parola scelta dalla frase
-def removeWord(sentence, word):
+def remove_word(sentence, word):
     tokens = word_tokenize(sentence)
     filtered_sentence = [w for w in tokens if w != word]
     return filtered_sentence
@@ -125,5 +125,5 @@ def semcor_extraction(sentence_number=50):
             lemma = select_lemma(elem).label()
             extracted.append(lemma)
             sentence = " ".join(semcor.sents()[i])
-            sentences.append(removeWord(sentence, lemma.name()))
+            sentences.append(remove_word(sentence, lemma.name()))
     return sentences, extracted

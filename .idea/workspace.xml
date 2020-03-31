@@ -10,25 +10,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wordSimilarity/wordSimilarity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="63" selection-end-column="16" />
+            <state relative-caret-position="438">
+              <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/semanticSimilarity/semanticSimilarity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +25,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/semanticSimilarity/asset/bonazzi.it.test.data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
+            <state relative-caret-position="404">
               <caret line="399" column="25" selection-start-line="399" selection-start-column="25" selection-end-line="399" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/semanticSimilarity/semanticSimilarity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,15 +46,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/semanticSimilarity/asset/toscano.it.test.data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7800" />
+            <state relative-caret-position="-1440" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/semanticSimilarity/asset/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="200" selection-start-line="200" selection-end-line="200" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/semanticSimilarity/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="301">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -65,17 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/semanticSimilarity/sem_eval_mapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordSimilarity/metrics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+            <state relative-caret-position="560">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -83,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordSenseDisambiguation/wordSenseDisambiguation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="33" />
+            <state relative-caret-position="61">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -92,8 +92,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordSenseDisambiguation/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="30" selection-start-line="30" selection-end-line="31" />
+            <state relative-caret-position="621">
+              <caret line="124" column="26" lean-forward="true" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordSimilarity/metrics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1120">
+              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,33 +138,32 @@
       <list>
         <option value="$PROJECT_DIR$/Prova.py" />
         <option value="$PROJECT_DIR$/wuPalmer/wupalmer.py" />
-        <option value="$PROJECT_DIR$/wordSimilarity/wordSimilarity.py" />
         <option value="$PROJECT_DIR$/e/r.py" />
         <option value="$PROJECT_DIR$/wordSimilarity/metrics.py" />
         <option value="$PROJECT_DIR$/wordSenseDisambiguation/asset/sentences.txt" />
         <option value="$PROJECT_DIR$/wordSenseDisambiguation/metrics.py" />
-        <option value="$PROJECT_DIR$/wordSenseDisambiguation/utils.py" />
         <option value="$PROJECT_DIR$/semanticSimilarity/wordSenseDisambiguation.py" />
         <option value="$PROJECT_DIR$/wordSenseDisambiguation/wordSenseDisambiguation.py" />
-        <option value="$PROJECT_DIR$/semanticSimilarity/sem_eval_mapper.py" />
         <option value="$PROJECT_DIR$/semanticSimilarity/asset/it.test.data.txt" />
         <option value="$PROJECT_DIR$/semanticSimilarity/asset/bonazzi.it.test.data.txt" />
-        <option value="$PROJECT_DIR$/semanticSimilarity/utils.py" />
+        <option value="$PROJECT_DIR$/wordSimilarity/wordSimilarity.py" />
+        <option value="$PROJECT_DIR$/semanticSimilarity/sem_eval_mapper.py" />
         <option value="$PROJECT_DIR$/semanticSimilarity/semanticSimilarity.py" />
+        <option value="$PROJECT_DIR$/wordSenseDisambiguation/utils.py" />
+        <option value="$PROJECT_DIR$/semanticSimilarity/utils.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="552" />
-    <option name="width" value="1378" />
-    <option name="height" value="1048" />
+    <option name="x" value="551" />
+    <option name="width" value="1379" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,12 +179,6 @@
             <path>
               <item name="TLN_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="TLN_2" type="462c0819:PsiDirectoryNode" />
-              <item name="semanticSimilarity" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TLN_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TLN_2" type="462c0819:PsiDirectoryNode" />
               <item name="wordSenseDisambiguation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -178,10 +186,17 @@
               <item name="TLN_2" type="462c0819:PsiDirectoryNode" />
               <item name="wordSimilarity" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TLN_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TLN_2" type="462c0819:PsiDirectoryNode" />
+              <item name="wordSimilarity" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,6 +230,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.semanticSimilarity">
+    <configuration name="sem_eval_mapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TLN_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/semanticSimilarity" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/semanticSimilarity/sem_eval_mapper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="semanticSimilarity" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TLN_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,7 +272,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wordSenseDisambiguation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TLN_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,7 +284,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\bonaz\OneDrive\Documenti\Pyton\TLN_2\semanticSimilarity\semanticSimilarity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/semanticSimilarity/utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,34 +335,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wupalmer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TLN_2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wuPalmer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wuPalmer/wupalmer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.semanticSimilarity" />
-        <item itemvalue="Python.wordSenseDisambiguation" />
-        <item itemvalue="Python.wordSenseDisambiguation (1)" />
+        <item itemvalue="Python.sem_eval_mapper" />
         <item itemvalue="Python.wordSimilarity" />
-        <item itemvalue="Python.wupalmer" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python.wordSenseDisambiguation" />
       </list>
     </recent_temporary>
   </component>
@@ -336,11 +351,11 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19233312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19233312" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26487252" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33569404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,9 +393,6 @@
     <entry file="file://$PROJECT_DIR$/e/r.py" />
     <entry file="file://$PROJECT_DIR$/wordSenseDisambiguation/asset/output.txt" />
     <entry file="file://$PROJECT_DIR$/wordSimilarity/asset/WordSim353.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordSimilarity/asset/output.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wordSimilarity/__init__.py">
@@ -426,82 +438,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wordSimilarity/asset/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42356" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/semanticSimilarity/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/semanticSimilarity/asset/toscano.it.test.data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1440" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/semanticSimilarity/asset/bonazzi.it.test.data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="404">
           <caret line="399" column="25" selection-start-line="399" selection-start-column="25" selection-end-line="399" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/semanticSimilarity/sem_eval_mapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="560">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semanticSimilarity/asset/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semanticSimilarity/semanticSimilarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wordSenseDisambiguation/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="30" selection-start-line="30" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semanticSimilarity/asset/toscano.it.test.data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7800" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordSenseDisambiguation/wordSenseDisambiguation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordSimilarity/metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordSimilarity/wordSimilarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="63" selection-end-column="16" />
+        <state relative-caret-position="621">
+          <caret line="124" column="26" lean-forward="true" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/semanticSimilarity/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="301">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semanticSimilarity/asset/output.txt">
+    <entry file="file://$PROJECT_DIR$/wordSenseDisambiguation/wordSenseDisambiguation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+        <state relative-caret-position="61">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semanticSimilarity/semanticSimilarity.py">
+    <entry file="file://$PROJECT_DIR$/wordSimilarity/metrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="1120">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordSimilarity/wordSimilarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
