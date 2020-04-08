@@ -1,201 +1,201 @@
-terremoto scossa 4 3 3.5
-patrimonio azione 2 2 2.0
-ebreo Gerusalemme 1 2 1.5
-nuvolosità previsione 3 2 2.5
-dizionario enciclopedia 4 2 3.0
-zecca museo 1 0 0.5
-sedia sgabello 4 3 3.5
-spagnolo umidità 0 0 0.0
-lattina bottiglia 3 2 2.5
-mosca formica 3 1 2.0
-mito satira 2 0 1.0
-centro della città autobus 1 1 1.0
-coda Boeing 747-200 1 0 0.5
-opera d'arte artista 3 1 2.0
-NATO alleanza 2 2 2.0
-re sovrano 4 4 4.0
-ritmo cadenza 4 4 4.0
-Alexander Fleming penicillina 2 1 1.5
-flauto musica 3 1 2.0
-airone cenerino lago 1 1 1.0
-viscosità spruzzo 1 0 0.5
-hardware case 3 2 2.5
-anello fidanzamento 3 2 2.5
-latino tedesco 3 2 2.5
-classe operaia fabbrica 2 2 2.0
-Shakespeare Dickens 3 2 2.5
-banconota prete 0 0 0.0
-strumento lavoro 1 1 1.0
-cinghiale nano suidi 4 4 4.0
-suffragio uscita 0 0 0.0
-stella luminosità 2 3 2.5
-trota chitarra 0 0 0.0
-dollaro milionario 1 3 2.0
-cifra numero 4 4 4.0
-burrasca coperta 0 1 0.5
-Obama Clinton 3 1 2.0
-personaggio secondario film 2 2 2.0
-Juventus Bayern Monaco 3 2 2.5
-cambiamento climatico precipitazione 3 2 2.5
-IA batteria 1 0 0.5
-capolavoro Gioconda 2 2 2.0
-crimine aggressione 4 2 3.0
-incoronazione acqua 0 0 0.0
-vocalista pentagramma 2 1 1.5
-spareggio pallacanestro 1 1 1.0
-forze armate difesa 2 2 2.0
-lago nuvola 2 0 1.0
-monastero doccia 0 0 0.0
-lingua madre lingua 4 3 3.5
-porto incarto 0 0 0.0
-demonio angelo 1 2 1.5
-crittogramma simbolo 3 2 2.5
-campus università 4 3 3.5
-libertà libertà 4 4 4.0
-tifone ciclone 4 3 3.5
-manuale guida turistica 3 3 3.0
-Ebola virus Ebola 4 4 4.0
-principessa biscotto 0 0 0.0
-treno tram 3 3 3.0
-ecosistema economia 1 1 1.0
-regina regnante regina degli scacchi 2 2 2.0
-oro zinco 2 2 2.0
-cursore patatine fritte 0 0 0.0
-Rio delle Amazzoni foresta 1 2 1.5
-tennis statistica 1 0 0.5
-Bolzano teorema 0 0 0.0
-altitudine conversione 0 0 0.0
-barca albero 1 2 1.5
-trono spada 1 1 1.0
-cotone maglione 2 2 2.0
-ciliegia fragola 3 3 3.0
-Islam Corano 2 2 2.0
-Neanderthal sport 0 0 0.0
-nepotismo re 1 0 0.5
-personaggio persona 4 2 3.0
-cisterna vagone 3 1 2.0
-Mercurio Giove 3 3 3.0
-bronchite acetaminofene 1 2 1.5
-sangue corpo 2 2 2.0
-islamofobia ISIS 1 1 1.0
-uncinetto uniforme 0 0 0.0
-Hadoop touchscreen 1 1 1.0
-combustibile fossile fossile 3 1 2.0
-mutante sociobiologia 0 0 0.0
-sorella fratello 4 3 3.5
-matita storia 2 2 2.0
-eczema dermatite 4 3 3.5
-imperatore governatore 4 3 3.5
-corona chiave 1 1 1.0
-algebra operazione 2 2 2.0
-pistone motore 3 2 2.5
-borsa di studio retta 3 2 2.5
-libro manoscritto 4 4 4.0
-lantana bocca di leone 3 3 3.0
-buco nero vuoto 4 3 3.5
-Impero Persiano Ciro 3 3 3.0
-editoriale notizia 3 3 3.0
-decorazione busta 1 1 1.0
-squalo balena aragosta 2 2 2.0
-mais granturco 4 4 4.0
-disturbo bipolare problema 2 2 2.0
-acido base 0 2 1.0
-zero assoluto vapore 0 1 0.5
-rivoluzione verde vernice 1 0 0.5
-sistema operativo deep learning 2 1 1.5
-olimpiadi internazionali di matematica teoria 0 1 0.5
-El Niño equatore 0 1 0.5
-distintivo vetro 0 0 0.0
-dimora scultore 0 1 0.5
-atmosfera ozono 4 2 3.0
-scudo brocchiero 4 4 4.0
-moneta pagamento 3 3 3.0
-avena campo 2 2 2.0
-monaco croce 1 2 1.5
-cannoniera costa 1 1 1.0
-roccia miniera 3 2 2.5
-leggenda morale 0 2 1.0
-campione vincitore 4 2 3.0
-dado cubo 4 2 3.0
-topologia struttura 3 4 3.5
-cappella cavo 0 0 0.0
-flusso di cassa fiume 1 1 1.0
-serial killer assassino 4 3 3.5
-matrice molecola 1 1 1.0
-moda stile 4 2 3.0
-vessillologia bandiera 3 2 2.5
-trattato di Maastricht Europa 1 1 1.0
-geyser sorgente 3 2 2.5
-saccarosio carboidrato 4 3 3.5
-spiaggia costa 4 3 3.5
-mercato azionario borsa 4 4 4.0
-tradizione artigianato 1 2 1.5
-romanzo scrittore 3 2 2.5
-panino Subway 2 2 2.0
-acustica suono 4 3 3.5
-scherma ginnastica 2 2 2.0
-scrittore regalo 0 0 0.0
-bosco Tiger Woods 0 0 0.0
-nuvola finestra 0 0 0.0
-JPEG PDF 3 3 3.0
-regista capo 3 2 2.5
-tassa Brexit 1 0 0.5
-impollinazione stame 2 2 2.0
-videogioco gioco per PC 4 4 4.0
-cura operazione chirurgica 2 2 2.0
-risaia patata 1 1 1.0
-appunti compito 3 2 2.5
-volpe cellula del sangue 0 0 0.0
-cloruro di sodio sale 4 4 4.0
-reddito qualità della vita 3 2 2.5
-volontà intenzione 4 4 4.0
-bussola elefante 0 0 0.0
-seguito macchina fotografica 0 0 0.0
-film pellicola 4 4 4.0
-sergente pistola 1 1 1.0
-mulino seme 1 2 1.5
-gelato colazione 1 1 1.0
-chiave serratura 3 2 2.5
-cellulare telefono 4 4 4.0
-scuola materna asilo 4 4 4.0
-mondo occidentale Western Union 0 1 0.5
-piantina foglia 3 2 2.5
-pioggia grandine 3 3 3.0
-felicità tristezza 3 2 2.5
-baco da seta bruco 4 2 3.0
-surf sport acquatico 3 3 3.0
-macchina camion 3 3 3.0
-cibo programma 0 0 0.0
-romanzo a fumetti fumetto 4 4 4.0
-serpente lucertola 3 2 2.5
-ananas smartphone 0 0 0.0
-sfondo del desktop sfondo 4 4 4.0
-Celsius Microsoft 0 0 0.0
-mietitrebbia canna da zucchero 1 1 1.0
-jeans donna 1 1 1.0
-matrice vettore 4 3 3.5
-anidride carbonica CO2 4 4 4.0
-allenatore giocatore 3 2 2.5
-sasso legno 2 1 1.5
-caricabatteria disco 1 1 1.0
-manoscritto articolo 3 2 2.5
-Gmail Yahoo 3 3 3.0
-condensatore diodo 2 2 2.0
-corruzione frode 4 1 2.5
-Coca Cola coca 4 4 4.0
-Platone Aristotele 3 2 2.5
-guerra fredda Unione Sovietica 2 2 2.0
-ugello fluido 1 1 1.0
-fonologia schermo 0 0 0.0
-Zara leggings 1 1 1.0
-gioco del calcio calcio 4 4 4.0
-germe agente patogeno 4 2 3.0
-repubblica duca 3 0 1.5
-palla sfera 4 2 3.0
-Mozart Guerre stellari 1 0 0.5
-maschera festa 2 2 2.0
-Grand Theft Auto GTA 4 4 4.0
-autostrada strada 4 3 3.5
-reazione a catena termodinamica 1 2 1.5
-illustrazione vescica 0 0 0.0
+terremoto	scossa	4	3	3.5
+patrimonio	azione	2	2	2.0
+ebreo	Gerusalemme	1	2	1.5
+nuvolosità	previsione	3	2	2.5
+dizionario	enciclopedia	4	2	3.0
+zecca	museo	1	0	0.5
+sedia	sgabello	4	3	3.5
+spagnolo	umidità	0	0	0.0
+lattina	bottiglia	3	2	2.5
+mosca	formica	3	1	2.0
+mito	satira	2	0	1.0
+centro della città	autobus	1	1	1.0
+coda	Boeing 747-200	1	0	0.5
+opera d'arte	artista	3	1	2.0
+NATO	alleanza	2	2	2.0
+re	sovrano	4	4	4.0
+ritmo	cadenza	4	4	4.0
+Alexander Fleming	penicillina	2	1	1.5
+flauto	musica	3	1	2.0
+airone cenerino	lago	1	1	1.0
+viscosità	spruzzo	1	0	0.5
+hardware	case	3	2	2.5
+anello	fidanzamento	3	2	2.5
+latino	tedesco	3	2	2.5
+classe operaia	fabbrica	2	2	2.0
+Shakespeare	Dickens	3	2	2.5
+banconota	prete	0	0	0.0
+strumento	lavoro	1	1	1.0
+cinghiale nano	suidi	4	4	4.0
+suffragio	uscita	0	0	0.0
+stella	luminosità	2	3	2.5
+trota	chitarra	0	0	0.0
+dollaro	milionario	1	3	2.0
+cifra	numero	4	4	4.0
+burrasca	coperta	0	1	0.5
+Obama	Clinton	3	1	2.0
+personaggio secondario	film	2	2	2.0
+Juventus	Bayern Monaco	3	2	2.5
+cambiamento climatico	precipitazione	3	2	2.5
+IA	batteria	1	0	0.5
+capolavoro	Gioconda	2	2	2.0
+crimine	aggressione	4	2	3.0
+incoronazione	acqua	0	0	0.0
+vocalista	pentagramma	2	1	1.5
+spareggio	pallacanestro	1	1	1.0
+forze armate	difesa	2	2	2.0
+lago	nuvola	2	0	1.0
+monastero	doccia	0	0	0.0
+lingua madre	lingua	4	3	3.5
+porto	incarto	0	0	0.0
+demonio	angelo	1	2	1.5
+crittogramma	simbolo	3	2	2.5
+campus	università	4	3	3.5
+libertà	libertà	4	4	4.0
+tifone	ciclone	4	3	3.5
+manuale	guida turistica	3	3	3.0
+Ebola	virus Ebola	4	4	4.0
+principessa	biscotto	0	0	0.0
+treno	tram	3	3	3.0
+ecosistema	economia	1	1	1.0
+regina regnante	regina degli scacchi	2	2	2.0
+oro	zinco	2	2	2.0
+cursore	patatine fritte	0	0	0.0
+Rio delle Amazzoni	foresta	1	2	1.5
+tennis	statistica	1	0	0.5
+Bolzano	teorema	0	0	0.0
+altitudine	conversione	0	0	0.0
+barca	albero	1	2	1.5
+trono	spada	1	1	1.0
+cotone	maglione	2	2	2.0
+ciliegia	fragola	3	3	3.0
+Islam	Corano	2	2	2.0
+Neanderthal	sport	0	0	0.0
+nepotismo	re	1	0	0.5
+personaggio	persona	4	2	3.0
+cisterna	vagone	3	1	2.0
+Mercurio	Giove	3	3	3.0
+bronchite	acetaminofene	1	2	1.5
+sangue	corpo	2	2	2.0
+islamofobia	ISIS	1	1	1.0
+uncinetto	uniforme	0	0	0.0
+Hadoop	touchscreen	1	1	1.0
+combustibile fossile	fossile	3	1	2.0
+mutante	sociobiologia	0	0	0.0
+sorella	fratello	4	3	3.5
+matita	storia	2	2	2.0
+eczema	dermatite	4	3	3.5
+imperatore	governatore	4	3	3.5
+corona	chiave	1	1	1.0
+algebra	operazione	2	2	2.0
+pistone	motore	3	2	2.5
+borsa di studio	retta	3	2	2.5
+libro	manoscritto	4	4	4.0
+lantana	bocca di leone	3	3	3.0
+buco nero	vuoto	4	3	3.5
+Impero Persiano	Ciro	3	3	3.0
+editoriale	notizia	3	3	3.0
+decorazione	busta	1	1	1.0
+squalo balena	aragosta	2	2	2.0
+mais	granturco	4	4	4.0
+disturbo bipolare	problema	2	2	2.0
+acido	base	0	2	1.0
+zero assoluto	vapore	0	1	0.5
+rivoluzione verde	vernice	1	0	0.5
+sistema operativo	deep learning	2	1	1.5
+olimpiadi internazionali di matematica	teoria	0	1	0.5
+El Niño	equatore	0	1	0.5
+distintivo	vetro	0	0	0.0
+dimora	scultore	0	1	0.5
+atmosfera	ozono	4	2	3.0
+scudo	brocchiero	4	4	4.0
+moneta	pagamento	3	3	3.0
+avena	campo	2	2	2.0
+monaco	croce	1	2	1.5
+cannoniera	costa	1	1	1.0
+roccia	miniera	3	2	2.5
+leggenda	morale	0	2	1.0
+campione	vincitore	4	2	3.0
+dado	cubo	4	2	3.0
+topologia	struttura	3	4	3.5
+cappella	cavo	0	0	0.0
+flusso di cassa	fiume	1	1	1.0
+serial killer	assassino	4	3	3.5
+matrice	molecola	1	1	1.0
+moda	stile	4	2	3.0
+vessillologia	bandiera	3	2	2.5
+trattato di Maastricht	Europa	1	1	1.0
+geyser	sorgente	3	2	2.5
+saccarosio	carboidrato	4	3	3.5
+spiaggia	costa	4	3	3.5
+mercato azionario	borsa	4	4	4.0
+tradizione	artigianato	1	2	1.5
+romanzo	scrittore	3	2	2.5
+panino	Subway	2	2	2.0
+acustica	suono	4	3	3.5
+scherma	ginnastica	2	2	2.0
+scrittore	regalo	0	0	0.0
+bosco	Tiger Woods	0	0	0.0
+nuvola	finestra	0	0	0.0
+JPEG	PDF	3	3	3.0
+regista	capo	3	2	2.5
+tassa	Brexit	1	0	0.5
+impollinazione	stame	2	2	2.0
+videogioco	gioco per PC	4	4	4.0
+cura	operazione chirurgica	2	2	2.0
+risaia	patata	1	1	1.0
+appunti	compito	3	2	2.5
+volpe	cellula del sangue	0	0	0.0
+cloruro di sodio	sale	4	4	4.0
+reddito	qualità della vita	3	2	2.5
+volontà	intenzione	4	4	4.0
+bussola	elefante	0	0	0.0
+seguito	macchina fotografica	0	0	0.0
+film	pellicola	4	4	4.0
+sergente	pistola	1	1	1.0
+mulino	seme	1	2	1.5
+gelato	colazione	1	1	1.0
+chiave	serratura	3	2	2.5
+cellulare	telefono	4	4	4.0
+scuola materna	asilo	4	4	4.0
+mondo occidentale	Western Union	0	1	0.5
+piantina	foglia	3	2	2.5
+pioggia	grandine	3	3	3.0
+felicità	tristezza	3	2	2.5
+baco da seta	bruco	4	2	3.0
+surf	sport acquatico	3	3	3.0
+macchina	camion	3	3	3.0
+cibo	programma	0	0	0.0
+romanzo a fumetti	fumetto	4	4	4.0
+serpente	lucertola	3	2	2.5
+ananas	smartphone	0	0	0.0
+sfondo del desktop	sfondo	4	4	4.0
+Celsius	Microsoft	0	0	0.0
+mietitrebbia	canna da zucchero	1	1	1.0
+jeans	donna	1	1	1.0
+matrice	vettore	4	3	3.5
+anidride carbonica	CO2	4	4	4.0
+allenatore	giocatore	3	2	2.5
+sasso	legno	2	1	1.5
+caricabatteria	disco	1	1	1.0
+manoscritto	articolo	3	2	2.5
+Gmail	Yahoo	3	3	3.0
+condensatore	diodo	2	2	2.0
+corruzione	frode	4	1	2.5
+Coca Cola	coca	4	4	4.0
+Platone	Aristotele	3	2	2.5
+guerra fredda	Unione Sovietica	2	2	2.0
+ugello	fluido	1	1	1.0
+fonologia	schermo	0	0	0.0
+Zara	leggings	1	1	1.0
+gioco del calcio	calcio	4	4	4.0
+germe	agente patogeno	4	2	3.0
+repubblica	duca	3	0	1.5
+palla	sfera	4	2	3.0
+Mozart	Guerre stellari	1	0	0.5
+maschera	festa	2	2	2.0
+Grand Theft Auto	GTA	4	4	4.0
+autostrada	strada	4	3	3.5
+reazione a catena	termodinamica	1	2	1.5
+illustrazione	vescica	0	0	0.0
 Correlation Pearson: 0.8065487413778053
