@@ -81,6 +81,7 @@ def words_to_eval(evals):
 
 	return words_2_eval
 
+#estrazione della glossa da babelnet.io
 def get_gloss(id):
 
 	service_url = 'https://babelnet.io/v5/getSynset'
@@ -97,6 +98,7 @@ def get_gloss(id):
 	
 	return ['BABEL SYNSET NOT FOUND'] if 'message' in  babel_synset else babel_synset['glosses'][0]['gloss']
 
+#scrittura file della glossa estratta
 def write_words_and_babs(words_and_babs):
 
 	with open("./asset/babs_and_gloss.txt", "w") as tsv:
