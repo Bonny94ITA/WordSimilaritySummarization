@@ -1,8 +1,6 @@
 import utils
 import pandas as pd
 import numpy as np
-from nltk import word_tokenize
-from nltk.corpus import wordnet as wn
 
 
 # Inizializzazione dizionario per il calcolo della correlazione
