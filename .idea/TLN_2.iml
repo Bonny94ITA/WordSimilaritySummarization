@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/wordSenseDisambiguation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/semanticSimilarity" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nasari" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (Anaconda)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
