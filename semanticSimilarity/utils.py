@@ -45,7 +45,7 @@ def word_to_babel_dict(babel_synsets):
     word_2_babel = dict()
 
     for bab_syn in babel_synsets:
-        if (bab_syn[0] == '#'):
+        if bab_syn[0] == '#':
             key = bab_syn[1:-1]
             word_2_babel[key] = []
         else:
@@ -97,7 +97,7 @@ def get_gloss(id):
 def write_words_and_babs(words_and_babs):
     with open("./asset/babs_and_gloss.txt", "w") as tsv:
         for word_bab in words_and_babs:
-            if (word_bab[1] is not None):
+            if word_bab[1] is not None:
                 # tsv.write(word_bab[0][0]+" "+word_bab[0][1]+"\n"+word_bab[1][0]+"\n"+word_bab[1][1]+"\n\n")
                 tsv.write(word_bab[0][0] + " " + word_bab[0][1] + " " + word_bab[1][0] + " " + word_bab[1][
                     1] + "\n" + get_gloss(word_bab[1][0]) + "\n" + get_gloss(word_bab[1][1]) + "\n\n")
