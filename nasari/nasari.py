@@ -1,5 +1,10 @@
 import utils
+import itertools
+import importlib.util
 
+spec = importlib.util.spec_from_file_location("wordSenseDisambiguation", "../wordSenseDisambiguation/wordSenseDisambiguation.py")
+wsb = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(wsb)
 
 def similarity(vect1, vect2):
     set1 = set(vect1)
@@ -25,15 +30,45 @@ def compute_similarity(babel_ids1, babel_ids2, nasari):
                     best_bab = (bab1, bab2)
     return max_sim, best_bab
 
+#w1[s1, s2, s3]  w2[s1,s2,s3,s4,s5]  w3[s1,s2]
+#   s1  s1  s1      [w1s1    w2s1]    [w1s1    w3s1]    [w2s1    w3s1]
+#   s1  s1  s2
+#   s1  s2  s1
+#   s1  s2  s2
+
+#   s1  s1
+#   s1  s2
+#   s1  s3
+
+def get_babel_ids(title, word_to_synset):
+    babel_ids = []
+    
+    for word in title:
+        babel_ids.append(word_to_synset[word])
+
+    return babel_ids
 
 def get_context(title, word_to_synset, nasari):
-    for word_uno in title:
-        for word_due in title[1:]:
-            babel_ids1 = word_to_synset[word_uno]  # estraiamo i significati delle parole
-            babel_ids2 = word_to_synset[word_due]
-            sim, best_bab = compute_similarity(babel_ids1, babel_ids2, nasari)
+    #babel_ids = get_babel_ids(title, word_to_synset)
 
-    return
+    
+    
+    wsb.Lesk_algorithm(title[0], title)
+    #for babel_id in babel_ids:
+    #    print(len(babel_id))
+
+    #lista_id = list(itertools.product(*babel_ids))
+
+    #print(len(lista_id))
+    #for tuple_id in lista_id:
+        #print(tuple_id)
+    #for word_uno in title:
+    #    for word_due in title[1:]:
+    #        babel_ids1 = word_to_synset[word_uno]  # estraiamo i significati delle parole
+    #        babel_ids2 = word_to_synset[word_due]
+    #        sim, best_bab = compute_similarity(babel_ids1, babel_ids2, nasari)
+
+    #return
 
 
 def main():
@@ -52,7 +87,7 @@ def main():
     dictionary = utils.paragraph(text)
     title = utils.delete_stop_words(dictionary["Titolo"])
 
-    # get_context(title, word_to_synset, nasari)
+    get_context(title, word_to_synset, nasari)
 
 
 if __name__ == '__main__':

@@ -116,6 +116,7 @@ def word_to_synset_dict(babel_synsets):
         if bab_syn[0] == '#':
             key = bab_syn[1:-1]
             word_2_babel[key] = []
-        else:
-            word_2_babel[key].append(bab_syn[:-1])
+        else:            
+            if(len(word_2_babel[key]) < 5):
+                word_2_babel[key].append(bab_syn[:-1])            
     return word_2_babel
