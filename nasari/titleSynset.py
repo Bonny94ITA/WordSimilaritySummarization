@@ -16,7 +16,11 @@ def main():
         for path in paths:
             text = utils.read_file(path)
             dictionary = utils.paragraph(text)
-            title = utils.delete_stop_words(dictionary["Titolo"])
+
+            unified = utils.unify_name(dictionary["Titolo"])
+            title=utils.delete_stop_words(unified)
+
+            #print(title)           
             get_synset(title, tsv)
 
 
