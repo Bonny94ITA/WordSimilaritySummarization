@@ -77,17 +77,46 @@ def init_dictionary():
 # Divisione del testo in titolo e paragrafi
 def paragraph(text):
     dictionary = init_dictionary()
-    dictionary["Titolo"] = text[0].rstrip('\n')
+    dictionary["Titolo"] = word_tokenize(text[0].rstrip('\n'))
     for elem in text[2:]:
         if elem != "\n":
-            dictionary["Paragrafi"].append(elem.rstrip('\n'))
+            dictionary["Paragrafi"].append(word_tokenize(elem.rstrip('\n')))
     return dictionary
 
+#controllo se la parola è presente nella frase
+def check_in_sentence(word, sentence):
+    for w in sentence:        
+        if word == w or word in w:
+            return True
+
+    return False
+
+#Uniamo i nomi propri in un'unica parola
+def unify_name(sentence):
+    sentence_word = []    
+    
+    for i, word in enumerate(sentence):
+        check = check_in_sentence(word, sentence_word)
+                
+        if(word[0].isupper() and not check):            
+            w=word
+            for word1 in sentence[i+1:]:
+                if(word1[0].isupper()):
+                    w+=" "+word1
+                else:
+                    break
+            
+            sentence_word.append(w)            
+        else:
+            if(not check):
+                sentence_word.append(word)
+
+    return sentence_word
 
 # Eliminazione delle stop word (es. and, at, etc...)
-def delete_stop_words(sentence):
-    word_tokens = word_tokenize(sentence)
-    filtered_sentence = [w for w in word_tokens if not w in stop_words]
+def delete_stop_words(word_tokens):
+    filtered_sentence = [w for w in word_tokens if not w in stop_words]    
+
     return filtered_sentence
 
 

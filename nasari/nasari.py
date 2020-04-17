@@ -1,6 +1,7 @@
 import utils
 import itertools
 import importlib.util
+from nltk import word_tokenize
 
 spec = importlib.util.spec_from_file_location("wordSenseDisambiguation", "../wordSenseDisambiguation/wordSenseDisambiguation.py")
 wsb = importlib.util.module_from_spec(spec)
@@ -70,6 +71,16 @@ def get_context(title, word_to_synset, nasari):
 
     #return
 
+def clean_text(dictionary):
+
+    unified = utils.unify_name(dictionary["Titolo"])
+    dictionary["Titolo"]=utils.delete_stop_words(unified)
+    
+    for i, paragraph in enumerate(dictionary["Paragrafi"]):
+        unified = utils.unify_name(paragraph)
+        dictionary["Paragrafi"][i] = utils.delete_stop_words(unified)
+
+    return dictionary
 
 def main():
     path = "./asset/Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt"
@@ -85,9 +96,11 @@ def main():
 
     text = utils.read_file(path)
     dictionary = utils.paragraph(text)
-    title = utils.delete_stop_words(dictionary["Titolo"])
+    
+    dictionary = clean_text(dictionary)
 
-    get_context(title, word_to_synset, nasari)
+    print(dictionary)
+    #get_context(title, word_to_synset, nasari)
 
 
 if __name__ == '__main__':
