@@ -7,6 +7,7 @@ import json
 import csv
 from nltk.corpus import wordnet as wn
 from itertools import zip_longest
+from gensim.summarization import keywords
 
 stop_words = set(stopwords.words('english'))
 stop_words.add(',')
@@ -86,6 +87,13 @@ def init_dictionary():
 	dictionary = {"Titolo": "", "Paragrafi": []}
 	return dictionary
 
+def get_key_words(text):
+	new_text = ""
+
+	for sent in text:
+		new_text+=sent
+
+	return keywords(new_text).split("\n")
 
 # Divisione del testo in titolo e paragrafi
 def paragraph(text):
@@ -170,7 +178,7 @@ def word_to_synset_dict(babel_synsets):
 			key = bab_syn[1:-1]
 			word_2_babel[key] = []
 		else:            
-			if(len(word_2_babel[key]) < 15):#	NUMERO DI BABEL SYNSET DA PRENDERE IN CONSIDERAZIONE
+			if(len(word_2_babel[key]) < 15):#	NUMERO DI BABEL SYNSET DA PRENDERE IN CONSIDERAZIONE NEL FILE SYNSETS.txt
 				word_2_babel[key].append(bab_syn[:-1])            
 	return word_2_babel
 
