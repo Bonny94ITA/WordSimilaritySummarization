@@ -203,7 +203,7 @@ def rank_paragraphs(dictionary, context, keywords):
     ranked_parag[0][0] += 2  # aumento score dato che è il primo paragrafo
     ranked_parag[-1][0] += 2  # aumento score dato che è l'ultimo paragrafo
     ranked_parag.sort(reverse=True)
-    print(ranked_parag)
+    #print(ranked_parag)
     return ranked_parag
 
 
@@ -216,10 +216,10 @@ def compression_ratio(rank_p, ratio):
     for score in rank_p:
         score[0] = (score[0] / tot) * ratio
         ok+= score[0]
-    print(ok)
+    #print(ok)
 
 
-def summarize(rank_p, ratio):
+"""def summarize(rank_p, ratio):
     compression_ratio(rank_p, ratio)
     tot = tot1 = tot2 = 0
     for paragraph in rank_p:
@@ -237,20 +237,56 @@ def summarize(rank_p, ratio):
     print(tot2/tot1)
     print(rank_p)
 
-    return
+    return"""
+def summarize(rank_p, ratio):
 
+    tot_sent = 0
+    
+    for paragraph in rank_p:
+        tot_sent+=len(paragraph[1])
+
+    num_sent_del=math.ceil(tot_sent*ratio)
+
+    print(num_sent_del)
+
+    print(rank_p[-5:-4])
+    while(num_sent_del>0):
+        for paragraph in reversed(rank_p):
+            if(len(paragraph[1]) and num_sent_del > 0):
+                paragraph[1]=paragraph[1][:-1]
+                num_sent_del-=1
+
+    print(rank_p[-5:-4])
+
+    return rank_p
+
+def saveSummary(summary):
+    summary.sort(key=lambda x: x[2])
+
+    with open("./asset/summary.txt", "w", encoding='utf8') as output:
+        text_summary = ""
+        for paragraph in summary:
+            paragraph[1].sort(key=lambda x: x[2])
+            
+            for sentence in paragraph[1]:
+                text_summary+=sentence[1]+" "
+
+            text_summary+="\n\n"
+
+        output.write(text_summary)
+        print(text_summary)
 
 def main():
     path = "./asset/Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt"
     # path = "./asset/People-Arent-Upgrading-Smartphones-as-Quickly-and-That-Is-Bad-for-Apple.txt"
-    # path = "./asset/The-Last-Man-on-the-Moon--Eugene-Cernan-gives-a-compelling-account.txt"
+    #path = "./asset/The-Last-Man-on-the-Moon--Eugene-Cernan-gives-a-compelling-account.txt"
     path_synsets = "./asset/synsets.txt"
     path_nasari = "./asset/dd-nasari.txt"
 
     synsets = utils.read_file_synset(path_synsets)
     word_to_synset = utils.word_to_synset_dict(synsets)
 
-    # nasari = utils.read_file_nasari(path_nasari)
+    nasari = utils.read_file_nasari(path_nasari)
 
     text = utils.read_file(path)
 
@@ -261,12 +297,14 @@ def main():
     dictionary = clean_title(dictionary)
     # print(dictionary)
 
-    # context = get_context(dictionary["Titolo"], word_to_synset, nasari)
+    context = get_context(dictionary["Titolo"], word_to_synset, nasari)
     # print(context)
-    context = []
+    #context = []
 
     rank_p = rank_paragraphs(dictionary, context, keywords)
-    summary = summarize(rank_p, ratio=0.1)
+    summary = summarize(rank_p, ratio=0.5)
+
+    saveSummary(summary)
 
 
 if __name__ == '__main__':
