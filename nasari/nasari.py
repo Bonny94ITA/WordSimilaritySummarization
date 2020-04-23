@@ -202,43 +202,68 @@ def rank_paragraphs(dictionary, context, keywords):
         ranked_parag.append(weighted)
     ranked_parag[0][0] += 2  # aumento score dato che è il primo paragrafo
     ranked_parag[-1][0] += 2  # aumento score dato che è l'ultimo paragrafo
-    ranked_parag.sort(reverse=True)
+    #ranked_parag.sort(reverse=True)
     #print(ranked_parag)
     return ranked_parag
 
-
-def compression_ratio(rank_p, ratio):
+#normalizzo gli score
+def normalize_score(rank_p):
     tot = 0
     for score in rank_p:
         score[0] = score[0] ** -1
         tot += score[0]
     ok = 0
     for score in rank_p:
-        score[0] = (score[0] / tot) * ratio
+        score[0] = score[0] / tot #* ratio
         ok+= score[0]
-    #print(ok)
+    
+    rank_p.sort(reverse=True)#ordino per il peso normalizzato
+    print("TOT SCORE", ok)
 
 
-"""def summarize(rank_p, ratio):
-    compression_ratio(rank_p, ratio)
-    tot = tot1 = tot2 = 0
+def summarize(rank_p, ratio):
+    normalize_score(rank_p)
+    
+    tot_sent = 0
+    
     for paragraph in rank_p:
-        num_sent = len(paragraph[1])
-        num_sent_del = math.floor(paragraph[0] * num_sent)
-        tot += paragraph[0]*num_sent/0.1
+        tot_sent+=len(paragraph[1])
 
-        if num_sent_del != 0:
-            paragraph[1] = paragraph[1][:-num_sent_del]
-        tot1 += num_sent
-        tot2 += num_sent_del
-    print("*****************")
-    print(tot)
-    print(tot1)
-    print(tot2/tot1)
+    num_sent_del=tot_sent_del=math.ceil(tot_sent*ratio) #numero di frasi da eliminare    
+
+    #print(num_sent_del)
+
+    #elimino frasi finchè ne' ho da eliminare
+    while(num_sent_del > 0):    # il while c'è perchè il for potrebbe terminare senza eliminare tutte le frasi,
+        print(num_sent_del)     # perchè se alcuni paragrafi con un peso grande non avevano abbastanza frasi, 
+                                # quelli restanti hanno dei pesi più piccoli e la loro quota di frasi potrebbe
+                                # non raggiungere il totale di frasi da eliminare
+        for paragraph in rank_p:
+            if(num_sent_del > 0):
+                num_to_del = paragraph[0] * tot_sent_del
+
+                #calcolo in base al peso, quante frasi eliminare per il paragrafo corrente per difetto
+                if(num_to_del < 1): #elimino almeno una frase
+                    sent_del=math.ceil(num_to_del)
+                else:
+                    sent_del=math.floor(num_to_del)                
+                
+                #se il numero di frasi da eliminare e' minore della lunghezza del paragrafo le elimino normalmente
+                if(sent_del < len(paragraph[1])):
+                    paragraph[1] = paragraph[1][:-sent_del]
+                    num_sent_del-=sent_del  #sottraggo il numero di frasi appena eliminate
+                else:
+                    num_sent_del-=len(paragraph[1]) #il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
+                    paragraph[1] = []               #quindi sottraggo solo la lunghezza del paragrafo
+            else:
+                break
+        
+        tot_sent_del = num_sent_del #i pesi vanno ricalibrati sulle frasi restanti da eliminare nel caso ce ne siano ancora
     print(rank_p)
 
-    return"""
-def summarize(rank_p, ratio):
+    return rank_p
+
+def summarize_trivial(rank_p, ratio):
 
     tot_sent = 0
     
@@ -249,21 +274,22 @@ def summarize(rank_p, ratio):
 
     print(num_sent_del)
 
-    print(rank_p[-5:-4])
+    #print(rank_p[-5:-4])
     while(num_sent_del>0):
         for paragraph in reversed(rank_p):
             if(len(paragraph[1]) and num_sent_del > 0):
                 paragraph[1]=paragraph[1][:-1]
                 num_sent_del-=1
 
-    print(rank_p[-5:-4])
+    #print(rank_p[-5:-4])
 
     return rank_p
 
 def saveSummary(summary):
     summary.sort(key=lambda x: x[2])
 
-    with open("./asset/summary.txt", "w", encoding='utf8') as output:
+    with open("./asset/summary_90.txt", "w", encoding='utf8') as output:
+    #with open("./asset/summary_trivial.txt", "w", encoding='utf8') as output:
         text_summary = ""
         for paragraph in summary:
             paragraph[1].sort(key=lambda x: x[2])
@@ -274,12 +300,12 @@ def saveSummary(summary):
             text_summary+="\n\n"
 
         output.write(text_summary)
-        print(text_summary)
+        #print(text_summary)
 
 def main():
-    path = "./asset/Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt"
-    # path = "./asset/People-Arent-Upgrading-Smartphones-as-Quickly-and-That-Is-Bad-for-Apple.txt"
-    #path = "./asset/The-Last-Man-on-the-Moon--Eugene-Cernan-gives-a-compelling-account.txt"
+    #path = "./asset/Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt"
+    #path = "./asset/People-Arent-Upgrading-Smartphones-as-Quickly-and-That-Is-Bad-for-Apple.txt"
+    path = "./asset/The-Last-Man-on-the-Moon--Eugene-Cernan-gives-a-compelling-account.txt"
     path_synsets = "./asset/synsets.txt"
     path_nasari = "./asset/dd-nasari.txt"
 
@@ -302,8 +328,8 @@ def main():
     #context = []
 
     rank_p = rank_paragraphs(dictionary, context, keywords)
-    summary = summarize(rank_p, ratio=0.5)
-
+    summary = summarize(rank_p, ratio=0.9)
+    #summary = summarize_trivial(rank_p, ratio=0.3)
     saveSummary(summary)
 
 
