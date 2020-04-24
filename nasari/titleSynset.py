@@ -1,10 +1,11 @@
 import utils
 
 
-def get_synset(title, tsv):
+# Estrazione dei synset e scrittura su file
+def write_synset(title, tsv):
     for lemma in title:
         tsv.write("#" + lemma + "\n")
-        for synset in utils.get_synset(lemma):
+        for synset in utils.get_synset(lemma):  # Estrazione da Babelnet dei synset
             tsv.write(synset["id"] + "\n")
 
 
@@ -14,14 +15,11 @@ def main():
              "./asset/The-Last-Man-on-the-Moon--Eugene-Cernan-gives-a-compelling-account.txt"]
     with open("./asset/synsets.txt", "w") as tsv:
         for path in paths:
-            text = utils.read_file(path)
-            dictionary = utils.paragraph(text)
-
-            unified = utils.unify_name(dictionary["Titolo"])
-            title=utils.delete_stop_words(unified)
-
-            #print(title)           
-            get_synset(title, tsv)
+            text = utils.read_file(path)  # Lettura dei file
+            dictionary = utils.paragraph(text)  # Divisione del testo in titolo e paragrafi
+            unified = utils.unify_name(dictionary["Titolo"])  # Unione dei nomi propri nel titolo
+            title = utils.delete_stop_words(unified)  # Eliminazione delle stop words
+            write_synset(title, tsv)  # Estrazione dei synset e scrittura su file
 
 
 if __name__ == '__main__':

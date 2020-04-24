@@ -1,14 +1,12 @@
 from gensim.summarization.summarizer import summarize
-import gensim
 import logging
-
 
 logger = logging.getLogger("gensim")
 logger.disable()
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.WARNING)
 
-#logging.getLogger().setLevel(logging.WARNING)
+# logging.getLogger().setLevel(logging.WARNING)
 
 text = '''Donald Trump vs Barack Obama on Nuclear Weapons in East Asia
 ...Donald Trump broke a lot of foreign-policy crockery last week. President Barack Obama dressed him down for encouraging South Korea and Japan to acquire nuclear weapons. NATO’s secretary-general, Jens Stoltenberg, has criticized him too. Academics trying to parse Mr. Trump’s statements can’t figure out which “school” of foreign-policy thinking he belongs to. (So far, my favorite scholarly comment has been: “There is no indication that Trump understands the workings of balance of power theory…” Of course, there is no indication that Mr. Trump cares about the workings of any theories—and no real danger that he subscribes to them.)

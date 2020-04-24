@@ -1,11 +1,10 @@
 import nltk
-from nltk.corpus import stopwords
-from nltk import word_tokenize
 import urllib
 import urllib3
 import json
 import csv
-from nltk.corpus import wordnet as wn
+from nltk.corpus import stopwords
+from nltk import word_tokenize
 from itertools import zip_longest
 from gensim.summarization import keywords
 
@@ -51,7 +50,28 @@ bonus = ['the main aim', 'the purpose', 'in this report', 'outline', 'our invest
          'showing', 'the first', 'once again reminds us', 'important', 'principal']
 
 
-# Lettura file
+# Estrazione del synset/senso da babelnet.io
+def get_synset(lemma):
+    service_url = 'http://babelnet.io/v5/getSynsetIds'
+    params = {
+        'lemma': lemma,
+        'searchLang': 'EN',
+        'key': '9f73a72d-0ad4-4f30-bf46-5249377326cc'
+    }
+
+    url = service_url + '?' + urllib.parse.urlencode(params)
+    http = urllib3.PoolManager()
+    response = http.request('GET', url)
+    babel_synset = json.loads(response.data.decode('utf-8'))
+
+    print(lemma)
+    print(response)
+    print(babel_synset)
+
+    return ['BABEL SYNSET NOT FOUND'] if 'message' in babel_synset else babel_synset
+
+
+# Lettura file da testare (es. Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt)
 def read_file(path):
     array = []
     with open(path, "r", encoding='utf8') as tsv:
@@ -60,7 +80,7 @@ def read_file(path):
     return array[4:]
 
 
-# Lettura file
+# Lettura file synset.txt
 def read_file_synset(path):
     array = []
     with open(path, "r") as tsv:
@@ -69,6 +89,7 @@ def read_file_synset(path):
     return array
 
 
+# Lettura file dd-nasari.txt
 def read_file_nasari(path):
     sense_to_vector = {}
     with open(path, encoding='utf8') as tsv:
@@ -86,8 +107,30 @@ def read_file_nasari(path):
                 'lemma': lemma,
                 'vect': vettore
             }
-
     return sense_to_vector
+
+
+# Dizionario con parola come chiave e babel synset id come valore
+def word_to_synset_dict(babel_synsets):
+    word_2_babel = dict()
+
+    for bab_syn in babel_synsets:
+        if bab_syn[0] == '#':
+            key = bab_syn[1:-1]
+            word_2_babel[key] = []
+        else:
+            if (len(word_2_babel[
+                        key]) < 15):  # NUMERO DI BABEL SYNSET DA PRENDERE IN CONSIDERAZIONE NEL FILE synsets.txt
+                word_2_babel[key].append(bab_syn[:-1])
+    return word_2_babel
+
+
+# Individuazione delle 10 keywords più presenti nel testo grazie alla libreria gensim
+def get_key_words(text):
+    new_text = ""
+    for sent in text:
+        new_text += sent
+    return keywords(new_text, words=10).split("\n")
 
 
 # Inizializzazione dizionario per small nasari per separare lemma e peso
@@ -95,22 +138,10 @@ def nasari_lemma_peso(lemma, peso):
     return lemma
 
 
-# return {"Lemma": lemma, "Peso": peso}
-
-
 # Inizializzazione dizionario
 def init_dictionary():
     dictionary = {"Titolo": "", "Paragrafi": []}
     return dictionary
-
-
-def get_key_words(text):
-    new_text = ""
-
-    for sent in text:
-        new_text += sent
-
-    return keywords(new_text, words=10).split("\n")
 
 
 # Divisione del testo in titolo e paragrafi
@@ -147,10 +178,10 @@ def unify_name(sentence):
     for i, word in enumerate(sentence):
         check = check_in_sentence(word, sentence_word)
 
-        if (check_proper_noun(word) and not check):
+        if check_proper_noun(word) and not check:
             w = word
             for word1 in sentence[i + 1:]:
-                if (check_proper_noun(word1)):
+                if check_proper_noun(word1):
                     w += " " + word1
                 else:
                     break
@@ -168,42 +199,6 @@ def delete_stop_words(word_tokens):
     filtered_sentence = [w for w in word_tokens if not w.lower() in stop_words]
 
     return filtered_sentence
-
-
-# Estrazione del senso da babelnet.io
-def get_synset(lemma):
-    service_url = 'http://babelnet.io/v5/getSynsetIds'
-    params = {
-        'lemma': lemma,
-        'searchLang': 'EN',
-        'key': '9f73a72d-0ad4-4f30-bf46-5249377326cc'
-    }
-
-    url = service_url + '?' + urllib.parse.urlencode(params)
-    http = urllib3.PoolManager()
-    response = http.request('GET', url)
-    babel_synset = json.loads(response.data.decode('utf-8'))
-
-    print(lemma)
-    print(response)
-    print(babel_synset)
-
-    return ['BABEL SYNSET NOT FOUND'] if 'message' in babel_synset else babel_synset
-
-
-# Dizionario con parola come chiave e babel synset id come valore
-def word_to_synset_dict(babel_synsets):
-    word_2_babel = dict()
-
-    for bab_syn in babel_synsets:
-        if bab_syn[0] == '#':
-            key = bab_syn[1:-1]
-            word_2_babel[key] = []
-        else:
-            if (len(word_2_babel[
-                        key]) < 15):  # NUMERO DI BABEL SYNSET DA PRENDERE IN CONSIDERAZIONE NEL FILE SYNSETS.txt
-                word_2_babel[key].append(bab_syn[:-1])
-    return word_2_babel
 
 
 # raggruppa dati in chunk di lunghezza fissa
