@@ -214,15 +214,3 @@ def grouper(iterable, n, fillvalue=None):
 
     return zip_longest(fillvalue=fillvalue, *args)
 
-
-def main():
-    x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    g = grouper(x, 7)
-
-    print(x)
-    for p in g:
-        print(p)
-
-
-if __name__ == '__main__':
-    main()

@@ -6,11 +6,6 @@ import importlib.util
 from nltk import word_tokenize
 from nltk import sent_tokenize
 
-spec = importlib.util.spec_from_file_location("wordSenseDisambiguation",
-                                              "../wordSenseDisambiguation/wordSenseDisambiguation.py")
-wsb = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(wsb)
-
 
 # similarità con weighted overlap
 def weighted_overlap(vect1, vect2):
@@ -193,22 +188,49 @@ def weight_paragraph(paragraph, context, keywords):
     parag.sort(reverse=True)
     return [parag_weight, parag]
 
+def coesion_paragraph(parag, paragraphs):
+    parag = word_tokenize(copy.deepcopy(parag))
+    paragraphs = copy.deepcopy(paragraphs)
+
+    parag = utils.delete_stop_words(parag)
+    
+    coesion = 0
+
+    for par in paragraphs:
+        par = word_tokenize(par)
+        par = utils.delete_stop_words(par)
+        
+        if(parag != par):
+            for w1 in parag:
+                if(w1 in par):
+                    coesion+=1
+
+    print("\nCOESIONE ", coesion)
+
+    return coesion * 0.25
+
 
 def rank_paragraphs(dictionary, context, keywords):
     ranked_parag = []
 
-    for i, paragh in enumerate(dictionary["Paragrafi"]):
-        weighted = weight_paragraph(paragh, context, keywords)
+    for i, parag in enumerate(dictionary["Paragrafi"]):
+        coesion = coesion_paragraph(parag, dictionary["Paragrafi"])
+
+        weighted = weight_paragraph(parag, context, keywords)
         weighted.append(i)
+        weighted[0]+=coesion #aumento lo score del paragrafo con la sua coesione
         ranked_parag.append(weighted)
 
     ranked_parag[0][0] += len(ranked_parag[0][1])  # aumento score dato che è il primo paragrafo
     ranked_parag[-1][0] += len(ranked_parag[-1][1])  # aumento score dato che è l'ultimo paragrafo
-
-    print(len(ranked_parag[0][1]))
-
+    
     ranked_parag.sort(reverse=True)
-    # print(ranked_parag)
+    
+    print("\n\n\n PARAGRAFI ORDINATI")
+    for p in ranked_parag:
+        print(str(p[2]+1)+"\t")
+    print("\n\n\n")
+
     return ranked_parag
 
 
@@ -235,7 +257,7 @@ def summarize(rank_p, ratio):
     for paragraph in rank_p:
         tot_sent += len(paragraph[1])
 
-    num_sent_del = tot_sent_del = math.floor(tot_sent * ratio)  # numero di frasi da eliminare
+    num_sent_del = tot_sent_del = round(tot_sent * ratio)  # numero di frasi da eliminare
 
     eliminated_sentence = []
     # print(num_sent_del)
@@ -254,7 +276,7 @@ def summarize(rank_p, ratio):
                 if (num_to_del < 1):  # elimino almeno una frase
                     sent_del = math.ceil(num_to_del)
                 else:
-                    sent_del = math.floor(num_to_del)
+                    sent_del = round(num_to_del)
 
                     # se il numero di frasi da eliminare e' minore della lunghezza del paragrafo le elimino normalmente
                 if (sent_del < len(paragraph[1])):
@@ -263,8 +285,7 @@ def summarize(rank_p, ratio):
                     num_sent_del -= sent_del  # sottraggo il numero di frasi appena eliminate
                 else:
                     eliminated_sentence.append([paragraph[2] + 1, paragraph[1]])
-                    num_sent_del -= len(
-                        paragraph[1])  # il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
+                    num_sent_del -= len(paragraph[1])  # il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
                     paragraph[1] = []  # quindi sottraggo solo la lunghezza del paragrafo
 
     # print(rank_p)
@@ -280,8 +301,10 @@ def summarize_trivial(rank_p, ratio):
 
     for paragraph in rank_p:
         tot_sent += len(paragraph[1])
+    
+    print("TOTALE DELLE FRASI ",tot_sent)
 
-    num_sent_del = math.floor(tot_sent * ratio)
+    num_sent_del = round(tot_sent * ratio)
 
     print(num_sent_del)
     eliminated_sentence = []
@@ -323,9 +346,9 @@ def generate_summary(summary):
 
 
 def main():
-    path = "./asset/Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt"
-    # path = "./asset/People-Arent-Upgrading-Smartphones-as-Quickly-and-That-Is-Bad-for-Apple.txt"
-    # path = "./asset/The-Last-Man-on-the-Moon--Eugene-Cernan-gives-a-compelling-account.txt"
+    #path = "./asset/Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt"
+    #path = "./asset/People-Arent-Upgrading-Smartphones-as-Quickly-and-That-Is-Bad-for-Apple.txt"
+    path = "./asset/The-Last-Man-on-the-Moon--Eugene-Cernan-gives-a-compelling-account.txt"
     # path = "./asset/Trump_ridotto.txt"
     path_synsets = "./asset/synsets.txt"
     path_nasari = "./asset/dd-nasari.txt"
@@ -351,17 +374,17 @@ def main():
 
     context = get_context(dictionary["Titolo"], word_to_synset, nasari)
     # print(context)
-    # context = []
+    #context = []
 
     rank_p = rank_paragraphs(dictionary, context, keywords)
     rank_p2 = copy.deepcopy(rank_p)
 
     print("\n\n\nORIGINAL\n\n\n" + generate_summary(rank_p))
-    summary = summarize(rank_p, ratio=0.5)
+    summary = summarize(rank_p, ratio=0.3)
     print("\n\n\nSUMMARY\n\n\n" + generate_summary(summary))
 
     # print("\n\n\nORIGINAL\n\n\n"+generate_summary(rank_p2))
-    summary = summarize_trivial(rank_p2, ratio=0.5)
+    summary = summarize_trivial(rank_p2, ratio=0.3)
     print("\n\n\nSUMMARY\n\n\n" + generate_summary(summary))
     # save_summary(summary)
 
