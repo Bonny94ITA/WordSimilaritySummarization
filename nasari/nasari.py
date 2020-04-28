@@ -6,7 +6,42 @@ from nltk import word_tokenize
 from nltk import sent_tokenize
 
 
-# Determinazione dell'importanza/rank dei paragrafi
+########## CALCOLO RANKING ##########
+
+
+# Determinazione del peso di una frase all'interno del paragrafo
+def weight_sentence(sent, context, keywords):
+    score = 0
+    sent_copy = sent.lower()
+    for phrase in utils.bonus:
+        if phrase in sent_copy:
+            score += 1  # Aumento lo score delle frasi dato che contiene delle frasi bonus
+
+    sent_token = utils.unify_name(word_tokenize(sent))
+    for word in sent_token:
+        if word in context:
+            score += 1  # Aumento lo score delle frasi dato che contiene parole del contesto del titolo
+        if word in keywords:
+            score += 2  # Aumento lo score delle frasi dato che contiene delle keywords
+    return score
+
+
+# Costruiamo i paragrafi in modo che possano gestire i pesi e li pesiamo
+def weight_paragraph(paragraph, context, keywords):
+    sentences = sent_tokenize(paragraph)
+    parag = []
+    parag_weight = sent_weight = 0
+
+    for i, sent in enumerate(sentences):
+        # Determinazione del peso di una frase all'interno del paragrafo
+        sent_weight += weight_sentence(sent, context, keywords)
+        parag.append([sent_weight, sent, i])
+        parag_weight += sent_weight
+    parag.sort(reverse=True)
+    return [parag_weight, parag]
+
+
+# Calcolo della coesione di un paragrafo rispetto agli altri
 def coesion_paragraph(parag, paragraphs):
     parag = word_tokenize(copy.deepcopy(parag))
     paragraphs = copy.deepcopy(paragraphs)
@@ -16,45 +51,46 @@ def coesion_paragraph(parag, paragraphs):
     for par in paragraphs:
         par = word_tokenize(par)
         par = utils.delete_stop_words(par)
-
         if parag != par:
             for w1 in parag:
                 if w1 in par:
                     coesion += 1
-
     print("\n COESIONE ", coesion)
 
     return coesion * 0.25  # Si può impostare diversi pesi ai valori di coesione
 
 
+# Determinazione dell'importanza/rank dei paragrafi
 def rank_paragraphs(dictionary, context, keywords):
     ranked_parag = []
     for i, parag in enumerate(dictionary["Paragrafi"]):
-
+        # Calcolo della coesione di un paragrafo rispetto agli altri
         coesion = coesion_paragraph(parag, dictionary["Paragrafi"])
-
+        # Peso dei paragrafi
         weighted = weight_paragraph(parag, context, keywords)
         weighted.append(i)
-        weighted[0] += coesion  # aumento lo score del paragrafo in base alla sua coesione
+        weighted[0] += coesion  # Aumento lo score del paragrafo in base alla sua coesione
         ranked_parag.append(weighted)
 
-    ranked_parag[0][0] += len(ranked_parag[0][1])  # aumento score dato che è il primo paragrafo
-    ranked_parag[-1][0] += len(ranked_parag[-1][1])  # aumento score dato che è l'ultimo paragrafo
-
+    ranked_parag[0][0] += len(ranked_parag[0][1])  # Aumento lo score del paragrafo dato che è il primo paragrafo
+    ranked_parag[-1][0] += len(ranked_parag[-1][1])  # Aumento lo score del paragrafo dato che è l'ultimo paragrafo
     ranked_parag.sort(reverse=True)
 
-    print("\n\n\n PARAGRAFI ORDINATI")
+    print("\n\n\n RANKING PARAGRAFI")
     for p in ranked_parag:
         print(str(p[2] + 1) + "\t")
     print("\n\n\n")
     return ranked_parag
 
 
+########## FINE CALCOLO RANKING ##########
+
+
 # Toglie i duplicati e inserisce in una lista i vettori ottenuti da Nasari
 def clean_context(context):
     clean = []
     for c in context:
-        if c['vect'] not in clean_context:
+        if c['vect'] not in clean:
             clean.append(c['vect'])
     return list(itertools.chain(*clean))
 
@@ -175,39 +211,8 @@ def get_context(title, word_to_synset, nasari):
             vect = nasari.get(best_id)  # Estraiamo da Nasari il vettore dei migliori significati
             if vect is not None:
                 context.append(vect)
+
     return clean_context(context)
-
-
-def weight_sentence(sent, context, keywords):
-    score = 0
-
-    sent_copy = sent.lower()
-    for phrase in utils.bonus:
-        if phrase in sent_copy:
-            score += 1  # aumento score dato che contiene delle frasi bonus
-
-    sent_token = utils.unify_name(word_tokenize(sent))
-    for word in sent_token:
-        if word in context:
-            score += 1  # aumento score dato che contiene parole del contesto del titolo
-        if word in keywords:
-            score += 2  # aumento score dato che contiene delle keywords
-    return score
-
-
-# Costruziamo i paragrafi in modo tale da gestire i punteggi
-def weight_paragraph(paragraph, context, keywords):
-    sentences = sent_tokenize(paragraph)
-    parag = []
-    parag_weight = 0
-    sent_weight = 0
-
-    for i, sent in enumerate(sentences):
-        sent_weight += weight_sentence(sent, context, keywords)
-        parag.append([sent_weight, sent, i])
-        parag_weight += sent_weight
-    parag.sort(reverse=True)
-    return [parag_weight, parag]
 
 
 # Normalizzazione degli score
@@ -216,38 +221,29 @@ def normalize_score(rank_p):
     for score in rank_p:
         score[0] = score[0] ** -1
         tot += score[0]
-    # ok = 0
     for score in rank_p:
         score[0] = score[0] / tot  # * ratio
-        # ok+= score[0]
-
-    rank_p.sort(reverse=True)  # ordino per il peso normalizzato
-    # print("TOT SCORE", ok)
+    rank_p.sort(reverse=True)  # Ordino per il peso normalizzato
 
 
+# INSERIRE DESCRIZIONE e correggere commenti sotto migliorando la chiarezza
 def summarize(rank_p, ratio):
     normalize_score(rank_p)
-
     tot_sent = 0
-
     for paragraph in rank_p:
         tot_sent += len(paragraph[1])
 
     num_sent_del = tot_sent_del = round(tot_sent * ratio)  # numero di frasi da eliminare
-
     eliminated_sentence = []
-    # print(num_sent_del)
 
     # elimino frasi finchè ne' ho da eliminare
     while num_sent_del > 0:  # il while c'è perchè il for potrebbe terminare senza eliminare tutte le frasi,
-        print(num_sent_del)  # perchè se alcuni paragrafi con un peso grande non avevano abbastanza frasi,
+        # infatti, se alcuni paragrafi con un peso grande non avevano abbastanza frasi,
         # quelli restanti hanno dei pesi più piccoli e la loro quota di frasi potrebbe
         # non raggiungere il totale di frasi da eliminare
         for paragraph in rank_p:
             if len(paragraph[1]) > 0 and num_sent_del > 0:
                 num_to_del = paragraph[0] * tot_sent_del
-
-                # print(paragraph[0])
                 # calcolo in base al peso, quante frasi eliminare per il paragrafo corrente per difetto
                 if num_to_del < 1:  # elimino almeno una frase
                     sent_del = math.ceil(num_to_del)
@@ -265,27 +261,22 @@ def summarize(rank_p, ratio):
                         paragraph[1])  # il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
                     paragraph[1] = []  # quindi sottraggo solo la lunghezza del paragrafo
 
-    # print(rank_p)
     print("\n\n\nELIMINATED SENTENCES " + str(tot_sent_del) + "\n\n\n")
     for sent in eliminated_sentence:
         print(sent)
-
     return rank_p
 
 
+# INSERIRE DESCRIZIONE e qualche commento al while
 def summarize_trivial(rank_p, ratio):
     tot_sent = 0
-
     for paragraph in rank_p:
         tot_sent += len(paragraph[1])
 
     print("TOTALE DELLE FRASI ", tot_sent)
 
     num_sent_del = round(tot_sent * ratio)
-
-    print(num_sent_del)
     eliminated_sentence = []
-    # print(rank_p[-5:-4])
     while num_sent_del > 0:
         for paragraph in reversed(rank_p):
             if len(paragraph[1]) and num_sent_del > 0:
@@ -296,30 +287,7 @@ def summarize_trivial(rank_p, ratio):
     print("\n\n\nELIMINATED SENTENCES " + str(len(eliminated_sentence)) + "\n\n\n")
     for sent in eliminated_sentence:
         print(sent)
-    # print(rank_p[-5:-4])
-
     return rank_p
-
-
-def save_summary(summary):
-    # with open("./asset/summary.txt", "w", encoding='utf8') as output:
-    with open("./asset/summary_trivial.txt", "w", encoding='utf8') as output:
-        output.write(generate_summary(summary))
-        # print(text_summary)
-
-
-def generate_summary(summary):
-    summary.sort(key=lambda x: x[2])
-    text_summary = ""
-    for paragraph in summary:
-        paragraph[1].sort(key=lambda x: x[2])
-
-        for sentence in paragraph[1]:
-            text_summary += sentence[1] + " "
-
-        text_summary += "\n\n"
-
-    return text_summary
 
 
 def main():
@@ -359,15 +327,18 @@ def main():
     rank_p = rank_paragraphs(dictionary, context, keywords)
     rank_p2 = copy.deepcopy(rank_p)
 
-    print("\n\n\nORIGINAL\n\n\n" + generate_summary(rank_p))
+    print("\n\n\nORIGINAL\n\n\n" + utils.generate_summary(rank_p))
 
-    summary = summarize_trivial(rank_p2, ratio=0.3)
-    print("\n\n\nSUMMARY TRIVIAL\n\n\n" + generate_summary(summary))
+    # Creazione riassunti con metodo trivial
+    summary = summarize_trivial(rank_p2, ratio=0.3)  # Il ratio si può cambiare in base alla percentuale di riassunto
+    print("\n\n\nSUMMARY TRIVIAL\n\n\n" + utils.generate_summary(summary))
 
-    summary = summarize(rank_p, ratio=0.3)
-    print("\n\n\nSUMMARY\n\n\n" + generate_summary(summary))
+    # Creazione riassunti con metodo efficiente
+    summary = summarize(rank_p, ratio=0.3)  # Il ratio si può cambiare in base alla percentuale di riassunto
+    print("\n\n\nSUMMARY\n\n\n" + utils.generate_summary(summary))
 
-    # save_summary(summary)
+    # Salvataggio riassunti
+    utils.save_summary(summary)
 
 
 if __name__ == '__main__':

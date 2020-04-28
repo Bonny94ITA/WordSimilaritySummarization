@@ -218,3 +218,21 @@ def grouper(iterable, n, fillvalue=None):
         iterable += iterable[-n:-resto]
     args = [iter(iterable)] * n
     return zip_longest(fillvalue=fillvalue, *args)
+
+
+def generate_summary(summary):
+    summary.sort(key=lambda x: x[2])
+    text_summary = ""
+    for paragraph in summary:
+        paragraph[1].sort(key=lambda x: x[2])
+        for sentence in paragraph[1]:
+            text_summary += sentence[1] + " "
+        text_summary += "\n\n"
+    return text_summary
+
+
+# Salvataggio su file del riassunto
+def save_summary(summary):
+    with open("./asset/summary.txt", "w", encoding='utf8') as output:
+        # with open("./asset/summary_trivial.txt", "w", encoding='utf8') as output:
+        output.write(generate_summary(summary))
