@@ -1,42 +1,48 @@
-*	indica algoritmo di summarization (summarize)
-#	indica algoritmo di summarization (summarize_trivial)
+10 20 30 indicano quante e quali frasi eliminerebbe un umano (quindi tutte quelle frasi che hanno poco contenuto o
+comunque ideali da scartare quando si fa un riassunto). Il numero rappresenta la percentuale di frasi da scartare
+rispetto al numero complessivo.
 
-(più * o # indicano la percentuale utilizzata per il test 10% 20% o 30%)
+"#"	indica algoritmo implementato di summarization (summarize_trivial).
+"*"	indica algoritmo implementato di summarization (summarize).
+(il numero di "*" o "#" indicano la percentuale utilizzata per il test 10% 20% o 30%).
 
-10 	20	30 indicano quali frasi sono state eliminate da un umano, scartando quella percentuale di frasi dal testo
+"Parag" indica il paragrafo corrente del testo.
+"Rank" indica il ranking del paragrafo, quindi quanto è importante secondo un umano quel paragrafo.
 
-il numero sotto parag indica il ranking del paragrafo
-in fondo ci sono i confronti tra le classifiche fatte dall'umano e quelle ottenute dall'algoritmo
+Nella parte finale del file ci sono i confronti tra le classifiche fatte dall'umano e quelle ottenute dall'algoritmo.
 
 
-parag 1
-4
+########################################################################################################################
+
+
+Parag: 1
+Rank: 4
 # Donald Trump broke a lot of foreign-policy crockery last week. 
 President Barack Obama dressed him down for encouraging South Korea and Japan to acquire nuclear weapons. 
 20 ### NATO’s secretary-general, Jens Stoltenberg, has criticized him too. 
 30 *** Academics trying to parse Mr. Trump’s statements can’t figure out which “school” of foreign-policy thinking he belongs to.
 30 * (So far, my favorite scholarly comment has been: “There is no indication that Trump understands the workings of balance of power theory…” Of course, there is no indication that Mr. Trump cares about the workings of any theories—and no real danger that he subscribes to them.) 
 
-parag 2
-3
+Parag: 2
+Rank: 3
 20 ## The candidate’s set-to with the president, however, was far from frivolous.
 Mr. Trump suggested that, if South Korea and Japan had nuclear weapons, we could spend less protecting those allies.
 This approach, Mr. Obama rejoined, would reverse decades of U.S. policy on nuclear proliferation.
 ** (One of the president’s aides said it would be “catastrophic.”) The president was particularly indignant after the success of last week’s Nuclear Security Summit—at which he got Poland and Kazakhstan to agree to reduce their stockpiles of enriched uranium, Japan to ship out some separated plutonium, and other participants to tighten up a treaty on securing nuclear materials. 
 
-parag 3
-5
+Parag: 3
+Rank: 5
 10 # ** These were worthy achievements. 
 * ### Yet Mr. Trump has—okay, maybe unwittingly—highlighted a question about the entire non-proliferation enterprise that is at least as important as anything that happened at Mr. Obama’s summit. 
 
-parag 4
-1
+Parag: 4
+Rank: 1
 ## In the half-century since the nuclear Non-Proliferation Treaty was negotiated, no state has gotten nuclear weapons because materials for doing so were inadequately secured. 
 For all new nuclear powers (and those countries that decided not to go nuclear, such as Germany, Ukraine, and South Africa), the decisive factor was how they saw the main threats to their own security.
 ** Mr. Trump is right about one thing: The big question raised by North Korea’s success in building a nuclear arsenal is whether South Korea and Japan feel obliged to follow suit. 
 
-parag 5
-2
+Parag: 5
+Rank: 2
 There is a terrible irony in thinking through how to avoid this result.
 ## Only one country—China—may be able to get the North Koreans to change course.
 Beijing’s record on this issue, while improving, remains inadequate.
@@ -48,22 +54,25 @@ China needs to reckon with, and be reminded of, the enormous danger it is courti
 10 *** He may do more good than he knows.
 
 
-Nostra classifica
+########################################################################################################################
+
+
+Nostra classifica (in ordine di importantanza)
 4	5	2	1	3
 
 Classifica summary
 
-coesione 0.5
+Coesione impostata a 0.5
 5	2	4	1	3
 
-coesione 0.25
+Coesione impostata a 0.25
 5	2	4	1	3
 
 Senza coesione
 5	2	4	1	3
 
-summary *
-1/2		2/5		4/7
+Summary # (summarize_trivial)
+1/2     2/5     3/7
 
-summary #
-1/2		2/5		3/7
+Summary * (summarize)
+1/2     2/5     4/7

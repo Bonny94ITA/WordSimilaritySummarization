@@ -1,77 +1,86 @@
-*	indica algoritmo di summarization (summarize)
-#	indica algoritmo di summarization (summarize_trivial)
+10 20 30 indicano quante e quali frasi eliminerebbe un umano (quindi tutte quelle frasi che hanno poco contenuto o
+comunque ideali da scartare quando si fa un riassunto). Il numero rappresenta la percentuale di frasi da scartare
+rispetto al numero complessivo.
 
-(più * o # indicano la percentuale utilizzata per il test 10% 20% o 30%)
+"#"	indica algoritmo implementato di summarization (summarize_trivial).
+"*"	indica algoritmo implementato di summarization (summarize).
+(il numero di "*" o "#" indicano la percentuale utilizzata per il test 10% 20% o 30%).
 
-10 	20	30 indicano quali frasi sono state eliminate da un umano, scartando quella percentuale di frasi dal testo
+"Parag" indica il paragrafo corrente del testo.
+"Rank" indica il ranking del paragrafo, quindi quanto è importante secondo un umano quel paragrafo.
 
-il numero sotto parag indica il ranking del paragrafo
-in fondo ci sono i confronti tra le classifiche fatte dall'umano e quelle ottenute dall'algoritmo
+Nella parte finale del file ci sono i confronti tra le classifiche fatte dall'umano e quelle ottenute dall'algoritmo.
 
 
-parag 1
-7
+########################################################################################################################
+
+
+Parag: 1
+Rank: 7
 * # Smartphone customers are having a hard time letting go.
 
-parag 2
-2
+Parag: 2
+Rank: 2
 30 For Apple, that’s a concern, said BTIG. 
 The brokerage on Wednesday cut its 2016 and 2017 fiscal year estimates for iPhone sales, citing longer upgrade cycles.
 The move also caused it to lower its earnings projections for this year and next, and it led it to slice its price target on shares to $130 from $141, 19% above where the stock recently traded at $109.22.
 
-parag 3
-3
+Parag: 3
+Rank: 3
 ### It’s no new news that iPhone sales are set to decline this fiscal year for the first time in the tech giant’s history.
 20 *** But there are broader concerns that a structural change is underway in the pace of upgrades, said Walter Piecyk of BTIG.
 
-parag 4
-4
+Parag: 4
+Rank: 4
 ## “Upgrade rates [for all smartphones] were lower than we expected in the fourth quarter and are diving even lower in the March quarter,” wrote Mr. Piecyk in a note to clients.
 20 ** He looked at upgrade rates at the four big carriers — Verizon Communications, AT&T, T-Mobile US and Sprint — when compiling his data.
 
-parag 5
-6
+Parag: 5
+Rank: 6
 Part of the decline may have been driven by a slowdown ahead of Samsung’s Galaxy S7 launch in March and growth of iPhone sales in Apple stores, which operators might not be factoring into their upgrade rates, he said.
 Still, even after excluding those, it’s “undeniable” that the phone replacement cycle is lengthening in the U.S., Mr. Piecyk added.
 
-parag 6
-5
+Parag: 6
+Rank: 5
 When it comes to Apple, specifically, people have blamed the “s” cycle for sluggish sales and longer upgrades.
 10 (These cycles usually entail less changes than when the cycle switches numbers.)
 However, the decline this year has been steeper than prior cycles, said Mr. Piecyk.
 
-parag 7
-8
+Parag: 7
+Rank: 8
 ## He cut roughly 10 million units off of both of his 2016 and 2017 iPhone sales projections.
 ** Sales of iPhone units should now hit 210 million in the current fiscal year and 220 million in fiscal 2017, he estimates.
 
-parag 8
-9
+Parag: 8
+Rank: 9
 # When it comes to earnings per share, Mr. Piecyk now forecasts 2016 EPS of $8.87 and 2017 EPS of $9.57.
 30 Those expectations are down 54 cents and 53 cents, respectively.
 10 * Analysts surveyed by FactSet see 2016 EPS of $8.91 and 2017 EPS of $9.67.
 
-parag 9
-1
+Parag: 9
+Rank: 1
 *** ### Even though data from phone carriers suggests the upgrade cycle is being extended, it will take a few more quarters and the launch of the next iPhone to confirm whether users are indeed keeping their outdated phones for longer, said Mr. Piecyk.
 
 
-Nostra classifica
+########################################################################################################################
+
+
+Nostra classifica (in ordine di importantanza)
 9	2	3	4	6	5	1	7	8
 
 Classifica summary
 
-coesione 0.5
+Coesione impostata a 0.5
 6	2	5	3	9	7	4	8	1
 
-coesione 0.25
+Coesione impostata a 0.25
 6	2	5	3	9	7	4	8	1
 
 Senza coesione
 6	2	5	3	9	4	7	1	8
 
-summary *
-1/2		2/4		3/6
+Summary # (summarize_trivial)
+0/2     0/4     0/6
 
-summary #
-0/2		0/4		0/6
+Summary * (summarize)
+1/2     2/4     3/6

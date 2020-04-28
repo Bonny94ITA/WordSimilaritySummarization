@@ -2,12 +2,67 @@ import utils
 import math
 import copy
 import itertools
-import importlib.util
 from nltk import word_tokenize
 from nltk import sent_tokenize
 
 
-# similarità con weighted overlap
+# Determinazione dell'importanza/rank dei paragrafi
+def coesion_paragraph(parag, paragraphs):
+    parag = word_tokenize(copy.deepcopy(parag))
+    paragraphs = copy.deepcopy(paragraphs)
+    parag = utils.delete_stop_words(parag)
+    coesion = 0
+
+    for par in paragraphs:
+        par = word_tokenize(par)
+        par = utils.delete_stop_words(par)
+
+        if parag != par:
+            for w1 in parag:
+                if w1 in par:
+                    coesion += 1
+
+    print("\n COESIONE ", coesion)
+
+    return coesion * 0.25  # Si può impostare diversi pesi ai valori di coesione
+
+
+def rank_paragraphs(dictionary, context, keywords):
+    ranked_parag = []
+    for i, parag in enumerate(dictionary["Paragrafi"]):
+
+        coesion = coesion_paragraph(parag, dictionary["Paragrafi"])
+
+        weighted = weight_paragraph(parag, context, keywords)
+        weighted.append(i)
+        weighted[0] += coesion  # aumento lo score del paragrafo in base alla sua coesione
+        ranked_parag.append(weighted)
+
+    ranked_parag[0][0] += len(ranked_parag[0][1])  # aumento score dato che è il primo paragrafo
+    ranked_parag[-1][0] += len(ranked_parag[-1][1])  # aumento score dato che è l'ultimo paragrafo
+
+    ranked_parag.sort(reverse=True)
+
+    print("\n\n\n PARAGRAFI ORDINATI")
+    for p in ranked_parag:
+        print(str(p[2] + 1) + "\t")
+    print("\n\n\n")
+    return ranked_parag
+
+
+# Toglie i duplicati e inserisce in una lista i vettori ottenuti da Nasari
+def clean_context(context):
+    clean = []
+    for c in context:
+        if c['vect'] not in clean_context:
+            clean.append(c['vect'])
+    return list(itertools.chain(*clean))
+
+
+########## CALCOLO SIMILARITA' ##########
+
+
+# Similarità con weighted overlap (formula nelle slide)
 def weighted_overlap(vect1, vect2):
     tot = 0.0
     overlap = 0
@@ -17,55 +72,32 @@ def weighted_overlap(vect1, vect2):
             overlap += 1
         except:
             index = -1
-
         if index != -1:
             tot += (i + 1 + index) ** (-1)
-
     denominatore = 1.0
-
     for i in range(1, overlap + 1):
         denominatore += (2 * i) ** (-1)
-
     return tot / denominatore
 
 
-# calcola la similarità tra i due concetti
+# Calcola la similarità tra i due concetti
 def compute_similarity(bab_id1, bab_id2, nasari):
     sim = 0
-
-    vect1 = nasari.get(bab_id1)  # Estraiamo il vettore per ogni babel synset id
+    vect1 = nasari.get(bab_id1)  # Estraiamo il vettore Nasari per ogni babel synset id
     vect2 = nasari.get(bab_id2)
-
     # print(vect1)
     # print(vect2)
-
     if vect1 is not None and vect2 is not None:
         sim = weighted_overlap(vect1["vect"], vect2["vect"])
-
-    return sim
-
-
-# somma la similarità della tupla
-def similarity_tuple(tuple_ids, word_to_synset, nasari):
-    sim = 0
-
-    for i, bab_id1 in enumerate(tuple_ids):
-        for bab_id2 in tuple_ids[i + 1:]:
-            sim += compute_similarity(bab_id1, bab_id2, nasari)
-
-            # print(sim)
-
-    return sim
+    return math.sqrt(sim)  # return sim
 
 
-# fa l'intersezione tra tutti i vettori per calcolare la similarità
-def similarity_tuple_intersection(tuple_ids, word_to_synset, nasari):
+# Calcola l'intersezione tra tutti i vettori per calcolare la similarità
+def similarity_tuple_intersection(tuple_ids, nasari):
     sim = 0
     inter = None
-
     for i, bab_id1 in enumerate(tuple_ids):
         vect = nasari.get(bab_id1)
-
         if vect is not None:
             bab_set = set(nasari[bab_id1])
 
@@ -76,86 +108,74 @@ def similarity_tuple_intersection(tuple_ids, word_to_synset, nasari):
         else:
             inter = None
             break
-
             # print(sim)
     if inter != None:
         sim = len(inter)
-
     return sim
 
 
-# concateno in una lista i significati per ogni parola del titolo
-def get_babel_ids(title, word_to_synset):
-    babel_ids = []
+# Somma la similarità della tupla
+def similarity_tuple(tuple_ids, nasari):
+    sim = 0
+    for i, bab_id1 in enumerate(tuple_ids):
+        for bab_id2 in tuple_ids[i + 1:]:
+            sim += compute_similarity(bab_id1, bab_id2, nasari)
+    return sim
 
-    for word in title:
-        babel_ids.append(word_to_synset[word])
 
-    return babel_ids
+########## FINE CALCOLO SIMILARITA' ##########
 
 
-# prende il primo vettore di nasari esistente per i babel synset della parola
+# Prende il primo vettore di nasari esistente per i babel synset della parola
 def get_vector(word, word_to_synset, nasari):
     babel_ids = word_to_synset[word]
-
     for bab_id in babel_ids:
         vect = nasari.get(bab_id)
-
         if vect is not None:
             return vect
     return None
 
 
-def clean_context(context):
-    clean_context = []
+# Concateno in una lista i significati ottenuti da BabelNet per ogni parola del titolo
+def get_babel_ids(title, word_to_synset):
+    babel_ids = []
+    for word in title:
+        babel_ids.append(word_to_synset[word])
+    return babel_ids
 
-    for c in context:
-        if c['vect'] not in clean_context:
-            clean_context.append(c['vect'])
-    return list(itertools.chain(*clean_context))
 
-
+# Determinazione del contesto
 def get_context(title, word_to_synset, nasari):
     context = []
-
-    for chunk in utils.grouper(title, 6):  # il numero cambia la dimensione del contesto da tenere in considerazione
+    # Il secondo parametro indica il numero di parole del titolo da tenere in considerazione per determinare il contesto
+    # Questo numero si può cambiare
+    for chunk in utils.grouper(title, 6):
 
         print("chunk", chunk)
         babel_ids = get_babel_ids(chunk, word_to_synset)
 
+        # Possibili combinazioni di sensi attraverso il prodotto cartesiano
         lista_ids = list(itertools.product(*babel_ids))
-
         print("lunghezza combinazioni", len(lista_ids))
+
         max_sim_tup = 0
-        best_tup_ids = lista_ids[0]
+        for word in chunk:
+            # Inizializziamo la tupla migliore con i primi significati che esistono in Nasari
+            best_tup_ids = get_vector(word, word_to_synset, nasari)
 
-        for tuple_ids in lista_ids:  # Ci sono due metodi per misurare la similarità
-            # sim_tup = similarity_tuple_intersection(tuple_ids, word_to_synset, nasari)
-            sim_tup = similarity_tuple(tuple_ids, word_to_synset, nasari)
-
+        for tuple_ids in lista_ids:  # DUE METODI PER MISURARE LA SIMILARITA'
+            # sim_tup = similarity_tuple_intersection(tuple_ids, nasari)
+            sim_tup = similarity_tuple(tuple_ids, nasari)
             if sim_tup > max_sim_tup:
                 max_sim_tup = sim_tup
                 best_tup_ids = tuple_ids
 
-        for j, best_id in enumerate(best_tup_ids):
-            vect = nasari.get(best_id)
-
+        # Costruisce il contesto del chunk attuale
+        for best_id in best_tup_ids:
+            vect = nasari.get(best_id)  # Estraiamo da Nasari il vettore dei migliori significati
             if vect is not None:
                 context.append(vect)
-            else:
-                vect = get_vector(chunk[j], word_to_synset, nasari)
-
-                if vect is not None:
-                    context.append(vect)
-
-    context = clean_context(context)
-    return context
-
-
-def clean_title(dictionary):
-    unified = utils.unify_name(dictionary["Titolo"])
-    dictionary["Titolo"] = utils.delete_stop_words(unified)
-    return dictionary
+    return clean_context(context)
 
 
 def weight_sentence(sent, context, keywords):
@@ -175,6 +195,7 @@ def weight_sentence(sent, context, keywords):
     return score
 
 
+# Costruziamo i paragrafi in modo tale da gestire i punteggi
 def weight_paragraph(paragraph, context, keywords):
     sentences = sent_tokenize(paragraph)
     parag = []
@@ -188,53 +209,8 @@ def weight_paragraph(paragraph, context, keywords):
     parag.sort(reverse=True)
     return [parag_weight, parag]
 
-def coesion_paragraph(parag, paragraphs):
-    parag = word_tokenize(copy.deepcopy(parag))
-    paragraphs = copy.deepcopy(paragraphs)
 
-    parag = utils.delete_stop_words(parag)
-    
-    coesion = 0
-
-    for par in paragraphs:
-        par = word_tokenize(par)
-        par = utils.delete_stop_words(par)
-        
-        if(parag != par):
-            for w1 in parag:
-                if(w1 in par):
-                    coesion+=1
-
-    print("\nCOESIONE ", coesion)
-
-    return coesion * 0.25
-
-
-def rank_paragraphs(dictionary, context, keywords):
-    ranked_parag = []
-
-    for i, parag in enumerate(dictionary["Paragrafi"]):
-        coesion = coesion_paragraph(parag, dictionary["Paragrafi"])
-
-        weighted = weight_paragraph(parag, context, keywords)
-        weighted.append(i)
-        weighted[0]+=coesion #aumento lo score del paragrafo con la sua coesione
-        ranked_parag.append(weighted)
-
-    ranked_parag[0][0] += len(ranked_parag[0][1])  # aumento score dato che è il primo paragrafo
-    ranked_parag[-1][0] += len(ranked_parag[-1][1])  # aumento score dato che è l'ultimo paragrafo
-    
-    ranked_parag.sort(reverse=True)
-    
-    print("\n\n\n PARAGRAFI ORDINATI")
-    for p in ranked_parag:
-        print(str(p[2]+1)+"\t")
-    print("\n\n\n")
-
-    return ranked_parag
-
-
-# normalizzo gli score
+# Normalizzazione degli score
 def normalize_score(rank_p):
     tot = 0
     for score in rank_p:
@@ -263,29 +239,30 @@ def summarize(rank_p, ratio):
     # print(num_sent_del)
 
     # elimino frasi finchè ne' ho da eliminare
-    while (num_sent_del > 0):  # il while c'è perchè il for potrebbe terminare senza eliminare tutte le frasi,
+    while num_sent_del > 0:  # il while c'è perchè il for potrebbe terminare senza eliminare tutte le frasi,
         print(num_sent_del)  # perchè se alcuni paragrafi con un peso grande non avevano abbastanza frasi,
         # quelli restanti hanno dei pesi più piccoli e la loro quota di frasi potrebbe
         # non raggiungere il totale di frasi da eliminare
         for paragraph in rank_p:
-            if (len(paragraph[1]) > 0 and num_sent_del > 0):
+            if len(paragraph[1]) > 0 and num_sent_del > 0:
                 num_to_del = paragraph[0] * tot_sent_del
 
                 # print(paragraph[0])
                 # calcolo in base al peso, quante frasi eliminare per il paragrafo corrente per difetto
-                if (num_to_del < 1):  # elimino almeno una frase
+                if num_to_del < 1:  # elimino almeno una frase
                     sent_del = math.ceil(num_to_del)
                 else:
                     sent_del = round(num_to_del)
 
                     # se il numero di frasi da eliminare e' minore della lunghezza del paragrafo le elimino normalmente
-                if (sent_del < len(paragraph[1])):
+                if sent_del < len(paragraph[1]):
                     eliminated_sentence.append([paragraph[2] + 1, paragraph[1][-sent_del:]])
                     paragraph[1] = paragraph[1][:-sent_del]
                     num_sent_del -= sent_del  # sottraggo il numero di frasi appena eliminate
                 else:
                     eliminated_sentence.append([paragraph[2] + 1, paragraph[1]])
-                    num_sent_del -= len(paragraph[1])  # il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
+                    num_sent_del -= len(
+                        paragraph[1])  # il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
                     paragraph[1] = []  # quindi sottraggo solo la lunghezza del paragrafo
 
     # print(rank_p)
@@ -301,17 +278,17 @@ def summarize_trivial(rank_p, ratio):
 
     for paragraph in rank_p:
         tot_sent += len(paragraph[1])
-    
-    print("TOTALE DELLE FRASI ",tot_sent)
+
+    print("TOTALE DELLE FRASI ", tot_sent)
 
     num_sent_del = round(tot_sent * ratio)
 
     print(num_sent_del)
     eliminated_sentence = []
     # print(rank_p[-5:-4])
-    while (num_sent_del > 0):
+    while num_sent_del > 0:
         for paragraph in reversed(rank_p):
-            if (len(paragraph[1]) and num_sent_del > 0):
+            if len(paragraph[1]) and num_sent_del > 0:
                 eliminated_sentence.append([paragraph[2] + 1, paragraph[1][-1:]])
                 paragraph[1] = paragraph[1][:-1]
                 num_sent_del -= 1
@@ -346,10 +323,9 @@ def generate_summary(summary):
 
 
 def main():
-    #path = "./asset/Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt"
-    #path = "./asset/People-Arent-Upgrading-Smartphones-as-Quickly-and-That-Is-Bad-for-Apple.txt"
-    path = "./asset/The-Last-Man-on-the-Moon--Eugene-Cernan-gives-a-compelling-account.txt"
-    # path = "./asset/Trump_ridotto.txt"
+    # path = "./asset/Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt"
+    path = "./asset/People-Arent-Upgrading-Smartphones-as-Quickly-and-That-Is-Bad-for-Apple.txt"
+    # path = "./asset/The-Last-Man-on-the-Moon--Eugene-Cernan-gives-a-compelling-account.txt"
     path_synsets = "./asset/synsets.txt"
     path_nasari = "./asset/dd-nasari.txt"
 
@@ -368,24 +344,29 @@ def main():
     keywords = utils.get_key_words(text)
     # print(keywords)
 
+    # Divisione del testo in titolo e paragrafi
     dictionary = utils.paragraph(text)
-    dictionary = clean_title(dictionary)
+    # Pulizia del titolo con unione dei nomi propri in unico token ed eliminazione delle stop words
+    dictionary = utils.clean_title(dictionary)
     # print(dictionary)
 
+    # Determinazione del contesto
     context = get_context(dictionary["Titolo"], word_to_synset, nasari)
     # print(context)
-    #context = []
+    # context = []
 
+    # Determinazione dell'importanza/rank dei paragrafi
     rank_p = rank_paragraphs(dictionary, context, keywords)
     rank_p2 = copy.deepcopy(rank_p)
 
     print("\n\n\nORIGINAL\n\n\n" + generate_summary(rank_p))
+
+    summary = summarize_trivial(rank_p2, ratio=0.3)
+    print("\n\n\nSUMMARY TRIVIAL\n\n\n" + generate_summary(summary))
+
     summary = summarize(rank_p, ratio=0.3)
     print("\n\n\nSUMMARY\n\n\n" + generate_summary(summary))
 
-    # print("\n\n\nORIGINAL\n\n\n"+generate_summary(rank_p2))
-    summary = summarize_trivial(rank_p2, ratio=0.3)
-    print("\n\n\nSUMMARY\n\n\n" + generate_summary(summary))
     # save_summary(summary)
 
 

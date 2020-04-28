@@ -154,30 +154,32 @@ def paragraph(text):
     return dictionary
 
 
-# controllo se la parola è presente nella frase
+########## PULIZIA TITOLO ##########
+
+
+# Per verificare se una parola è un nome proprio controllo:
+# - se la prima lettera è maiuscola
+# - se la parola è un nome (PoS = NN)
+def check_proper_noun(word):
+    # controllo il pos tag della parola sia in minuscolo che maiuscolo per capire se è un nome;
+    # "Is" ad esempio è mostrato come nome mentre è un verbo, per questo si controlla che sia effetivamente un NN
+    # anche quando è minuscolo
+    return word[0].isupper() and nltk.pos_tag([word.lower()])[0][1] == "NN"  # and len(wn.synsets(word)) == 0
+
+
+# Controllo se la parola è presente nella frase
 def check_in_sentence(word, sentence):
     for w in sentence:
         if word == w or word in w:
             return True
-
     return False
-
-
-# per verificare se una parola è un nome proprio controllo:
-# se la prima lettera è maiuscola 
-# se la parola è un nome
-def check_proper_noun(word):  # controllo il pos tag della parola sia in minuscolo che maiuscolo
-    # per capire se è un nome, Is ad esempio lo da come nome mentre è un verbo, AT di AT & T non è una preposizione
-    return word[0].isupper() and nltk.pos_tag([word.lower()])[0][1] == "NN"  # and len(wn.synsets(word)) == 0
 
 
 # Uniamo i nomi propri all'interno di frasi in un'unica parola
 def unify_name(sentence):
     sentence_word = []
-
     for i, word in enumerate(sentence):
         check = check_in_sentence(word, sentence_word)
-
         if check_proper_noun(word) and not check:
             w = word
             for word1 in sentence[i + 1:]:
@@ -185,32 +187,34 @@ def unify_name(sentence):
                     w += " " + word1
                 else:
                     break
-
             sentence_word.append(w)
         else:
             if not check:
                 sentence_word.append(word)
-
     return sentence_word
 
 
 # Eliminazione delle stop word (es. and, at, etc...)
 def delete_stop_words(word_tokens):
     filtered_sentence = [w for w in word_tokens if not w.lower() in stop_words]
-
     return filtered_sentence
 
 
-# raggruppa dati in chunk di lunghezza fissa
-# se mancano dati prende gli elementi prima fino a formare il chunk di n elementi
+# Pulizia del titolo con unione dei nomi propri in unico token ed eliminazione delle stop words
+def clean_title(dictionary):
+    unified = unify_name(dictionary["Titolo"])
+    dictionary["Titolo"] = delete_stop_words(unified)
+    return dictionary
+
+
+########## FINE PULIZIA TITOLO ##########
+
+
+# Raggruppa dati in chunk di lunghezza fissa. Se mancano dati per formare il chunk prende gli elementi prima per formarlo
+# es. grouper('ABCDEFG', 3) --> ABC DEF GEF
 def grouper(iterable, n, fillvalue=None):
-    # grouper('ABCDEFG', 3) --> ABC DEF GEF
     resto = len(iterable) % n
-
-    if (resto != 0):
+    if resto != 0:
         iterable += iterable[-n:-resto]
-
     args = [iter(iterable)] * n
-
     return zip_longest(fillvalue=fillvalue, *args)
-
