@@ -37,7 +37,7 @@ def weight_paragraph(paragraph, context, keywords):
         sent_weight += weight_sentence(sent, context, keywords)
         parag.append([sent_weight, sent, i])
         parag_weight += sent_weight
-    parag.sort(reverse=True) #ordino le frasi all'interno del paragrafo per peso
+    parag.sort(reverse=True)  # ordino le frasi all'interno del paragrafo per peso
     return [parag_weight, parag]
 
 
@@ -227,43 +227,44 @@ def normalize_score(rank_p):
     rank_p.sort(reverse=True)  # Ordino per il peso normalizzato
 
 
-#riassunto complesso
+# riassunto complesso
 def summarize(rank_p, ratio):
-    normalize_score(rank_p)# normalizza gli score
+    normalize_score(rank_p)  # Normalizza gli score
     tot_sent = 0
 
-    #conta il numero di frasi
+    # Conta il numero di frasi
     for paragraph in rank_p:
         tot_sent += len(paragraph[1])
 
-    num_sent_del = tot_sent_del = round(tot_sent * ratio)  # numero di frasi da eliminare
+    num_sent_del = tot_sent_del = round(tot_sent * ratio)  # Numero di frasi da eliminare
     eliminated_sentence = []
 
-    # elimino frasi finchè ne' ho da eliminare
+    # Elimino frasi finchè ne' ho da eliminare
     while num_sent_del > 0:
-        #I paragrafi sono ordinati per peso, il peso più grande indica il paragrafo peggiore. 
-        #Se i paragrafi con un peso grande non hanno abbastanza frasi al loro interno,
-        #quelli restanti, che hanno dei pesi più piccoli, 
-        #molto probabilmente elimineranno un numero di frasi inferiore al totale da eliminare.
-        #Quindi il while ci assicura che vengano eliminate tutte le frasi.
+        # I paragrafi sono ordinati per peso, il peso più grande indica il paragrafo peggiore.
+        # Se i paragrafi con un peso grande non hanno abbastanza frasi al loro interno,
+        # quelli restanti, che hanno dei pesi più piccoli,
+        # molto probabilmente elimineranno un numero di frasi inferiore al totale da eliminare.
+        # Quindi il while ci assicura che vengano eliminate tutte le frasi
         for paragraph in rank_p:
             if len(paragraph[1]) > 0 and num_sent_del > 0:
                 num_to_del = paragraph[0] * tot_sent_del
-                # calcolo in base al peso, quante frasi eliminare per il paragrafo corrente per difetto
+                # Calcolo in base al peso, quante frasi eliminare per il paragrafo corrente per difetto
                 if num_to_del < 1:  # elimino almeno una frase
                     sent_del = math.ceil(num_to_del)
                 else:
                     sent_del = round(num_to_del)
 
-                # se il numero di frasi da eliminare e' minore della lunghezza del paragrafo le elimino normalmente
+                # Se il numero di frasi da eliminare e' minore della lunghezza del paragrafo le elimino normalmente
                 if sent_del < len(paragraph[1]):
                     eliminated_sentence.append([paragraph[2] + 1, paragraph[1][-sent_del:]])
                     paragraph[1] = paragraph[1][:-sent_del]
-                    num_sent_del -= sent_del  # sottraggo il numero di frasi appena eliminate dal totale
+                    num_sent_del -= sent_del  # Sottraggo il numero di frasi appena eliminate dal totale
                 else:
                     eliminated_sentence.append([paragraph[2] + 1, paragraph[1]])
-                    num_sent_del -= len(paragraph[1])  #il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
-                    paragraph[1] = []  #quindi sottraggo solo la lunghezza del paragrafo (svuoto il paragrafo)
+                    num_sent_del -= len(
+                        paragraph[1])  # Il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
+                    paragraph[1] = []  # Quindi sottraggo solo la lunghezza del paragrafo (svuoto il paragrafo)
 
     print("\n\n\nELIMINATED SENTENCES " + str(tot_sent_del) + "\n\n\n")
     for sent in eliminated_sentence:
@@ -271,25 +272,25 @@ def summarize(rank_p, ratio):
     return rank_p
 
 
-#riassunto semplice
+# Riassunto semplice
 def summarize_trivial(rank_p, ratio):
     tot_sent = 0
 
-    #contiamo il totale delle frasi
+    # Contiamo il totale delle frasi
     for paragraph in rank_p:
         tot_sent += len(paragraph[1])
 
     print("TOTALE DELLE FRASI ", tot_sent)
 
-    #calcolo numero di frasi da eliminare
+    # Calcolo numero di frasi da eliminare
     num_sent_del = round(tot_sent * ratio)
     eliminated_sentence = []
-    
-    #finchè ci sono frasi da eliminare
+
+    # Finchè ci sono frasi da eliminare
     while num_sent_del > 0:
-        for paragraph in reversed(rank_p):      #partendo dal paragrafo peggiore elimino l'ultima frase del paragrafo
+        for paragraph in reversed(rank_p):  # Partendo dal paragrafo peggiore elimino l'ultima frase del paragrafo
             if len(paragraph[1]) and num_sent_del > 0:
-                eliminated_sentence.append([paragraph[2] + 1, paragraph[1][-1:]])   
+                eliminated_sentence.append([paragraph[2] + 1, paragraph[1][-1:]])
                 paragraph[1] = paragraph[1][:-1]
                 num_sent_del -= 1
 

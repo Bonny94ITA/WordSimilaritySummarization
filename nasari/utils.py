@@ -35,7 +35,7 @@ stop_words.add("That")
 stop_words.add("Are")
 stop_words.add("Is")
 
-#parole o pezzi di frasi che si possono trovare all'interno di frasi importanti in un testo
+# Parole o pezzi di frasi che si possono trovare all'interno di frasi importanti in un testo
 bonus = ['the main aim', 'the purpose', 'in this report', 'outline', 'our investigation has shown that',
          'finally', 'certainly', 'completely', 'decisively', 'definitely', 'permanently', 'lastly', 'assuredly',
          'beyond recall', 'beyond shadow of doubt', 'conclusively', 'for ever', 'for good', 'in conclusion',
