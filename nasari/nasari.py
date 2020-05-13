@@ -26,7 +26,7 @@ def weight_sentence(sent, context, keywords):
     return score
 
 
-# Costruiamo i paragrafi in modo che possano gestire i pesi e li pesiamo
+# Generiamo un elemento della lista rank_paragraph con all'interno il peso del paragrafo e il paragrafo stesso
 def weight_paragraph(paragraph, context, keywords):
     sentences = sent_tokenize(paragraph)
     parag = []
@@ -37,11 +37,11 @@ def weight_paragraph(paragraph, context, keywords):
         sent_weight += weight_sentence(sent, context, keywords)
         parag.append([sent_weight, sent, i])
         parag_weight += sent_weight
-    parag.sort(reverse=True)
+    parag.sort(reverse=True) #ordino le frasi all'interno del paragrafo per peso
     return [parag_weight, parag]
 
 
-# Calcolo della coesione di un paragrafo rispetto agli altri
+# Calcolo della coesione di un paragrafo rispetto agli altri paragrafi, con la word co-occurrence
 def coesion_paragraph(parag, paragraphs):
     parag = word_tokenize(copy.deepcopy(parag))
     paragraphs = copy.deepcopy(paragraphs)
@@ -66,7 +66,7 @@ def rank_paragraphs(dictionary, context, keywords):
     for i, parag in enumerate(dictionary["Paragrafi"]):
         # Calcolo della coesione di un paragrafo rispetto agli altri
         coesion = coesion_paragraph(parag, dictionary["Paragrafi"])
-        # Peso dei paragrafi
+        # Peso dei paragrafi, che corrisponde alla somma dei pesi delle frasi
         weighted = weight_paragraph(parag, context, keywords)
         weighted.append(i)
         weighted[0] += coesion  # Aumento lo score del paragrafo in base alla sua coesione
@@ -150,7 +150,7 @@ def similarity_tuple_intersection(tuple_ids, nasari):
     return sim
 
 
-# Somma la similarità della tupla
+# Somma la similarità di tutte le coppie all'interno della tupla
 def similarity_tuple(tuple_ids, nasari):
     sim = 0
     for i, bab_id1 in enumerate(tuple_ids):
@@ -183,6 +183,7 @@ def get_babel_ids(title, word_to_synset):
 # Determinazione del contesto
 def get_context(title, word_to_synset, nasari):
     context = []
+    # Spezziamo il titolo per evitare di generare troppe combinazioni di sensi
     # Il secondo parametro indica il numero di parole del titolo da tenere in considerazione per determinare il contesto
     # Questo numero si può cambiare
     for chunk in utils.grouper(title, 6):
@@ -226,10 +227,12 @@ def normalize_score(rank_p):
     rank_p.sort(reverse=True)  # Ordino per il peso normalizzato
 
 
-# INSERIRE DESCRIZIONE e correggere commenti sotto migliorando la chiarezza
+#riassunto complesso
 def summarize(rank_p, ratio):
-    normalize_score(rank_p)
+    normalize_score(rank_p)# normalizza gli score
     tot_sent = 0
+
+    #conta il numero di frasi
     for paragraph in rank_p:
         tot_sent += len(paragraph[1])
 
@@ -237,10 +240,12 @@ def summarize(rank_p, ratio):
     eliminated_sentence = []
 
     # elimino frasi finchè ne' ho da eliminare
-    while num_sent_del > 0:  # il while c'è perchè il for potrebbe terminare senza eliminare tutte le frasi,
-        # infatti, se alcuni paragrafi con un peso grande non avevano abbastanza frasi,
-        # quelli restanti hanno dei pesi più piccoli e la loro quota di frasi potrebbe
-        # non raggiungere il totale di frasi da eliminare
+    while num_sent_del > 0:
+        #I paragrafi sono ordinati per peso, il peso più grande indica il paragrafo peggiore. 
+        #Se i paragrafi con un peso grande non hanno abbastanza frasi al loro interno,
+        #quelli restanti, che hanno dei pesi più piccoli, 
+        #molto probabilmente elimineranno un numero di frasi inferiore al totale da eliminare.
+        #Quindi il while ci assicura che vengano eliminate tutte le frasi.
         for paragraph in rank_p:
             if len(paragraph[1]) > 0 and num_sent_del > 0:
                 num_to_del = paragraph[0] * tot_sent_del
@@ -250,16 +255,15 @@ def summarize(rank_p, ratio):
                 else:
                     sent_del = round(num_to_del)
 
-                    # se il numero di frasi da eliminare e' minore della lunghezza del paragrafo le elimino normalmente
+                # se il numero di frasi da eliminare e' minore della lunghezza del paragrafo le elimino normalmente
                 if sent_del < len(paragraph[1]):
                     eliminated_sentence.append([paragraph[2] + 1, paragraph[1][-sent_del:]])
                     paragraph[1] = paragraph[1][:-sent_del]
-                    num_sent_del -= sent_del  # sottraggo il numero di frasi appena eliminate
+                    num_sent_del -= sent_del  # sottraggo il numero di frasi appena eliminate dal totale
                 else:
                     eliminated_sentence.append([paragraph[2] + 1, paragraph[1]])
-                    num_sent_del -= len(
-                        paragraph[1])  # il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
-                    paragraph[1] = []  # quindi sottraggo solo la lunghezza del paragrafo
+                    num_sent_del -= len(paragraph[1])  #il numero di frasi da eliminare supererebbe il numero di frasi nel paragrafo
+                    paragraph[1] = []  #quindi sottraggo solo la lunghezza del paragrafo (svuoto il paragrafo)
 
     print("\n\n\nELIMINATED SENTENCES " + str(tot_sent_del) + "\n\n\n")
     for sent in eliminated_sentence:
@@ -267,20 +271,25 @@ def summarize(rank_p, ratio):
     return rank_p
 
 
-# INSERIRE DESCRIZIONE e qualche commento al while
+#riassunto semplice
 def summarize_trivial(rank_p, ratio):
     tot_sent = 0
+
+    #contiamo il totale delle frasi
     for paragraph in rank_p:
         tot_sent += len(paragraph[1])
 
     print("TOTALE DELLE FRASI ", tot_sent)
 
+    #calcolo numero di frasi da eliminare
     num_sent_del = round(tot_sent * ratio)
     eliminated_sentence = []
+    
+    #finchè ci sono frasi da eliminare
     while num_sent_del > 0:
-        for paragraph in reversed(rank_p):
+        for paragraph in reversed(rank_p):      #partendo dal paragrafo peggiore elimino l'ultima frase del paragrafo
             if len(paragraph[1]) and num_sent_del > 0:
-                eliminated_sentence.append([paragraph[2] + 1, paragraph[1][-1:]])
+                eliminated_sentence.append([paragraph[2] + 1, paragraph[1][-1:]])   
                 paragraph[1] = paragraph[1][:-1]
                 num_sent_del -= 1
 

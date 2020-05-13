@@ -8,7 +8,9 @@ def write_synset(title, tsv):
         for synset in utils.get_synset(lemma):  # Estrazione da Babelnet dei synset
             tsv.write(synset["id"] + "\n")
 
-
+#per ogni parola rilevante dei titoli dei file
+#recuperiamo i babelsynset id da BabelNet
+#e li salviamo su file per evitare di fare la richiesta a ogni esecuzione del riassunto automatico
 def main():
     paths = ["./asset/Donald-Trump-vs-Barack-Obama-on-Nuclear-Weapons-in-East-Asia.txt",
              "./asset/People-Arent-Upgrading-Smartphones-as-Quickly-and-That-Is-Bad-for-Apple.txt",
