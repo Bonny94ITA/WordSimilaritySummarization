@@ -1,4 +1,4 @@
-###########LEGENDA##############
+########## LEGENDA ##########
 
 Dopo che abbiamo ottenuto il file di output babs_and_gloss.text,
 abbiamo valutato manualmente (secondo noi) l'accuratezza dell'identificazione dei migliori sensi 
@@ -8,7 +8,7 @@ Il primo numero rappresenta l'identificazione del senso sulla prima parola
 Il secondo numero rappresenta l'identificazione del senso sulla seconda parola
 Il terzo numero rappresenta l'identificazione del sensi tenendo in considerazione la coppia di parole.
 
-################################
+##############################
 
 terremoto scossa bn:00029448n bn:00029441n
 Shaking and vibration at the surface of the earth resulting from underground movement along a fault plane of from volcanic activity

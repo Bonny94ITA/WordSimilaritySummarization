@@ -4,7 +4,9 @@ import urllib
 import urllib3
 import json
 
+
 ########## SEMANTIC SIMILARITY ##########
+
 
 # Lettura file
 def read_file(path):
@@ -40,9 +42,11 @@ def write_output(eval_uno, eval_due, correlation):
                     means(jack[2], tommy[2])) + "\n")
         tsv.write("Correlation Pearson: " + str(correlation[0][1].iat[0, 1]))
 
+
 ########## FINE SEMANTIC SIMILARITY ##########
 
 ########## SENSE IDENTIFICATION ##########
+
 
 # Dizionario con parola come chiave e babel synset id come valore
 def word_to_babel_dict(babel_synsets):

@@ -42,9 +42,9 @@ def best_senses(words_2_eval, word_2_babel, babel_2_vector):
         words_and_babs.append((words, best_bab))
 
     print(words_and_babs)
-    
+
     # GUARDARE babs_and_gloss_evaluation.txt
-    
+
     # Scommentare per riscrivere il file "babs_and_gloss"
     # utils.write_words_and_babs(words_and_babs)
 
@@ -62,7 +62,6 @@ def main():
     word_2_babel = utils.word_to_babel_dict(babel_synsets)
     babel_2_vector = utils.babel_to_vector_dict(nasari)
     best_senses(words_2_eval, word_2_babel, babel_2_vector)
-
 
 
 if __name__ == '__main__':
