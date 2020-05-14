@@ -41,6 +41,10 @@ def best_senses(words_2_eval, word_2_babel, babel_2_vector):
         best_bab = compute_similarity(babel_ids1, babel_ids2, babel_2_vector)
         words_and_babs.append((words, best_bab))
 
+    print(words_and_babs)
+    
+    # GUARDARE babs_and_gloss_evaluation.txt
+    
     # Scommentare per riscrivere il file "babs_and_gloss"
     # utils.write_words_and_babs(words_and_babs)
 
@@ -59,10 +63,6 @@ def main():
     babel_2_vector = utils.babel_to_vector_dict(nasari)
     best_senses(words_2_eval, word_2_babel, babel_2_vector)
 
-    # print(word_2_babel)
-    # correlation = compute_correlations(init_annotation(eval_uno, eval_due))
-    # utils.write_output(eval_uno, eval_due, correlation)
-    # print(correlation)
 
 
 if __name__ == '__main__':
