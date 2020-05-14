@@ -17,7 +17,7 @@ def compute_correlations(correlations):
     corrs = [["Pearson", df.corr()]]
     return corrs
 
-
+#prende i punteggi di entrambi e calcola la correlazione
 def main():
     path_uno = "./asset/bonazzi.it.test.data.txt"
     path_due = "./asset/toscano.it.test.data.txt"
