@@ -1,0 +1,149 @@
+# V corretta
+# X sbagliata
+
+OVERLAP INTERSECTION		5/14 corrette
+
+Sentence: arm bend at the elbow . 
+ sense: Synset('arm.n.01') definition: a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb
+
+V
+
+Sentence: Germany sells arm to Saudi Arabia . 
+ sense: Synset('arm.n.04') definition: the part of an armchair or sofa that supports the elbow and forearm of a seated person
+
+X
+
+Sentence: The key broke in the lock . 
+ sense: Synset('key.n.02') definition: something crucial for explaining
+
+X
+
+Sentence: The key problem was not one of quality but of quantity . 
+ sense: Synset('key.n.04') definition: any of 24 major or minor diatonic scales that provide the tonal framework for a piece of music
+
+X
+
+Sentence: Work out the solution in your head . 
+ sense: Synset('solution.n.03') definition: a method for solving a problem
+
+V
+
+Sentence: Heat the solution to 75° Celsius . 
+ sense: Synset('solution.n.05') definition: the successful action of solving a problem
+
+X
+
+Sentence: The house was burnt to ash while the owner returned . 
+ sense: Synset('ash.n.02') definition: any of various deciduous pinnate-leaved ornamental or timber trees of the genus Fraxinus
+
+X
+
+Sentence: This table is made of ash wood . 
+ sense: Synset('ash.n.03') definition: strong elastic wood of any of various ash trees; used for furniture and tool handles and sporting goods such as baseball bats
+
+V
+
+Sentence: The lunch with her boss took longer than she expected . 
+ sense: Synset('lunch.v.02') definition: provide a midday meal for
+
+X
+
+Sentence: She packed her lunch in her purse . 
+ sense: Synset('lunch.v.02') definition: provide a midday meal for
+
+V
+
+Sentence: The classification of the genetic data took two years . 
+ sense: Synset('classification.n.02') definition: a group of people or things arranged by class or category
+
+V
+
+Sentence: The journal Science published the categorization this month . 
+ sense: Synset('classification.n.02') definition: a group of people or things arranged by class or category
+
+X
+
+Sentence: His cottage is near a small Wood . 
+ sense: Synset('wood.n.04') definition: English conductor (1869-1944)
+
+X
+
+Sentence: The statue was made out of a block of Wood . 
+ sense: Synset('wood.n.03') definition: United States film actress (1938-1981)
+
+X
+
+######################################################################################
+######################################################################################
+
+OVERLAP SEMPLICE	7/14 corrette
+
+Sentence: limb bend at the elbow . 
+ sense: Synset('arm.n.02') definition: any projection that is thought to resemble a human arm
+
+X
+
+Sentence: Germany sells munition to Saudi Arabia . 
+ sense: Synset('weaponry.n.01') definition: weapons considered collectively
+
+V
+
+Sentence: The paint broke in the lock . 
+ sense: Synset('key.n.09') definition: (basketball) a space (including the foul line) in front of the basket at each end of a basketball court; usually painted a different color from the rest of the court
+
+X
+
+Sentence: The key problem was not one of quality but of quantity . 
+ sense: Synset('key.n.02') definition: something crucial for explaining
+
+V
+
+Sentence: Work out the solution in your head . 
+ sense: Synset('solution.n.03') definition: a method for solving a problem
+
+V
+
+Sentence: Heat the solution to 75° Celsius . 
+ sense: Synset('solution.n.01') definition: a homogeneous mixture of two or more substances; frequently (but not necessarily) a liquid solution
+
+V
+
+Sentence: The house was burnt to ash while the owner returned . 
+ sense: Synset('ash.n.03') definition: strong elastic wood of any of various ash trees; used for furniture and tool handles and sporting goods such as baseball bats
+
+X
+
+Sentence: This table is made of ash wood . 
+ sense: Synset('ash.n.01') definition: the residue that remains when something is burned
+
+X
+
+Sentence: The lunch with her boss took longer than she expected . 
+ sense: Synset('lunch.v.01') definition: take the midday meal
+
+V
+
+Sentence: She packed her lunch in her purse . 
+ sense: Synset('lunch.v.02') definition: provide a midday meal for
+
+V
+
+Sentence: The classification of the genetic data took two years . 
+ sense: Synset('classification.n.02') definition: a group of people or things arranged by class or category
+
+V
+
+Sentence: The journal Science published the categorization this month . 
+ sense: Synset('classification.n.02') definition: a group of people or things arranged by class or category
+
+X
+
+Sentence: His cottage is near a small Sir_Henry_Joseph_Wood . 
+ sense: Synset('wood.n.04') definition: English conductor (1869-1944)
+
+X
+
+Sentence: The statue was made out of a block of Wood . 
+ sense: Synset('wood.n.03') definition: United States film actress (1938-1981)
+
+X

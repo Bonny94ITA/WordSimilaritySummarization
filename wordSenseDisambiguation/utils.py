@@ -51,9 +51,11 @@ def delete_stop_words(word_tokens):
 
 # Part of speech tagging e lemmatizzazione
 def pos_tagging_and_lemming(word_tokens):
-    word_pos_tag = nltk.pos_tag(word_tokens)  # Il pos tagging può essere gestito meglio per il lemmatizer
+    word_pos_tag = nltk.pos_tag(word_tokens)
     lemmatizer = WordNetLemmatizer()
     lemming_pos = []
+
+    # La lemmatizzazione può essere migliorata aggiungendo il pos tag
     for words, pos in word_pos_tag:
         lemming_pos.append(lemmatizer.lemmatize(words))  # Lemmatizzazione
         lemming_pos.append(pos)
@@ -84,6 +86,10 @@ def get_synonym(sense):
 def rebuild_sentence(sense, sentence_tokens, index):
     synonym = get_synonym(sense)
     sentence = ""
+
+    # posizioniamo il sinonimo al posto del lemma originale
+    # da disambiguare per gli altri lemmi aggiungiamo 
+    # solo uno spazio per ricostruire la frase
     for i, token in enumerate(sentence_tokens):
         if i < index or i > index:
             sentence += token + " "
@@ -115,14 +121,17 @@ def remove_word(sentence, word):
 def semcor_extraction(sentence_number=50):
     sentences = []
     extracted = []
-
+    
     for i in range(0, sentence_number):
-        elem = list(filter(lambda sentence_tree:
+
+        #estraiamo i nomi dalla frase i
+        nouns = list(filter(lambda sentence_tree:
                            isinstance(sentence_tree.label(), Lemma) and
                            sentence_tree[0].label() == "NN", semcor.tagged_sents(tag='both')[i]))
 
-        if elem:
-            lemma = select_lemma(elem).label()
+        #scegliamo un nome a caso della frase dalla lista nouns e lo estraiamo dalla frase i
+        if nouns:
+            lemma = select_lemma(nouns).label()
             extracted.append(lemma)
             sentence = " ".join(semcor.sents()[i])
             sentences.append(remove_word(sentence, lemma.name()))
