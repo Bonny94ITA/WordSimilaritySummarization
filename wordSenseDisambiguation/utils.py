@@ -57,7 +57,7 @@ def pos_tagging_and_lemming(word_tokens):
 
     # La lemmatizzazione può essere migliorata aggiungendo il pos tag
     for words, pos in word_pos_tag:
-        lemming_pos.append(lemmatizer.lemmatize(words))  # Lemmatizzazione
+        lemming_pos.append(lemmatizer.lemmatize(words))  # Lemmatizzazione (forma normale del lemma)
         lemming_pos.append(pos)
     return lemming_pos
 

@@ -37,7 +37,7 @@ def Lesk_algorithm(word, sentence_tokens):
     synset = wn.synsets(word)
     best_sense = synset[0]
     max_olp = 0
-    sentence_context = utils.get_context(sentence_tokens) #estrae contesto della frase
+    sentence_context = utils.get_context(sentence_tokens) # estrae contesto della frase
 
     for sense in synset[1:]:
         sense_examples = utils.get_examples(sense) #prende esempio se non c'è, prende solo la glossa
@@ -55,7 +55,7 @@ def compute_accuracy():
     semcor_sentences, semcor_lemmas = utils.semcor_extraction(50)  # Modificare se si vuole un numero diverso di frasi
     corrects = 0
 
-    #per ogni frase verifichiamo se la disambiguazione è corretta e calcoliamo accuracy
+    # Per ogni frase verifichiamo se la disambiguazione è corretta e calcoliamo accuracy
     for sentence, word in zip(semcor_sentences, semcor_lemmas):
         best_sense = Lesk_algorithm(word.name(), sentence)
         if best_sense == word.synset():
