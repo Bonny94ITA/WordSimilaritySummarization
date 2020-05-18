@@ -40,8 +40,8 @@ def Lesk_algorithm(word, sentence_tokens):
     sentence_context = utils.get_context(sentence_tokens) # estrae contesto della frase
 
     for sense in synset[1:]:
-        sense_examples = utils.get_examples(sense) #prende esempio se non c'è, prende solo la glossa
-        sense_context = utils.get_context(word_tokenize(sense_examples)) #estrae il contesto dall'esempio e la glossa
+        sense_examples = utils.get_examples(sense) #prende esempio e glossa se non c'è, prende solo la glossa (sarà una frase che determinerà il contesto per quel particolare senso)
+        sense_context = utils.get_context(word_tokenize(sense_examples)) #estrae il contesto dall'esempio e la glossa per quel particolare senso
         
         olp = max_overlap(sentence_context, sense_context)
         if max_olp < olp:
