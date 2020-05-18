@@ -1,7 +1,7 @@
 # V corretta
 # X sbagliata
 
-OVERLAP INTERSECTION		5/14 corrette
+INTERSECTION (OVERLAP INTERSECTION)		5/14 corrette
 
 Sentence: arm bend at the elbow . 
  sense: Synset('arm.n.01') definition: a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb
