@@ -87,8 +87,8 @@ def rebuild_sentence(sense, sentence_tokens, index):
     synonym = get_synonym(sense)
     sentence = ""
 
-    # posizioniamo il sinonimo al posto del lemma originale
-    # da disambiguare per gli altri lemmi aggiungiamo 
+    # Posizioniamo il sinonimo al posto del lemma originale
+    # da disambiguare. Per gli altri lemmi aggiungiamo
     # solo uno spazio per ricostruire la frase
     for i, token in enumerate(sentence_tokens):
         if i < index or i > index:
@@ -121,15 +121,15 @@ def remove_word(sentence, word):
 def semcor_extraction(sentence_number=50):
     sentences = []
     extracted = []
-    
+
     for i in range(0, sentence_number):
 
-        #estraiamo i nomi dalla frase i
+        # Estraiamo i nomi dalla frase i
         nouns = list(filter(lambda sentence_tree:
-                           isinstance(sentence_tree.label(), Lemma) and
-                           sentence_tree[0].label() == "NN", semcor.tagged_sents(tag='both')[i]))
+                            isinstance(sentence_tree.label(), Lemma) and
+                            sentence_tree[0].label() == "NN", semcor.tagged_sents(tag='both')[i]))
 
-        #scegliamo un nome a caso della frase dalla lista nouns e lo estraiamo dalla frase i
+        # Scegliamo un nome a caso della frase dalla lista nouns e lo estraiamo dalla frase i
         if nouns:
             lemma = select_lemma(nouns).label()
             extracted.append(lemma)
