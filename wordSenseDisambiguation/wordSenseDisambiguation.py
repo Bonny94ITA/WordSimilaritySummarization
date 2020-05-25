@@ -25,10 +25,10 @@ def max_overlap(context1, context2):
     len2 = len(context2)
     olp = 0
     if len1 <= len2:
-        # olp = overlap_intersection(context1, context2, len1)  # Si può cambiare metodo overlap
+        #olp = overlap_intersection(context1, context2, len1)  # Si può cambiare metodo overlap
         olp = overlap(context1, context2, len1)
     else:
-        # olp = overlap_intersection(context1, context2, len2)
+        #olp = overlap_intersection(context1, context2, len2)
         olp = overlap(context1, context2, len2)
     return olp
 
@@ -42,7 +42,7 @@ def Lesk_algorithm(word, sentence_tokens):
     max_olp = 0
     sentence_context = utils.get_context(sentence_tokens)  # estrae contesto della frase
 
-    for sense in synset[1:]:
+    for sense in synset:
         sense_examples = utils.get_examples(
             sense)  # prende esempio e glossa se non c'è, prende solo la glossa (sarà una frase che determinerà il contesto per quel particolare senso)
         sense_context = utils.get_context(
