@@ -25,10 +25,10 @@ def max_overlap(context1, context2):
     len2 = len(context2)
     olp = 0
     if len1 <= len2:
-        #olp = overlap_intersection(context1, context2, len1)  # Si può cambiare metodo overlap
+        # olp = overlap_intersection(context1, context2, len1)  # Si può cambiare metodo overlap
         olp = overlap(context1, context2, len1)
     else:
-        #olp = overlap_intersection(context1, context2, len2)
+        # olp = overlap_intersection(context1, context2, len2)
         olp = overlap(context1, context2, len2)
     return olp
 
