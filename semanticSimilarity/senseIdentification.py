@@ -36,7 +36,7 @@ def best_senses(words_2_eval, word_2_babel, babel_2_vector):
 
     # le chiavi del dizionario words_2_eval sono una tupla con la coppia di parole
     for words in words_2_eval.keys():
-        babel_ids1 = word_2_babel[words[0]]  # estraiamo i significati delle parole
+        babel_ids1 = word_2_babel[words[0]]  # estraiamo i significati delle parole, accedo al dizionario con words come chiave
         babel_ids2 = word_2_babel[words[1]]
         best_bab = compute_similarity(babel_ids1, babel_ids2, babel_2_vector)
         words_and_babs.append((words, best_bab))
