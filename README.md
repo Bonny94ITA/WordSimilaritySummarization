@@ -1,4 +1,4 @@
-# WordSimilarityTLN
+# Word Similarity & Summarization
 
 ## Overview
 
